@@ -1,0 +1,160 @@
+{
+  "id": "mu_103h_world",
+  "name": "放置奇迹测试版",
+  "zones": [
+    {
+      "id": "zone_99a3fcaf",
+      "name": "勇者大陆",
+      "levelRange": "2 - 19",
+      "monsters": [
+        "mon_29f7875b",
+        "mon_28f785c8",
+        "mon_2bf78a81",
+        "mon_2ef78f3a",
+        "mon_2cf78c14",
+        "mon_2df78da7",
+        "mon_ebaf5aef"
+      ]
+    },
+    {
+      "id": "zone_2008aa39",
+      "name": "仙踪林",
+      "levelRange": "2 - 18",
+      "monsters": [
+        "mon_7d14ec4c",
+        "mon_63f285cb",
+        "mon_62f28438",
+        "mon_66f04bed",
+        "mon_61f282a5",
+        "mon_60f28112",
+        "mon_63f04734",
+        "mon_64f048c7",
+        "mon_65f04a5a"
+      ]
+    },
+    {
+      "id": "zone_32c63aa6",
+      "name": "幻术园",
+      "levelRange": "2 - 48",
+      "monsters": [
+        "mon_fb747fe5",
+        "mon_eb11dbe1",
+        "mon_ea1418e5",
+        "mon_ea11da4e",
+        "mon_e9141752",
+        "mon_e714142c",
+        "mon_e81415bf",
+        "mon_e5141106",
+        "mon_e6141299"
+      ]
+    },
+    {
+      "id": "zone_f689d9c6",
+      "name": "地下城",
+      "levelRange": "19 - 55",
+      "monsters": [
+        "mon_8fc1aa71",
+        "mon_91c1ad97",
+        "mon_8cc1a5b8",
+        "mon_92c1af2a",
+        "mon_8ec1a8de",
+        "mon_b9643013",
+        "mon_90c1ac04",
+        "mon_8dc1a74b",
+        "mon_c56442f7",
+        "mon_c4644164",
+        "mon_93c1b0bd",
+        "mon_8bc1a425"
+      ]
+    },
+    {
+      "id": "zone_f471c1d3",
+      "name": "冰风谷",
+      "levelRange": "20 - 52",
+      "monsters": [
+        "mon_c99486ec",
+        "mon_c79483c6",
+        "mon_c8948559",
+        "mon_c6948233",
+        "mon_4e9c1410",
+        "mon_c59480a0",
+        "mon_ca94887f"
+      ]
+    },
+    {
+      "id": "zone_9f2b14b4",
+      "name": "失落之塔",
+      "levelRange": "47 - 66",
+      "monsters": [
+        "mon_69068077",
+        "mon_5e066f26",
+        "mon_6b06839d",
+        "mon_661347b1",
+        "mon_68067ee4",
+        "mon_6513461e",
+        "mon_6a06820a",
+        "mon_5f0670b9"
+      ]
+    },
+    {
+      "id": "zone_783980e5",
+      "name": "亚特兰蒂斯",
+      "levelRange": "43 - 74",
+      "monsters": [
+        "mon_c384df94",
+        "mon_c684e44d",
+        "mon_c584e2ba",
+        "mon_bb829465",
+        "mon_b8828fac",
+        "mon_b884ce43",
+        "mon_b784ccb0"
+      ]
+    },
+    {
+      "id": "zone_798863a5",
+      "name": "死亡沙漠",
+      "levelRange": "72 - 93",
+      "monsters": [
+        "mon_c9e52f46",
+        "mon_c7e52c20",
+        "mon_5eecd59a",
+        "mon_51ecc123",
+        "mon_c8e52db3",
+        "mon_50ecbf90",
+        "mon_cae530d9"
+      ]
+    },
+    {
+      "id": "zone_3ad3ce87",
+      "name": "天空之城",
+      "levelRange": "75 - 108",
+      "monsters": [
+        "mon_e0e9671e",
+        "mon_d4e715a3",
+        "mon_d3e71410",
+        "mon_d6e718c9",
+        "mon_d7e71a5c",
+        "mon_d5e71736",
+        "mon_d8e71bef",
+        "mon_dae71f15"
+      ]
+    },
+    {
+      "id": "zone_0b70152a",
+      "name": "幽暗森林",
+      "levelRange": "72 - 120",
+      "monsters": [
+        "mon_af5bb869",
+        "mon_b85bc694",
+        "mon_b95bc827",
+        "mon_ba5bc9ba",
+        "mon_bb5bcb4d",
+        "mon_ae5bb6d6",
+        "mon_04bdb4d8",
+        "mon_17bb942a",
+        "mon_18bb95bd",
+        "mon_15bb9104"
+      ]
+    }
+  ]
+}

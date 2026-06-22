@@ -1,0 +1,3582 @@
+[
+  {
+    "id": "eq_c6bb5f77",
+    "name": "黄金头盔",
+    "category": "剑士头盔",
+    "classes": [
+      "剑士"
+    ],
+    "requiredLevel": 45,
+    "dropLevel": 47,
+    "statMin": 8,
+    "statMax": 8,
+    "requiredStrength": 40,
+    "requiredAgility": 20,
+    "requiredEnergy": 0,
+    "requiredCommand": 0,
+    "durability": 40,
+    "speed": 0,
+    "dropMaps": [
+      "冰风谷",
+      "失落之塔"
+    ],
+    "officialEffect": "无",
+    "kind": "armor",
+    "slot": "helm",
+    "quality": "normal",
+    "defenseMin": 8,
+    "defenseMax": 8,
+    "defense": 8
+  },
+  {
+    "id": "eq_6c375f67",
+    "name": "白金头盔",
+    "category": "剑士头盔",
+    "classes": [
+      "剑士"
+    ],
+    "requiredLevel": 60,
+    "dropLevel": 62,
+    "statMin": 12,
+    "statMax": 12,
+    "requiredStrength": 60,
+    "requiredAgility": 25,
+    "requiredEnergy": 0,
+    "requiredCommand": 0,
+    "durability": 50,
+    "speed": 0,
+    "dropMaps": [
+      "失落之塔",
+      "亚特兰蒂斯"
+    ],
+    "officialEffect": "无",
+    "kind": "armor",
+    "slot": "helm",
+    "quality": "normal",
+    "defenseMin": 12,
+    "defenseMax": 12,
+    "defense": 12
+  },
+  {
+    "id": "eq_5c8799a4",
+    "name": "黑龙王头盔",
+    "category": "剑士头盔",
+    "classes": [
+      "剑士",
+      "魔剑士"
+    ],
+    "requiredLevel": 100,
+    "dropLevel": 102,
+    "statMin": 20,
+    "statMax": 20,
+    "requiredStrength": 100,
+    "requiredAgility": 40,
+    "requiredEnergy": 0,
+    "requiredCommand": 0,
+    "durability": 80,
+    "speed": 0,
+    "dropMaps": [
+      "死亡沙漠",
+      "天空之城"
+    ],
+    "officialEffect": "伤害减少+4%、最大生命+4%、防御成功率+10%",
+    "kind": "armor",
+    "slot": "helm",
+    "quality": "normal",
+    "defenseMin": 20,
+    "defenseMax": 20,
+    "defense": 20
+  },
+  {
+    "id": "eq_3e9376d6",
+    "name": "青铜铠甲",
+    "category": "剑士铠甲",
+    "classes": [
+      "剑士"
+    ],
+    "requiredLevel": 15,
+    "dropLevel": 17,
+    "statMin": 5,
+    "statMax": 5,
+    "requiredStrength": 30,
+    "requiredAgility": 10,
+    "requiredEnergy": 0,
+    "requiredCommand": 0,
+    "durability": 30,
+    "speed": 0,
+    "dropMaps": [
+      "勇者大陆",
+      "地下城"
+    ],
+    "officialEffect": "无",
+    "kind": "armor",
+    "slot": "armor",
+    "quality": "normal",
+    "defenseMin": 5,
+    "defenseMax": 5,
+    "defense": 5
+  },
+  {
+    "id": "eq_e5c1a978",
+    "name": "黄金铠甲",
+    "category": "剑士铠甲",
+    "classes": [
+      "剑士"
+    ],
+    "requiredLevel": 45,
+    "dropLevel": 47,
+    "statMin": 12,
+    "statMax": 12,
+    "requiredStrength": 80,
+    "requiredAgility": 20,
+    "requiredEnergy": 0,
+    "requiredCommand": 0,
+    "durability": 60,
+    "speed": 0,
+    "dropMaps": [
+      "冰风谷",
+      "失落之塔"
+    ],
+    "officialEffect": "无",
+    "kind": "armor",
+    "slot": "armor",
+    "quality": "normal",
+    "defenseMin": 12,
+    "defenseMax": 12,
+    "defense": 12
+  },
+  {
+    "id": "eq_e8038491",
+    "name": "白金铠甲",
+    "category": "剑士铠甲",
+    "classes": [
+      "剑士"
+    ],
+    "requiredLevel": 60,
+    "dropLevel": 62,
+    "statMin": 18,
+    "statMax": 18,
+    "requiredStrength": 120,
+    "requiredAgility": 25,
+    "requiredEnergy": 0,
+    "requiredCommand": 0,
+    "durability": 75,
+    "speed": 0,
+    "dropMaps": [
+      "失落之塔",
+      "亚特兰蒂斯"
+    ],
+    "officialEffect": "无",
+    "kind": "armor",
+    "slot": "armor",
+    "quality": "normal",
+    "defenseMin": 18,
+    "defenseMax": 18,
+    "defense": 18
+  },
+  {
+    "id": "eq_35bfbad9",
+    "name": "黑龙王铠甲",
+    "category": "剑士铠甲",
+    "classes": [
+      "剑士",
+      "魔剑士"
+    ],
+    "requiredLevel": 100,
+    "dropLevel": 102,
+    "statMin": 30,
+    "statMax": 30,
+    "requiredStrength": 200,
+    "requiredAgility": 40,
+    "requiredEnergy": 0,
+    "requiredCommand": 0,
+    "durability": 120,
+    "speed": 0,
+    "dropMaps": [
+      "死亡沙漠",
+      "天空之城"
+    ],
+    "officialEffect": "伤害减少+4%、最大生命+4%、防御成功率+10%",
+    "kind": "armor",
+    "slot": "armor",
+    "quality": "normal",
+    "defenseMin": 30,
+    "defenseMax": 30,
+    "defense": 30
+  },
+  {
+    "id": "eq_6b331f27",
+    "name": "青铜盔",
+    "category": "头盔",
+    "classes": [
+      "魔剑士"
+    ],
+    "requiredLevel": 20,
+    "dropLevel": 22,
+    "statMin": 5,
+    "statMax": 7,
+    "requiredStrength": 20,
+    "requiredAgility": 15,
+    "requiredEnergy": 10,
+    "requiredCommand": 0,
+    "durability": 20,
+    "speed": 0,
+    "dropMaps": [
+      "勇者大陆",
+      "地下城"
+    ],
+    "officialEffect": "无",
+    "kind": "armor",
+    "slot": "helm",
+    "quality": "normal",
+    "defenseMin": 5,
+    "defenseMax": 7,
+    "defense": 7
+  },
+  {
+    "id": "eq_13edd3a9",
+    "name": "黄金盔",
+    "category": "头盔",
+    "classes": [
+      "魔剑士"
+    ],
+    "requiredLevel": 50,
+    "dropLevel": 52,
+    "statMin": 8,
+    "statMax": 11,
+    "requiredStrength": 35,
+    "requiredAgility": 25,
+    "requiredEnergy": 15,
+    "requiredCommand": 0,
+    "durability": 30,
+    "speed": 0,
+    "dropMaps": [
+      "地下城",
+      "冰风谷"
+    ],
+    "officialEffect": "无",
+    "kind": "armor",
+    "slot": "helm",
+    "quality": "normal",
+    "defenseMin": 8,
+    "defenseMax": 11,
+    "defense": 11
+  },
+  {
+    "id": "eq_336674c5",
+    "name": "白金盔",
+    "category": "头盔",
+    "classes": [
+      "魔剑士"
+    ],
+    "requiredLevel": 70,
+    "dropLevel": 72,
+    "statMin": 11,
+    "statMax": 14,
+    "requiredStrength": 50,
+    "requiredAgility": 35,
+    "requiredEnergy": 20,
+    "requiredCommand": 0,
+    "durability": 40,
+    "speed": 0,
+    "dropMaps": [
+      "冰风谷",
+      "失落之塔"
+    ],
+    "officialEffect": "无",
+    "kind": "armor",
+    "slot": "helm",
+    "quality": "normal",
+    "defenseMin": 11,
+    "defenseMax": 14,
+    "defense": 14
+  },
+  {
+    "id": "eq_6dfdb719",
+    "name": "黑龙王之盔",
+    "category": "头盔",
+    "classes": [
+      "魔剑士"
+    ],
+    "requiredLevel": 100,
+    "dropLevel": 102,
+    "statMin": 14,
+    "statMax": 18,
+    "requiredStrength": 70,
+    "requiredAgility": 45,
+    "requiredEnergy": 25,
+    "requiredCommand": 0,
+    "durability": 50,
+    "speed": 0,
+    "dropMaps": [
+      "失落之塔",
+      "亚特兰蒂斯"
+    ],
+    "officialEffect": "无",
+    "kind": "armor",
+    "slot": "helm",
+    "quality": "normal",
+    "defenseMin": 14,
+    "defenseMax": 18,
+    "defense": 18,
+    "tooltip": {
+      "templateId": "mu_default_equipment",
+      "lines": [
+        {
+          "field": "name",
+          "label": "",
+          "color": "name",
+          "format": "{value}",
+          "showIf": "always"
+        },
+        {
+          "field": "quality",
+          "label": "品质",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "requiredLevel",
+          "label": "需要等级",
+          "color": "req",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "classes",
+          "label": "可用职业",
+          "color": "req",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "statMin,statMax",
+          "label": "攻击力",
+          "color": "normal",
+          "format": "{label}: {statMin} ~ {statMax}",
+          "showIf": "statMin"
+        },
+        {
+          "field": "defense",
+          "label": "防御力",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "durability",
+          "label": "耐久度",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "lucky",
+          "label": "幸运属性",
+          "color": "lucky",
+          "format": "幸运：灵魂宝石成功率 +25% / 会心一击 +5%",
+          "showIf": "truthy"
+        },
+        {
+          "field": "excellentOptions",
+          "label": "卓越属性",
+          "color": "excellent",
+          "format": "卓越：{value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "setName",
+          "label": "套装",
+          "color": "set",
+          "format": "套装：{value}",
+          "showIf": "exists"
+        }
+      ]
+    }
+  },
+  {
+    "id": "eq_461a81f6",
+    "name": "黑凤凰之盔",
+    "category": "头盔",
+    "classes": [
+      "魔剑士"
+    ],
+    "requiredLevel": 120,
+    "dropLevel": 122,
+    "statMin": 17,
+    "statMax": 22,
+    "requiredStrength": 90,
+    "requiredAgility": 55,
+    "requiredEnergy": 30,
+    "requiredCommand": 0,
+    "durability": 65,
+    "speed": 0,
+    "dropMaps": [
+      "死亡沙漠",
+      "天空之城"
+    ],
+    "officialEffect": "最大防御力+10%、防御成功率+10%、伤害减少+4%、体力+4%",
+    "kind": "armor",
+    "slot": "helm",
+    "quality": "normal",
+    "defenseMin": 17,
+    "defenseMax": 22,
+    "defense": 22,
+    "tooltip": {
+      "templateId": "mu_default_equipment",
+      "lines": [
+        {
+          "field": "name",
+          "label": "",
+          "color": "name",
+          "format": "{value}",
+          "showIf": "always"
+        },
+        {
+          "field": "quality",
+          "label": "品质",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "requiredLevel",
+          "label": "需要等级",
+          "color": "req",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "classes",
+          "label": "可用职业",
+          "color": "req",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "statMin,statMax",
+          "label": "攻击力",
+          "color": "normal",
+          "format": "{label}: {statMin} ~ {statMax}",
+          "showIf": "statMin"
+        },
+        {
+          "field": "defense",
+          "label": "防御力",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "durability",
+          "label": "耐久度",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "lucky",
+          "label": "幸运属性",
+          "color": "lucky",
+          "format": "幸运：灵魂宝石成功率 +25% / 会心一击 +5%",
+          "showIf": "truthy"
+        },
+        {
+          "field": "excellentOptions",
+          "label": "卓越属性",
+          "color": "excellent",
+          "format": "卓越：{value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "setName",
+          "label": "套装",
+          "color": "set",
+          "format": "套装：{value}",
+          "showIf": "exists"
+        }
+      ]
+    }
+  },
+  {
+    "id": "eq_ac17cb79",
+    "name": "青铜甲",
+    "category": "铠甲",
+    "classes": [
+      "魔剑士"
+    ],
+    "requiredLevel": 20,
+    "dropLevel": 22,
+    "statMin": 10,
+    "statMax": 12,
+    "requiredStrength": 25,
+    "requiredAgility": 20,
+    "requiredEnergy": 15,
+    "requiredCommand": 0,
+    "durability": 25,
+    "speed": 0,
+    "dropMaps": [
+      "勇者大陆",
+      "地下城"
+    ],
+    "officialEffect": "无",
+    "kind": "armor",
+    "slot": "armor",
+    "quality": "normal",
+    "defenseMin": 10,
+    "defenseMax": 12,
+    "defense": 12
+  },
+  {
+    "id": "eq_6e7626be",
+    "name": "黄金甲",
+    "category": "铠甲",
+    "classes": [
+      "魔剑士"
+    ],
+    "requiredLevel": 50,
+    "dropLevel": 52,
+    "statMin": 15,
+    "statMax": 18,
+    "requiredStrength": 40,
+    "requiredAgility": 30,
+    "requiredEnergy": 20,
+    "requiredCommand": 0,
+    "durability": 35,
+    "speed": 0,
+    "dropMaps": [
+      "地下城",
+      "冰风谷"
+    ],
+    "officialEffect": "无",
+    "kind": "armor",
+    "slot": "armor",
+    "quality": "normal",
+    "defenseMin": 15,
+    "defenseMax": 18,
+    "defense": 18
+  },
+  {
+    "id": "eq_74d0ed1c",
+    "name": "白金甲",
+    "category": "铠甲",
+    "classes": [
+      "魔剑士"
+    ],
+    "requiredLevel": 70,
+    "dropLevel": 72,
+    "statMin": 20,
+    "statMax": 24,
+    "requiredStrength": 55,
+    "requiredAgility": 40,
+    "requiredEnergy": 25,
+    "requiredCommand": 0,
+    "durability": 45,
+    "speed": 0,
+    "dropMaps": [
+      "冰风谷",
+      "失落之塔"
+    ],
+    "officialEffect": "无",
+    "kind": "armor",
+    "slot": "armor",
+    "quality": "normal",
+    "defenseMin": 20,
+    "defenseMax": 24,
+    "defense": 24
+  },
+  {
+    "id": "eq_b8523763",
+    "name": "黑龙王之铠",
+    "category": "铠甲",
+    "classes": [
+      "魔剑士"
+    ],
+    "requiredLevel": 100,
+    "dropLevel": 102,
+    "statMin": 28,
+    "statMax": 33,
+    "requiredStrength": 75,
+    "requiredAgility": 50,
+    "requiredEnergy": 30,
+    "requiredCommand": 0,
+    "durability": 65,
+    "speed": 0,
+    "dropMaps": [
+      "失落之塔",
+      "亚特兰蒂斯"
+    ],
+    "officialEffect": "无",
+    "kind": "armor",
+    "slot": "armor",
+    "quality": "normal",
+    "defenseMin": 28,
+    "defenseMax": 33,
+    "defense": 33,
+    "tooltip": {
+      "templateId": "mu_default_equipment",
+      "lines": [
+        {
+          "field": "name",
+          "label": "",
+          "color": "name",
+          "format": "{value}",
+          "showIf": "always"
+        },
+        {
+          "field": "quality",
+          "label": "品质",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "requiredLevel",
+          "label": "需要等级",
+          "color": "req",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "classes",
+          "label": "可用职业",
+          "color": "req",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "statMin,statMax",
+          "label": "攻击力",
+          "color": "normal",
+          "format": "{label}: {statMin} ~ {statMax}",
+          "showIf": "statMin"
+        },
+        {
+          "field": "defense",
+          "label": "防御力",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "durability",
+          "label": "耐久度",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "lucky",
+          "label": "幸运属性",
+          "color": "lucky",
+          "format": "幸运：灵魂宝石成功率 +25% / 会心一击 +5%",
+          "showIf": "truthy"
+        },
+        {
+          "field": "excellentOptions",
+          "label": "卓越属性",
+          "color": "excellent",
+          "format": "卓越：{value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "setName",
+          "label": "套装",
+          "color": "set",
+          "format": "套装：{value}",
+          "showIf": "exists"
+        }
+      ]
+    }
+  },
+  {
+    "id": "eq_707da1c6",
+    "name": "黑凤凰之铠",
+    "category": "铠甲",
+    "classes": [
+      "剑士",
+      "魔剑士"
+    ],
+    "requiredLevel": 120,
+    "dropLevel": 122,
+    "statMin": 35,
+    "statMax": 42,
+    "requiredStrength": 95,
+    "requiredAgility": 60,
+    "requiredEnergy": 35,
+    "requiredCommand": 0,
+    "durability": 85,
+    "speed": 0,
+    "dropMaps": [
+      "死亡沙漠",
+      "天空之城"
+    ],
+    "officialEffect": "最大防御力+10%、防御成功率+10%、伤害减少+4%、体力+4%",
+    "kind": "armor",
+    "slot": "armor",
+    "quality": "normal",
+    "defenseMin": 35,
+    "defenseMax": 42,
+    "defense": 42,
+    "tooltip": {
+      "templateId": "mu_default_equipment",
+      "lines": [
+        {
+          "field": "name",
+          "label": "",
+          "color": "name",
+          "format": "{value}",
+          "showIf": "always"
+        },
+        {
+          "field": "quality",
+          "label": "品质",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "requiredLevel",
+          "label": "需要等级",
+          "color": "req",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "classes",
+          "label": "可用职业",
+          "color": "req",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "statMin,statMax",
+          "label": "攻击力",
+          "color": "normal",
+          "format": "{label}: {statMin} ~ {statMax}",
+          "showIf": "statMin"
+        },
+        {
+          "field": "defense",
+          "label": "防御力",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "durability",
+          "label": "耐久度",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "lucky",
+          "label": "幸运属性",
+          "color": "lucky",
+          "format": "幸运：灵魂宝石成功率 +25% / 会心一击 +5%",
+          "showIf": "truthy"
+        },
+        {
+          "field": "excellentOptions",
+          "label": "卓越属性",
+          "color": "excellent",
+          "format": "卓越：{value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "setName",
+          "label": "套装",
+          "color": "set",
+          "format": "套装：{value}",
+          "showIf": "exists"
+        }
+      ]
+    }
+  },
+  {
+    "id": "eq_ca96eefc",
+    "name": "青铜护腿",
+    "category": "护腿",
+    "classes": [
+      "魔剑士"
+    ],
+    "requiredLevel": 20,
+    "dropLevel": 22,
+    "statMin": 8,
+    "statMax": 10,
+    "requiredStrength": 22,
+    "requiredAgility": 18,
+    "requiredEnergy": 12,
+    "requiredCommand": 0,
+    "durability": 22,
+    "speed": 0,
+    "dropMaps": [
+      "勇者大陆",
+      "地下城"
+    ],
+    "officialEffect": "无",
+    "kind": "armor",
+    "slot": "pants",
+    "quality": "normal",
+    "defenseMin": 8,
+    "defenseMax": 10,
+    "defense": 10
+  },
+  {
+    "id": "eq_393592fd",
+    "name": "黄金护腿",
+    "category": "护腿",
+    "classes": [
+      "魔剑士"
+    ],
+    "requiredLevel": 50,
+    "dropLevel": 52,
+    "statMin": 12,
+    "statMax": 15,
+    "requiredStrength": 38,
+    "requiredAgility": 28,
+    "requiredEnergy": 18,
+    "requiredCommand": 0,
+    "durability": 32,
+    "speed": 0,
+    "dropMaps": [
+      "地下城",
+      "冰风谷"
+    ],
+    "officialEffect": "无",
+    "kind": "armor",
+    "slot": "pants",
+    "quality": "normal",
+    "defenseMin": 12,
+    "defenseMax": 15,
+    "defense": 15
+  },
+  {
+    "id": "eq_791b07b9",
+    "name": "白金护腿",
+    "category": "护腿",
+    "classes": [
+      "魔剑士"
+    ],
+    "requiredLevel": 70,
+    "dropLevel": 72,
+    "statMin": 16,
+    "statMax": 19,
+    "requiredStrength": 52,
+    "requiredAgility": 38,
+    "requiredEnergy": 22,
+    "requiredCommand": 0,
+    "durability": 42,
+    "speed": 0,
+    "dropMaps": [
+      "冰风谷",
+      "失落之塔"
+    ],
+    "officialEffect": "无",
+    "kind": "armor",
+    "slot": "pants",
+    "quality": "normal",
+    "defenseMin": 16,
+    "defenseMax": 19,
+    "defense": 19
+  },
+  {
+    "id": "eq_5635cb0e",
+    "name": "黑龙王护腿",
+    "category": "护腿",
+    "classes": [
+      "魔剑士"
+    ],
+    "requiredLevel": 100,
+    "dropLevel": 102,
+    "statMin": 22,
+    "statMax": 26,
+    "requiredStrength": 72,
+    "requiredAgility": 48,
+    "requiredEnergy": 28,
+    "requiredCommand": 0,
+    "durability": 60,
+    "speed": 0,
+    "dropMaps": [
+      "失落之塔",
+      "亚特兰蒂斯"
+    ],
+    "officialEffect": "无",
+    "kind": "armor",
+    "slot": "pants",
+    "quality": "normal",
+    "defenseMin": 22,
+    "defenseMax": 26,
+    "defense": 26
+  },
+  {
+    "id": "eq_5df8c936",
+    "name": "黑凤凰护腿",
+    "category": "护腿",
+    "classes": [
+      "魔剑士"
+    ],
+    "requiredLevel": 120,
+    "dropLevel": 122,
+    "statMin": 28,
+    "statMax": 33,
+    "requiredStrength": 92,
+    "requiredAgility": 58,
+    "requiredEnergy": 33,
+    "requiredCommand": 0,
+    "durability": 80,
+    "speed": 0,
+    "dropMaps": [
+      "死亡沙漠",
+      "天空之城"
+    ],
+    "officialEffect": "最大防御力+10%、防御成功率+10%、伤害减少+4%、体力+4%",
+    "kind": "armor",
+    "slot": "pants",
+    "quality": "normal",
+    "defenseMin": 28,
+    "defenseMax": 33,
+    "defense": 33
+  },
+  {
+    "id": "eq_1dfbb8f8",
+    "name": "青铜护手",
+    "category": "护手",
+    "classes": [
+      "魔剑士"
+    ],
+    "requiredLevel": 20,
+    "dropLevel": 22,
+    "statMin": 4,
+    "statMax": 6,
+    "requiredStrength": 15,
+    "requiredAgility": 12,
+    "requiredEnergy": 10,
+    "requiredCommand": 0,
+    "durability": 15,
+    "speed": 0,
+    "dropMaps": [
+      "勇者大陆",
+      "地下城"
+    ],
+    "officialEffect": "无",
+    "kind": "armor",
+    "slot": "gloves",
+    "quality": "normal",
+    "defenseMin": 4,
+    "defenseMax": 6,
+    "defense": 6
+  },
+  {
+    "id": "eq_acd5597d",
+    "name": "黄金护手",
+    "category": "护手",
+    "classes": [
+      "魔剑士"
+    ],
+    "requiredLevel": 50,
+    "dropLevel": 52,
+    "statMin": 6,
+    "statMax": 8,
+    "requiredStrength": 25,
+    "requiredAgility": 18,
+    "requiredEnergy": 15,
+    "requiredCommand": 0,
+    "durability": 25,
+    "speed": 0,
+    "dropMaps": [
+      "地下城",
+      "冰风谷"
+    ],
+    "officialEffect": "无",
+    "kind": "armor",
+    "slot": "gloves",
+    "quality": "normal",
+    "defenseMin": 6,
+    "defenseMax": 8,
+    "defense": 8
+  },
+  {
+    "id": "eq_43a1b4ef",
+    "name": "白金护手",
+    "category": "护手",
+    "classes": [
+      "魔剑士"
+    ],
+    "requiredLevel": 70,
+    "dropLevel": 72,
+    "statMin": 8,
+    "statMax": 10,
+    "requiredStrength": 35,
+    "requiredAgility": 25,
+    "requiredEnergy": 20,
+    "requiredCommand": 0,
+    "durability": 35,
+    "speed": 0,
+    "dropMaps": [
+      "冰风谷",
+      "失落之塔"
+    ],
+    "officialEffect": "无",
+    "kind": "armor",
+    "slot": "gloves",
+    "quality": "normal",
+    "defenseMin": 8,
+    "defenseMax": 10,
+    "defense": 10
+  },
+  {
+    "id": "eq_d002c238",
+    "name": "黑龙王护手",
+    "category": "护手",
+    "classes": [
+      "魔剑士"
+    ],
+    "requiredLevel": 100,
+    "dropLevel": 102,
+    "statMin": 10,
+    "statMax": 13,
+    "requiredStrength": 45,
+    "requiredAgility": 30,
+    "requiredEnergy": 25,
+    "requiredCommand": 0,
+    "durability": 45,
+    "speed": 0,
+    "dropMaps": [
+      "失落之塔",
+      "亚特兰蒂斯"
+    ],
+    "officialEffect": "无",
+    "kind": "armor",
+    "slot": "gloves",
+    "quality": "normal",
+    "defenseMin": 10,
+    "defenseMax": 13,
+    "defense": 13
+  },
+  {
+    "id": "eq_c4802d44",
+    "name": "黑凤凰护手",
+    "category": "护手",
+    "classes": [
+      "魔剑士"
+    ],
+    "requiredLevel": 120,
+    "dropLevel": 122,
+    "statMin": 13,
+    "statMax": 16,
+    "requiredStrength": 55,
+    "requiredAgility": 35,
+    "requiredEnergy": 30,
+    "requiredCommand": 0,
+    "durability": 60,
+    "speed": 0,
+    "dropMaps": [
+      "死亡沙漠",
+      "天空之城"
+    ],
+    "officialEffect": "最大防御力+10%、防御成功率+10%、伤害减少+4%、体力+4%",
+    "kind": "armor",
+    "slot": "gloves",
+    "quality": "normal",
+    "defenseMin": 13,
+    "defenseMax": 16,
+    "defense": 16
+  },
+  {
+    "id": "eq_56b5182b",
+    "name": "青铜靴",
+    "category": "靴子",
+    "classes": [
+      "魔剑士"
+    ],
+    "requiredLevel": 20,
+    "dropLevel": 22,
+    "statMin": 5,
+    "statMax": 7,
+    "requiredStrength": 18,
+    "requiredAgility": 15,
+    "requiredEnergy": 10,
+    "requiredCommand": 0,
+    "durability": 18,
+    "speed": 0,
+    "dropMaps": [
+      "勇者大陆",
+      "地下城"
+    ],
+    "officialEffect": "无",
+    "kind": "armor",
+    "slot": "boots",
+    "quality": "normal",
+    "defenseMin": 5,
+    "defenseMax": 7,
+    "defense": 7
+  },
+  {
+    "id": "eq_9ec0c451",
+    "name": "黄金靴",
+    "category": "靴子",
+    "classes": [
+      "魔剑士"
+    ],
+    "requiredLevel": 50,
+    "dropLevel": 52,
+    "statMin": 7,
+    "statMax": 10,
+    "requiredStrength": 28,
+    "requiredAgility": 20,
+    "requiredEnergy": 15,
+    "requiredCommand": 0,
+    "durability": 28,
+    "speed": 0,
+    "dropMaps": [
+      "地下城",
+      "冰风谷"
+    ],
+    "officialEffect": "无",
+    "kind": "armor",
+    "slot": "boots",
+    "quality": "normal",
+    "defenseMin": 7,
+    "defenseMax": 10,
+    "defense": 10
+  },
+  {
+    "id": "eq_671a2af8",
+    "name": "白金靴",
+    "category": "靴子",
+    "classes": [
+      "魔剑士"
+    ],
+    "requiredLevel": 70,
+    "dropLevel": 72,
+    "statMin": 9,
+    "statMax": 12,
+    "requiredStrength": 38,
+    "requiredAgility": 25,
+    "requiredEnergy": 20,
+    "requiredCommand": 0,
+    "durability": 38,
+    "speed": 0,
+    "dropMaps": [
+      "冰风谷",
+      "失落之塔"
+    ],
+    "officialEffect": "无",
+    "kind": "armor",
+    "slot": "boots",
+    "quality": "normal",
+    "defenseMin": 9,
+    "defenseMax": 12,
+    "defense": 12
+  },
+  {
+    "id": "eq_e3c64408",
+    "name": "黑龙王靴",
+    "category": "靴子",
+    "classes": [
+      "魔剑士"
+    ],
+    "requiredLevel": 100,
+    "dropLevel": 102,
+    "statMin": 12,
+    "statMax": 15,
+    "requiredStrength": 48,
+    "requiredAgility": 30,
+    "requiredEnergy": 25,
+    "requiredCommand": 0,
+    "durability": 50,
+    "speed": 0,
+    "dropMaps": [
+      "失落之塔",
+      "亚特兰蒂斯"
+    ],
+    "officialEffect": "无",
+    "kind": "armor",
+    "slot": "boots",
+    "quality": "normal",
+    "defenseMin": 12,
+    "defenseMax": 15,
+    "defense": 15
+  },
+  {
+    "id": "eq_42cafa0c",
+    "name": "黑凤凰靴",
+    "category": "靴子",
+    "classes": [
+      "魔剑士"
+    ],
+    "requiredLevel": 120,
+    "dropLevel": 122,
+    "statMin": 15,
+    "statMax": 18,
+    "requiredStrength": 58,
+    "requiredAgility": 35,
+    "requiredEnergy": 30,
+    "requiredCommand": 0,
+    "durability": 65,
+    "speed": 0,
+    "dropMaps": [
+      "死亡沙漠",
+      "天空之城"
+    ],
+    "officialEffect": "最大防御力+10%、防御成功率+10%、伤害减少+4%、体力+4%",
+    "kind": "armor",
+    "slot": "boots",
+    "quality": "normal",
+    "defenseMin": 15,
+    "defenseMax": 18,
+    "defense": 18
+  },
+  {
+    "id": "eq_6196ff2b",
+    "name": "皮盔",
+    "category": "头盔",
+    "classes": [
+      "圣导师",
+      "剑士"
+    ],
+    "requiredLevel": 10,
+    "dropLevel": 12,
+    "statMin": 3,
+    "statMax": 5,
+    "requiredStrength": 15,
+    "requiredAgility": 10,
+    "requiredEnergy": 5,
+    "requiredCommand": 5,
+    "durability": 12,
+    "speed": 0,
+    "dropMaps": [
+      "勇者大陆",
+      "仙踪林"
+    ],
+    "officialEffect": "无",
+    "kind": "armor",
+    "slot": "helm",
+    "quality": "normal",
+    "defenseMin": 3,
+    "defenseMax": 5,
+    "defense": 5,
+    "tooltip": {
+      "templateId": "mu_default_equipment",
+      "lines": [
+        {
+          "field": "name",
+          "label": "",
+          "color": "name",
+          "format": "{value}",
+          "showIf": "always"
+        },
+        {
+          "field": "quality",
+          "label": "品质",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "requiredLevel",
+          "label": "需要等级",
+          "color": "req",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "classes",
+          "label": "可用职业",
+          "color": "req",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "statMin,statMax",
+          "label": "攻击力",
+          "color": "normal",
+          "format": "{label}: {statMin} ~ {statMax}",
+          "showIf": "statMin"
+        },
+        {
+          "field": "defense",
+          "label": "防御力",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "durability",
+          "label": "耐久度",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "lucky",
+          "label": "幸运属性",
+          "color": "lucky",
+          "format": "幸运：灵魂宝石成功率 +25% / 会心一击 +5%",
+          "showIf": "truthy"
+        },
+        {
+          "field": "excellentOptions",
+          "label": "卓越属性",
+          "color": "excellent",
+          "format": "卓越：{value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "setName",
+          "label": "套装",
+          "color": "set",
+          "format": "套装：{value}",
+          "showIf": "exists"
+        }
+      ]
+    }
+  },
+  {
+    "id": "eq_8347bd63",
+    "name": "皮铠",
+    "category": "铠甲",
+    "classes": [
+      "圣导师",
+      "剑士"
+    ],
+    "requiredLevel": 10,
+    "dropLevel": 12,
+    "statMin": 6,
+    "statMax": 8,
+    "requiredStrength": 20,
+    "requiredAgility": 15,
+    "requiredEnergy": 10,
+    "requiredCommand": 10,
+    "durability": 15,
+    "speed": 0,
+    "dropMaps": [
+      "勇者大陆",
+      "仙踪林"
+    ],
+    "officialEffect": "无",
+    "kind": "armor",
+    "slot": "armor",
+    "quality": "normal",
+    "defenseMin": 6,
+    "defenseMax": 8,
+    "defense": 8,
+    "tooltip": {
+      "templateId": "mu_default_equipment",
+      "lines": [
+        {
+          "field": "name",
+          "label": "",
+          "color": "name",
+          "format": "{value}",
+          "showIf": "always"
+        },
+        {
+          "field": "quality",
+          "label": "品质",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "requiredLevel",
+          "label": "需要等级",
+          "color": "req",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "classes",
+          "label": "可用职业",
+          "color": "req",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "statMin,statMax",
+          "label": "攻击力",
+          "color": "normal",
+          "format": "{label}: {statMin} ~ {statMax}",
+          "showIf": "statMin"
+        },
+        {
+          "field": "defense",
+          "label": "防御力",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "durability",
+          "label": "耐久度",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "lucky",
+          "label": "幸运属性",
+          "color": "lucky",
+          "format": "幸运：灵魂宝石成功率 +25% / 会心一击 +5%",
+          "showIf": "truthy"
+        },
+        {
+          "field": "excellentOptions",
+          "label": "卓越属性",
+          "color": "excellent",
+          "format": "卓越：{value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "setName",
+          "label": "套装",
+          "color": "set",
+          "format": "套装：{value}",
+          "showIf": "exists"
+        }
+      ]
+    }
+  },
+  {
+    "id": "eq_bf0e19d6",
+    "name": "皮护腿",
+    "category": "护腿",
+    "classes": [
+      "圣导师",
+      "剑士"
+    ],
+    "requiredLevel": 10,
+    "dropLevel": 12,
+    "statMin": 5,
+    "statMax": 7,
+    "requiredStrength": 18,
+    "requiredAgility": 12,
+    "requiredEnergy": 8,
+    "requiredCommand": 8,
+    "durability": 14,
+    "speed": 0,
+    "dropMaps": [
+      "勇者大陆",
+      "仙踪林"
+    ],
+    "officialEffect": "无",
+    "kind": "armor",
+    "slot": "pants",
+    "quality": "normal",
+    "defenseMin": 5,
+    "defenseMax": 7,
+    "defense": 7,
+    "tooltip": {
+      "templateId": "mu_default_equipment",
+      "lines": [
+        {
+          "field": "name",
+          "label": "",
+          "color": "name",
+          "format": "{value}",
+          "showIf": "always"
+        },
+        {
+          "field": "quality",
+          "label": "品质",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "requiredLevel",
+          "label": "需要等级",
+          "color": "req",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "classes",
+          "label": "可用职业",
+          "color": "req",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "statMin,statMax",
+          "label": "攻击力",
+          "color": "normal",
+          "format": "{label}: {statMin} ~ {statMax}",
+          "showIf": "statMin"
+        },
+        {
+          "field": "defense",
+          "label": "防御力",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "durability",
+          "label": "耐久度",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "lucky",
+          "label": "幸运属性",
+          "color": "lucky",
+          "format": "幸运：灵魂宝石成功率 +25% / 会心一击 +5%",
+          "showIf": "truthy"
+        },
+        {
+          "field": "excellentOptions",
+          "label": "卓越属性",
+          "color": "excellent",
+          "format": "卓越：{value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "setName",
+          "label": "套装",
+          "color": "set",
+          "format": "套装：{value}",
+          "showIf": "exists"
+        }
+      ]
+    }
+  },
+  {
+    "id": "eq_6961127b",
+    "name": "皮护手",
+    "category": "护手",
+    "classes": [
+      "圣导师",
+      "剑士"
+    ],
+    "requiredLevel": 10,
+    "dropLevel": 12,
+    "statMin": 3,
+    "statMax": 5,
+    "requiredStrength": 12,
+    "requiredAgility": 10,
+    "requiredEnergy": 5,
+    "requiredCommand": 5,
+    "durability": 10,
+    "speed": 0,
+    "dropMaps": [
+      "勇者大陆",
+      "仙踪林"
+    ],
+    "officialEffect": "无",
+    "kind": "armor",
+    "slot": "gloves",
+    "quality": "normal",
+    "defenseMin": 3,
+    "defenseMax": 5,
+    "defense": 5,
+    "tooltip": {
+      "templateId": "mu_default_equipment",
+      "lines": [
+        {
+          "field": "name",
+          "label": "",
+          "color": "name",
+          "format": "{value}",
+          "showIf": "always"
+        },
+        {
+          "field": "quality",
+          "label": "品质",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "requiredLevel",
+          "label": "需要等级",
+          "color": "req",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "classes",
+          "label": "可用职业",
+          "color": "req",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "statMin,statMax",
+          "label": "攻击力",
+          "color": "normal",
+          "format": "{label}: {statMin} ~ {statMax}",
+          "showIf": "statMin"
+        },
+        {
+          "field": "defense",
+          "label": "防御力",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "durability",
+          "label": "耐久度",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "lucky",
+          "label": "幸运属性",
+          "color": "lucky",
+          "format": "幸运：灵魂宝石成功率 +25% / 会心一击 +5%",
+          "showIf": "truthy"
+        },
+        {
+          "field": "excellentOptions",
+          "label": "卓越属性",
+          "color": "excellent",
+          "format": "卓越：{value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "setName",
+          "label": "套装",
+          "color": "set",
+          "format": "套装：{value}",
+          "showIf": "exists"
+        }
+      ]
+    }
+  },
+  {
+    "id": "eq_299a54b0",
+    "name": "皮靴",
+    "category": "靴子",
+    "classes": [
+      "圣导师",
+      "剑士"
+    ],
+    "requiredLevel": 10,
+    "dropLevel": 12,
+    "statMin": 4,
+    "statMax": 6,
+    "requiredStrength": 15,
+    "requiredAgility": 10,
+    "requiredEnergy": 5,
+    "requiredCommand": 5,
+    "durability": 12,
+    "speed": 0,
+    "dropMaps": [
+      "勇者大陆",
+      "仙踪林"
+    ],
+    "officialEffect": "无",
+    "kind": "armor",
+    "slot": "boots",
+    "quality": "normal",
+    "defenseMin": 4,
+    "defenseMax": 6,
+    "defense": 6,
+    "tooltip": {
+      "templateId": "mu_default_equipment",
+      "lines": [
+        {
+          "field": "name",
+          "label": "",
+          "color": "name",
+          "format": "{value}",
+          "showIf": "always"
+        },
+        {
+          "field": "quality",
+          "label": "品质",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "requiredLevel",
+          "label": "需要等级",
+          "color": "req",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "classes",
+          "label": "可用职业",
+          "color": "req",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "statMin,statMax",
+          "label": "攻击力",
+          "color": "normal",
+          "format": "{label}: {statMin} ~ {statMax}",
+          "showIf": "statMin"
+        },
+        {
+          "field": "defense",
+          "label": "防御力",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "durability",
+          "label": "耐久度",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "lucky",
+          "label": "幸运属性",
+          "color": "lucky",
+          "format": "幸运：灵魂宝石成功率 +25% / 会心一击 +5%",
+          "showIf": "truthy"
+        },
+        {
+          "field": "excellentOptions",
+          "label": "卓越属性",
+          "color": "excellent",
+          "format": "卓越：{value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "setName",
+          "label": "套装",
+          "color": "set",
+          "format": "套装：{value}",
+          "showIf": "exists"
+        }
+      ]
+    }
+  },
+  {
+    "id": "eq_6a6d7403",
+    "name": "火之项链",
+    "category": "项链",
+    "classes": [
+      "全职业"
+    ],
+    "requiredLevel": 10,
+    "dropLevel": 12,
+    "statMin": 2,
+    "statMax": 3,
+    "requiredStrength": 0,
+    "requiredAgility": 0,
+    "requiredEnergy": 0,
+    "requiredCommand": 0,
+    "durability": 10,
+    "speed": 0,
+    "dropMaps": [
+      "勇者大陆",
+      "仙踪林"
+    ],
+    "officialEffect": "无",
+    "kind": "armor",
+    "slot": "pendant",
+    "quality": "normal",
+    "defenseMin": 2,
+    "defenseMax": 3,
+    "defense": 3,
+    "tooltip": {
+      "templateId": "mu_default_equipment",
+      "lines": [
+        {
+          "field": "name",
+          "label": "",
+          "color": "name",
+          "format": "{value}",
+          "showIf": "always"
+        },
+        {
+          "field": "quality",
+          "label": "品质",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "requiredLevel",
+          "label": "需要等级",
+          "color": "req",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "classes",
+          "label": "可用职业",
+          "color": "req",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "statMin,statMax",
+          "label": "攻击力",
+          "color": "normal",
+          "format": "{label}: {statMin} ~ {statMax}",
+          "showIf": "statMin"
+        },
+        {
+          "field": "defense",
+          "label": "防御力",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "durability",
+          "label": "耐久度",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "lucky",
+          "label": "幸运属性",
+          "color": "lucky",
+          "format": "幸运：灵魂宝石成功率 +25% / 会心一击 +5%",
+          "showIf": "truthy"
+        },
+        {
+          "field": "excellentOptions",
+          "label": "卓越属性",
+          "color": "excellent",
+          "format": "卓越：{value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "setName",
+          "label": "套装",
+          "color": "set",
+          "format": "套装：{value}",
+          "showIf": "exists"
+        }
+      ]
+    }
+  },
+  {
+    "id": "eq_4e52dc26",
+    "name": "冰之项链",
+    "category": "项链",
+    "classes": [
+      "全职业"
+    ],
+    "requiredLevel": 20,
+    "dropLevel": 22,
+    "statMin": 3,
+    "statMax": 4,
+    "requiredStrength": 0,
+    "requiredAgility": 0,
+    "requiredEnergy": 0,
+    "requiredCommand": 0,
+    "durability": 15,
+    "speed": 0,
+    "dropMaps": [
+      "地下城",
+      "冰风谷"
+    ],
+    "officialEffect": "无",
+    "kind": "armor",
+    "slot": "pendant",
+    "quality": "normal",
+    "defenseMin": 3,
+    "defenseMax": 4,
+    "defense": 4,
+    "tooltip": {
+      "templateId": "mu_default_equipment",
+      "lines": [
+        {
+          "field": "name",
+          "label": "",
+          "color": "name",
+          "format": "{value}",
+          "showIf": "always"
+        },
+        {
+          "field": "quality",
+          "label": "品质",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "requiredLevel",
+          "label": "需要等级",
+          "color": "req",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "classes",
+          "label": "可用职业",
+          "color": "req",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "statMin,statMax",
+          "label": "攻击力",
+          "color": "normal",
+          "format": "{label}: {statMin} ~ {statMax}",
+          "showIf": "statMin"
+        },
+        {
+          "field": "defense",
+          "label": "防御力",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "durability",
+          "label": "耐久度",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "lucky",
+          "label": "幸运属性",
+          "color": "lucky",
+          "format": "幸运：灵魂宝石成功率 +25% / 会心一击 +5%",
+          "showIf": "truthy"
+        },
+        {
+          "field": "excellentOptions",
+          "label": "卓越属性",
+          "color": "excellent",
+          "format": "卓越：{value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "setName",
+          "label": "套装",
+          "color": "set",
+          "format": "套装：{value}",
+          "showIf": "exists"
+        }
+      ]
+    }
+  },
+  {
+    "id": "eq_a0fda14d",
+    "name": "雷之项链",
+    "category": "项链",
+    "classes": [
+      "全职业"
+    ],
+    "requiredLevel": 30,
+    "dropLevel": 32,
+    "statMin": 4,
+    "statMax": 5,
+    "requiredStrength": 0,
+    "requiredAgility": 0,
+    "requiredEnergy": 0,
+    "requiredCommand": 0,
+    "durability": 20,
+    "speed": 0,
+    "dropMaps": [
+      "地下城",
+      "失落之塔"
+    ],
+    "officialEffect": "无",
+    "kind": "armor",
+    "slot": "pendant",
+    "quality": "normal",
+    "defenseMin": 4,
+    "defenseMax": 5,
+    "defense": 5,
+    "tooltip": {
+      "templateId": "mu_default_equipment",
+      "lines": [
+        {
+          "field": "name",
+          "label": "",
+          "color": "name",
+          "format": "{value}",
+          "showIf": "always"
+        },
+        {
+          "field": "quality",
+          "label": "品质",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "requiredLevel",
+          "label": "需要等级",
+          "color": "req",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "classes",
+          "label": "可用职业",
+          "color": "req",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "statMin,statMax",
+          "label": "攻击力",
+          "color": "normal",
+          "format": "{label}: {statMin} ~ {statMax}",
+          "showIf": "statMin"
+        },
+        {
+          "field": "defense",
+          "label": "防御力",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "durability",
+          "label": "耐久度",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "lucky",
+          "label": "幸运属性",
+          "color": "lucky",
+          "format": "幸运：灵魂宝石成功率 +25% / 会心一击 +5%",
+          "showIf": "truthy"
+        },
+        {
+          "field": "excellentOptions",
+          "label": "卓越属性",
+          "color": "excellent",
+          "format": "卓越：{value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "setName",
+          "label": "套装",
+          "color": "set",
+          "format": "套装：{value}",
+          "showIf": "exists"
+        }
+      ]
+    }
+  },
+  {
+    "id": "eq_e322dd5e",
+    "name": "风之项链",
+    "category": "项链",
+    "classes": [
+      "全职业"
+    ],
+    "requiredLevel": 40,
+    "dropLevel": 42,
+    "statMin": 5,
+    "statMax": 6,
+    "requiredStrength": 0,
+    "requiredAgility": 0,
+    "requiredEnergy": 0,
+    "requiredCommand": 0,
+    "durability": 25,
+    "speed": 0,
+    "dropMaps": [
+      "冰风谷",
+      "失落之塔"
+    ],
+    "officialEffect": "无",
+    "kind": "armor",
+    "slot": "pendant",
+    "quality": "normal",
+    "defenseMin": 5,
+    "defenseMax": 6,
+    "defense": 6,
+    "tooltip": {
+      "templateId": "mu_default_equipment",
+      "lines": [
+        {
+          "field": "name",
+          "label": "",
+          "color": "name",
+          "format": "{value}",
+          "showIf": "always"
+        },
+        {
+          "field": "quality",
+          "label": "品质",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "requiredLevel",
+          "label": "需要等级",
+          "color": "req",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "classes",
+          "label": "可用职业",
+          "color": "req",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "statMin,statMax",
+          "label": "攻击力",
+          "color": "normal",
+          "format": "{label}: {statMin} ~ {statMax}",
+          "showIf": "statMin"
+        },
+        {
+          "field": "defense",
+          "label": "防御力",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "durability",
+          "label": "耐久度",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "lucky",
+          "label": "幸运属性",
+          "color": "lucky",
+          "format": "幸运：灵魂宝石成功率 +25% / 会心一击 +5%",
+          "showIf": "truthy"
+        },
+        {
+          "field": "excellentOptions",
+          "label": "卓越属性",
+          "color": "excellent",
+          "format": "卓越：{value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "setName",
+          "label": "套装",
+          "color": "set",
+          "format": "套装：{value}",
+          "showIf": "exists"
+        }
+      ]
+    }
+  },
+  {
+    "id": "eq_b20c5d38",
+    "name": "水之项链",
+    "category": "项链",
+    "classes": [
+      "全职业"
+    ],
+    "requiredLevel": 50,
+    "dropLevel": 52,
+    "statMin": 6,
+    "statMax": 7,
+    "requiredStrength": 0,
+    "requiredAgility": 0,
+    "requiredEnergy": 0,
+    "requiredCommand": 0,
+    "durability": 30,
+    "speed": 0,
+    "dropMaps": [
+      "失落之塔",
+      "亚特兰蒂斯"
+    ],
+    "officialEffect": "无",
+    "kind": "armor",
+    "slot": "pendant",
+    "quality": "normal",
+    "defenseMin": 6,
+    "defenseMax": 7,
+    "defense": 7,
+    "tooltip": {
+      "templateId": "mu_default_equipment",
+      "lines": [
+        {
+          "field": "name",
+          "label": "",
+          "color": "name",
+          "format": "{value}",
+          "showIf": "always"
+        },
+        {
+          "field": "quality",
+          "label": "品质",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "requiredLevel",
+          "label": "需要等级",
+          "color": "req",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "classes",
+          "label": "可用职业",
+          "color": "req",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "statMin,statMax",
+          "label": "攻击力",
+          "color": "normal",
+          "format": "{label}: {statMin} ~ {statMax}",
+          "showIf": "statMin"
+        },
+        {
+          "field": "defense",
+          "label": "防御力",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "durability",
+          "label": "耐久度",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "lucky",
+          "label": "幸运属性",
+          "color": "lucky",
+          "format": "幸运：灵魂宝石成功率 +25% / 会心一击 +5%",
+          "showIf": "truthy"
+        },
+        {
+          "field": "excellentOptions",
+          "label": "卓越属性",
+          "color": "excellent",
+          "format": "卓越：{value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "setName",
+          "label": "套装",
+          "color": "set",
+          "format": "套装：{value}",
+          "showIf": "exists"
+        }
+      ]
+    }
+  },
+  {
+    "id": "eq_07dd8f32",
+    "name": "土之项链",
+    "category": "项链",
+    "classes": [
+      "全职业"
+    ],
+    "requiredLevel": 60,
+    "dropLevel": 62,
+    "statMin": 7,
+    "statMax": 8,
+    "requiredStrength": 0,
+    "requiredAgility": 0,
+    "requiredEnergy": 0,
+    "requiredCommand": 0,
+    "durability": 35,
+    "speed": 0,
+    "dropMaps": [
+      "失落之塔",
+      "死亡沙漠"
+    ],
+    "officialEffect": "无",
+    "kind": "armor",
+    "slot": "pendant",
+    "quality": "normal",
+    "defenseMin": 7,
+    "defenseMax": 8,
+    "defense": 8,
+    "tooltip": {
+      "templateId": "mu_default_equipment",
+      "lines": [
+        {
+          "field": "name",
+          "label": "",
+          "color": "name",
+          "format": "{value}",
+          "showIf": "always"
+        },
+        {
+          "field": "quality",
+          "label": "品质",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "requiredLevel",
+          "label": "需要等级",
+          "color": "req",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "classes",
+          "label": "可用职业",
+          "color": "req",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "statMin,statMax",
+          "label": "攻击力",
+          "color": "normal",
+          "format": "{label}: {statMin} ~ {statMax}",
+          "showIf": "statMin"
+        },
+        {
+          "field": "defense",
+          "label": "防御力",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "durability",
+          "label": "耐久度",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "lucky",
+          "label": "幸运属性",
+          "color": "lucky",
+          "format": "幸运：灵魂宝石成功率 +25% / 会心一击 +5%",
+          "showIf": "truthy"
+        },
+        {
+          "field": "excellentOptions",
+          "label": "卓越属性",
+          "color": "excellent",
+          "format": "卓越：{value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "setName",
+          "label": "套装",
+          "color": "set",
+          "format": "套装：{value}",
+          "showIf": "exists"
+        }
+      ]
+    }
+  },
+  {
+    "id": "eq_2c4a4df1",
+    "name": "冰之戒指",
+    "category": "戒指",
+    "classes": [
+      "全职业"
+    ],
+    "requiredLevel": 20,
+    "dropLevel": 22,
+    "statMin": 2,
+    "statMax": 3,
+    "requiredStrength": 0,
+    "requiredAgility": 0,
+    "requiredEnergy": 0,
+    "requiredCommand": 0,
+    "durability": 15,
+    "speed": 0,
+    "dropMaps": [
+      "地下城",
+      "冰风谷"
+    ],
+    "officialEffect": "无",
+    "kind": "armor",
+    "slot": "ring",
+    "quality": "normal",
+    "defenseMin": 2,
+    "defenseMax": 3,
+    "defense": 3,
+    "tooltip": {
+      "templateId": "mu_default_equipment",
+      "lines": [
+        {
+          "field": "name",
+          "label": "",
+          "color": "name",
+          "format": "{value}",
+          "showIf": "always"
+        },
+        {
+          "field": "quality",
+          "label": "品质",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "requiredLevel",
+          "label": "需要等级",
+          "color": "req",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "classes",
+          "label": "可用职业",
+          "color": "req",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "statMin,statMax",
+          "label": "攻击力",
+          "color": "normal",
+          "format": "{label}: {statMin} ~ {statMax}",
+          "showIf": "statMin"
+        },
+        {
+          "field": "defense",
+          "label": "防御力",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "durability",
+          "label": "耐久度",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "lucky",
+          "label": "幸运属性",
+          "color": "lucky",
+          "format": "幸运：灵魂宝石成功率 +25% / 会心一击 +5%",
+          "showIf": "truthy"
+        },
+        {
+          "field": "excellentOptions",
+          "label": "卓越属性",
+          "color": "excellent",
+          "format": "卓越：{value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "setName",
+          "label": "套装",
+          "color": "set",
+          "format": "套装：{value}",
+          "showIf": "exists"
+        }
+      ]
+    }
+  },
+  {
+    "id": "eq_d0b3ba8f",
+    "name": "雷之戒指",
+    "category": "戒指",
+    "classes": [
+      "全职业"
+    ],
+    "requiredLevel": 30,
+    "dropLevel": 32,
+    "statMin": 3,
+    "statMax": 4,
+    "requiredStrength": 0,
+    "requiredAgility": 0,
+    "requiredEnergy": 0,
+    "requiredCommand": 0,
+    "durability": 20,
+    "speed": 0,
+    "dropMaps": [
+      "地下城",
+      "失落之塔"
+    ],
+    "officialEffect": "无",
+    "kind": "armor",
+    "slot": "ring",
+    "quality": "normal",
+    "defenseMin": 3,
+    "defenseMax": 4,
+    "defense": 4,
+    "tooltip": {
+      "templateId": "mu_default_equipment",
+      "lines": [
+        {
+          "field": "name",
+          "label": "",
+          "color": "name",
+          "format": "{value}",
+          "showIf": "always"
+        },
+        {
+          "field": "quality",
+          "label": "品质",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "requiredLevel",
+          "label": "需要等级",
+          "color": "req",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "classes",
+          "label": "可用职业",
+          "color": "req",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "statMin,statMax",
+          "label": "攻击力",
+          "color": "normal",
+          "format": "{label}: {statMin} ~ {statMax}",
+          "showIf": "statMin"
+        },
+        {
+          "field": "defense",
+          "label": "防御力",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "durability",
+          "label": "耐久度",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "lucky",
+          "label": "幸运属性",
+          "color": "lucky",
+          "format": "幸运：灵魂宝石成功率 +25% / 会心一击 +5%",
+          "showIf": "truthy"
+        },
+        {
+          "field": "excellentOptions",
+          "label": "卓越属性",
+          "color": "excellent",
+          "format": "卓越：{value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "setName",
+          "label": "套装",
+          "color": "set",
+          "format": "套装：{value}",
+          "showIf": "exists"
+        }
+      ]
+    }
+  },
+  {
+    "id": "eq_5fa30636",
+    "name": "风之戒指",
+    "category": "戒指",
+    "classes": [
+      "全职业"
+    ],
+    "requiredLevel": 40,
+    "dropLevel": 42,
+    "statMin": 4,
+    "statMax": 5,
+    "requiredStrength": 0,
+    "requiredAgility": 0,
+    "requiredEnergy": 0,
+    "requiredCommand": 0,
+    "durability": 25,
+    "speed": 0,
+    "dropMaps": [
+      "冰风谷",
+      "失落之塔"
+    ],
+    "officialEffect": "无",
+    "kind": "armor",
+    "slot": "ring",
+    "quality": "normal",
+    "defenseMin": 4,
+    "defenseMax": 5,
+    "defense": 5,
+    "tooltip": {
+      "templateId": "mu_default_equipment",
+      "lines": [
+        {
+          "field": "name",
+          "label": "",
+          "color": "name",
+          "format": "{value}",
+          "showIf": "always"
+        },
+        {
+          "field": "quality",
+          "label": "品质",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "requiredLevel",
+          "label": "需要等级",
+          "color": "req",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "classes",
+          "label": "可用职业",
+          "color": "req",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "statMin,statMax",
+          "label": "攻击力",
+          "color": "normal",
+          "format": "{label}: {statMin} ~ {statMax}",
+          "showIf": "statMin"
+        },
+        {
+          "field": "defense",
+          "label": "防御力",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "durability",
+          "label": "耐久度",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "lucky",
+          "label": "幸运属性",
+          "color": "lucky",
+          "format": "幸运：灵魂宝石成功率 +25% / 会心一击 +5%",
+          "showIf": "truthy"
+        },
+        {
+          "field": "excellentOptions",
+          "label": "卓越属性",
+          "color": "excellent",
+          "format": "卓越：{value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "setName",
+          "label": "套装",
+          "color": "set",
+          "format": "套装：{value}",
+          "showIf": "exists"
+        }
+      ]
+    }
+  },
+  {
+    "id": "eq_f8c2eb7d",
+    "name": "水之戒指",
+    "category": "戒指",
+    "classes": [
+      "全职业"
+    ],
+    "requiredLevel": 50,
+    "dropLevel": 52,
+    "statMin": 5,
+    "statMax": 6,
+    "requiredStrength": 0,
+    "requiredAgility": 0,
+    "requiredEnergy": 0,
+    "requiredCommand": 0,
+    "durability": 30,
+    "speed": 0,
+    "dropMaps": [
+      "失落之塔",
+      "亚特兰蒂斯"
+    ],
+    "officialEffect": "无",
+    "kind": "armor",
+    "slot": "ring",
+    "quality": "normal",
+    "defenseMin": 5,
+    "defenseMax": 6,
+    "defense": 6,
+    "tooltip": {
+      "templateId": "mu_default_equipment",
+      "lines": [
+        {
+          "field": "name",
+          "label": "",
+          "color": "name",
+          "format": "{value}",
+          "showIf": "always"
+        },
+        {
+          "field": "quality",
+          "label": "品质",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "requiredLevel",
+          "label": "需要等级",
+          "color": "req",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "classes",
+          "label": "可用职业",
+          "color": "req",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "statMin,statMax",
+          "label": "攻击力",
+          "color": "normal",
+          "format": "{label}: {statMin} ~ {statMax}",
+          "showIf": "statMin"
+        },
+        {
+          "field": "defense",
+          "label": "防御力",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "durability",
+          "label": "耐久度",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "lucky",
+          "label": "幸运属性",
+          "color": "lucky",
+          "format": "幸运：灵魂宝石成功率 +25% / 会心一击 +5%",
+          "showIf": "truthy"
+        },
+        {
+          "field": "excellentOptions",
+          "label": "卓越属性",
+          "color": "excellent",
+          "format": "卓越：{value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "setName",
+          "label": "套装",
+          "color": "set",
+          "format": "套装：{value}",
+          "showIf": "exists"
+        }
+      ]
+    }
+  },
+  {
+    "id": "eq_49885557",
+    "name": "土之戒指",
+    "category": "戒指",
+    "classes": [
+      "全职业"
+    ],
+    "requiredLevel": 60,
+    "dropLevel": 62,
+    "statMin": 6,
+    "statMax": 7,
+    "requiredStrength": 0,
+    "requiredAgility": 0,
+    "requiredEnergy": 0,
+    "requiredCommand": 0,
+    "durability": 35,
+    "speed": 0,
+    "dropMaps": [
+      "失落之塔",
+      "死亡沙漠"
+    ],
+    "officialEffect": "无",
+    "kind": "armor",
+    "slot": "ring",
+    "quality": "normal",
+    "defenseMin": 6,
+    "defenseMax": 7,
+    "defense": 7,
+    "tooltip": {
+      "templateId": "mu_default_equipment",
+      "lines": [
+        {
+          "field": "name",
+          "label": "",
+          "color": "name",
+          "format": "{value}",
+          "showIf": "always"
+        },
+        {
+          "field": "quality",
+          "label": "品质",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "requiredLevel",
+          "label": "需要等级",
+          "color": "req",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "classes",
+          "label": "可用职业",
+          "color": "req",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "statMin,statMax",
+          "label": "攻击力",
+          "color": "normal",
+          "format": "{label}: {statMin} ~ {statMax}",
+          "showIf": "statMin"
+        },
+        {
+          "field": "defense",
+          "label": "防御力",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "durability",
+          "label": "耐久度",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "lucky",
+          "label": "幸运属性",
+          "color": "lucky",
+          "format": "幸运：灵魂宝石成功率 +25% / 会心一击 +5%",
+          "showIf": "truthy"
+        },
+        {
+          "field": "excellentOptions",
+          "label": "卓越属性",
+          "color": "excellent",
+          "format": "卓越：{value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "setName",
+          "label": "套装",
+          "color": "set",
+          "format": "套装：{value}",
+          "showIf": "exists"
+        }
+      ]
+    }
+  },
+  {
+    "id": "eq_dbe408d7",
+    "name": "火之手镯",
+    "category": "手镯",
+    "classes": [
+      "全职业"
+    ],
+    "requiredLevel": 15,
+    "dropLevel": 17,
+    "statMin": 2,
+    "statMax": 3,
+    "requiredStrength": 0,
+    "requiredAgility": 0,
+    "requiredEnergy": 0,
+    "requiredCommand": 0,
+    "durability": 12,
+    "speed": 0,
+    "dropMaps": [
+      "勇者大陆",
+      "仙踪林"
+    ],
+    "officialEffect": "无",
+    "kind": "armor",
+    "slot": "bracelet",
+    "quality": "normal",
+    "defenseMin": 2,
+    "defenseMax": 3,
+    "defense": 3,
+    "tooltip": {
+      "templateId": "mu_default_equipment",
+      "lines": [
+        {
+          "field": "name",
+          "label": "",
+          "color": "name",
+          "format": "{value}",
+          "showIf": "always"
+        },
+        {
+          "field": "quality",
+          "label": "品质",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "requiredLevel",
+          "label": "需要等级",
+          "color": "req",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "classes",
+          "label": "可用职业",
+          "color": "req",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "statMin,statMax",
+          "label": "攻击力",
+          "color": "normal",
+          "format": "{label}: {statMin} ~ {statMax}",
+          "showIf": "statMin"
+        },
+        {
+          "field": "defense",
+          "label": "防御力",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "durability",
+          "label": "耐久度",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "lucky",
+          "label": "幸运属性",
+          "color": "lucky",
+          "format": "幸运：灵魂宝石成功率 +25% / 会心一击 +5%",
+          "showIf": "truthy"
+        },
+        {
+          "field": "excellentOptions",
+          "label": "卓越属性",
+          "color": "excellent",
+          "format": "卓越：{value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "setName",
+          "label": "套装",
+          "color": "set",
+          "format": "套装：{value}",
+          "showIf": "exists"
+        }
+      ]
+    }
+  },
+  {
+    "id": "eq_f64f9ab5",
+    "name": "冰之手镯",
+    "category": "手镯",
+    "classes": [
+      "全职业"
+    ],
+    "requiredLevel": 25,
+    "dropLevel": 27,
+    "statMin": 3,
+    "statMax": 4,
+    "requiredStrength": 0,
+    "requiredAgility": 0,
+    "requiredEnergy": 0,
+    "requiredCommand": 0,
+    "durability": 18,
+    "speed": 0,
+    "dropMaps": [
+      "地下城",
+      "冰风谷"
+    ],
+    "officialEffect": "无",
+    "kind": "armor",
+    "slot": "bracelet",
+    "quality": "normal",
+    "defenseMin": 3,
+    "defenseMax": 4,
+    "defense": 4,
+    "tooltip": {
+      "templateId": "mu_default_equipment",
+      "lines": [
+        {
+          "field": "name",
+          "label": "",
+          "color": "name",
+          "format": "{value}",
+          "showIf": "always"
+        },
+        {
+          "field": "quality",
+          "label": "品质",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "requiredLevel",
+          "label": "需要等级",
+          "color": "req",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "classes",
+          "label": "可用职业",
+          "color": "req",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "statMin,statMax",
+          "label": "攻击力",
+          "color": "normal",
+          "format": "{label}: {statMin} ~ {statMax}",
+          "showIf": "statMin"
+        },
+        {
+          "field": "defense",
+          "label": "防御力",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "durability",
+          "label": "耐久度",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "lucky",
+          "label": "幸运属性",
+          "color": "lucky",
+          "format": "幸运：灵魂宝石成功率 +25% / 会心一击 +5%",
+          "showIf": "truthy"
+        },
+        {
+          "field": "excellentOptions",
+          "label": "卓越属性",
+          "color": "excellent",
+          "format": "卓越：{value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "setName",
+          "label": "套装",
+          "color": "set",
+          "format": "套装：{value}",
+          "showIf": "exists"
+        }
+      ]
+    }
+  },
+  {
+    "id": "eq_543f8889",
+    "name": "雷之手镯",
+    "category": "手镯",
+    "classes": [
+      "全职业"
+    ],
+    "requiredLevel": 35,
+    "dropLevel": 37,
+    "statMin": 4,
+    "statMax": 5,
+    "requiredStrength": 0,
+    "requiredAgility": 0,
+    "requiredEnergy": 0,
+    "requiredCommand": 0,
+    "durability": 24,
+    "speed": 0,
+    "dropMaps": [
+      "地下城",
+      "失落之塔"
+    ],
+    "officialEffect": "无",
+    "kind": "armor",
+    "slot": "bracelet",
+    "quality": "normal",
+    "defenseMin": 4,
+    "defenseMax": 5,
+    "defense": 5,
+    "tooltip": {
+      "templateId": "mu_default_equipment",
+      "lines": [
+        {
+          "field": "name",
+          "label": "",
+          "color": "name",
+          "format": "{value}",
+          "showIf": "always"
+        },
+        {
+          "field": "quality",
+          "label": "品质",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "requiredLevel",
+          "label": "需要等级",
+          "color": "req",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "classes",
+          "label": "可用职业",
+          "color": "req",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "statMin,statMax",
+          "label": "攻击力",
+          "color": "normal",
+          "format": "{label}: {statMin} ~ {statMax}",
+          "showIf": "statMin"
+        },
+        {
+          "field": "defense",
+          "label": "防御力",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "durability",
+          "label": "耐久度",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "lucky",
+          "label": "幸运属性",
+          "color": "lucky",
+          "format": "幸运：灵魂宝石成功率 +25% / 会心一击 +5%",
+          "showIf": "truthy"
+        },
+        {
+          "field": "excellentOptions",
+          "label": "卓越属性",
+          "color": "excellent",
+          "format": "卓越：{value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "setName",
+          "label": "套装",
+          "color": "set",
+          "format": "套装：{value}",
+          "showIf": "exists"
+        }
+      ]
+    }
+  },
+  {
+    "id": "eq_7ebd89b9",
+    "name": "风之手镯",
+    "category": "手镯",
+    "classes": [
+      "全职业"
+    ],
+    "requiredLevel": 45,
+    "dropLevel": 47,
+    "statMin": 5,
+    "statMax": 6,
+    "requiredStrength": 0,
+    "requiredAgility": 0,
+    "requiredEnergy": 0,
+    "requiredCommand": 0,
+    "durability": 30,
+    "speed": 0,
+    "dropMaps": [
+      "冰风谷",
+      "失落之塔"
+    ],
+    "officialEffect": "无",
+    "kind": "armor",
+    "slot": "bracelet",
+    "quality": "normal",
+    "defenseMin": 5,
+    "defenseMax": 6,
+    "defense": 6,
+    "tooltip": {
+      "templateId": "mu_default_equipment",
+      "lines": [
+        {
+          "field": "name",
+          "label": "",
+          "color": "name",
+          "format": "{value}",
+          "showIf": "always"
+        },
+        {
+          "field": "quality",
+          "label": "品质",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "requiredLevel",
+          "label": "需要等级",
+          "color": "req",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "classes",
+          "label": "可用职业",
+          "color": "req",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "statMin,statMax",
+          "label": "攻击力",
+          "color": "normal",
+          "format": "{label}: {statMin} ~ {statMax}",
+          "showIf": "statMin"
+        },
+        {
+          "field": "defense",
+          "label": "防御力",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "durability",
+          "label": "耐久度",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "lucky",
+          "label": "幸运属性",
+          "color": "lucky",
+          "format": "幸运：灵魂宝石成功率 +25% / 会心一击 +5%",
+          "showIf": "truthy"
+        },
+        {
+          "field": "excellentOptions",
+          "label": "卓越属性",
+          "color": "excellent",
+          "format": "卓越：{value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "setName",
+          "label": "套装",
+          "color": "set",
+          "format": "套装：{value}",
+          "showIf": "exists"
+        }
+      ]
+    }
+  },
+  {
+    "id": "eq_8cb44a76",
+    "name": "水之手镯",
+    "category": "手镯",
+    "classes": [
+      "全职业"
+    ],
+    "requiredLevel": 55,
+    "dropLevel": 57,
+    "statMin": 6,
+    "statMax": 7,
+    "requiredStrength": 0,
+    "requiredAgility": 0,
+    "requiredEnergy": 0,
+    "requiredCommand": 0,
+    "durability": 36,
+    "speed": 0,
+    "dropMaps": [
+      "失落之塔",
+      "亚特兰蒂斯"
+    ],
+    "officialEffect": "无",
+    "kind": "armor",
+    "slot": "bracelet",
+    "quality": "normal",
+    "defenseMin": 6,
+    "defenseMax": 7,
+    "defense": 7,
+    "tooltip": {
+      "templateId": "mu_default_equipment",
+      "lines": [
+        {
+          "field": "name",
+          "label": "",
+          "color": "name",
+          "format": "{value}",
+          "showIf": "always"
+        },
+        {
+          "field": "quality",
+          "label": "品质",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "requiredLevel",
+          "label": "需要等级",
+          "color": "req",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "classes",
+          "label": "可用职业",
+          "color": "req",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "statMin,statMax",
+          "label": "攻击力",
+          "color": "normal",
+          "format": "{label}: {statMin} ~ {statMax}",
+          "showIf": "statMin"
+        },
+        {
+          "field": "defense",
+          "label": "防御力",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "durability",
+          "label": "耐久度",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "lucky",
+          "label": "幸运属性",
+          "color": "lucky",
+          "format": "幸运：灵魂宝石成功率 +25% / 会心一击 +5%",
+          "showIf": "truthy"
+        },
+        {
+          "field": "excellentOptions",
+          "label": "卓越属性",
+          "color": "excellent",
+          "format": "卓越：{value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "setName",
+          "label": "套装",
+          "color": "set",
+          "format": "套装：{value}",
+          "showIf": "exists"
+        }
+      ]
+    }
+  },
+  {
+    "id": "eq_4b8f18fb",
+    "name": "土之手镯",
+    "category": "手镯",
+    "classes": [
+      "全职业"
+    ],
+    "requiredLevel": 65,
+    "dropLevel": 67,
+    "statMin": 7,
+    "statMax": 8,
+    "requiredStrength": 0,
+    "requiredAgility": 0,
+    "requiredEnergy": 0,
+    "requiredCommand": 0,
+    "durability": 42,
+    "speed": 0,
+    "dropMaps": [
+      "失落之塔",
+      "死亡沙漠"
+    ],
+    "officialEffect": "无",
+    "kind": "armor",
+    "slot": "bracelet",
+    "quality": "normal",
+    "defenseMin": 7,
+    "defenseMax": 8,
+    "defense": 8,
+    "tooltip": {
+      "templateId": "mu_default_equipment",
+      "lines": [
+        {
+          "field": "name",
+          "label": "",
+          "color": "name",
+          "format": "{value}",
+          "showIf": "always"
+        },
+        {
+          "field": "quality",
+          "label": "品质",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "requiredLevel",
+          "label": "需要等级",
+          "color": "req",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "classes",
+          "label": "可用职业",
+          "color": "req",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "statMin,statMax",
+          "label": "攻击力",
+          "color": "normal",
+          "format": "{label}: {statMin} ~ {statMax}",
+          "showIf": "statMin"
+        },
+        {
+          "field": "defense",
+          "label": "防御力",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "durability",
+          "label": "耐久度",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "lucky",
+          "label": "幸运属性",
+          "color": "lucky",
+          "format": "幸运：灵魂宝石成功率 +25% / 会心一击 +5%",
+          "showIf": "truthy"
+        },
+        {
+          "field": "excellentOptions",
+          "label": "卓越属性",
+          "color": "excellent",
+          "format": "卓越：{value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "setName",
+          "label": "套装",
+          "color": "set",
+          "format": "套装：{value}",
+          "showIf": "exists"
+        }
+      ]
+    }
+  },
+  {
+    "id": "eq_ff1f1112",
+    "name": "恶魔之翼（一代）",
+    "category": "翅膀",
+    "classes": [
+      "剑士"
+    ],
+    "requiredLevel": 180,
+    "dropLevel": 180,
+    "statMin": 12,
+    "statMax": 15,
+    "requiredStrength": 160,
+    "requiredAgility": 60,
+    "requiredEnergy": 0,
+    "requiredCommand": 0,
+    "durability": 80,
+    "speed": 0,
+    "dropMaps": [
+      "仙踪林玛雅哥布林合成"
+    ],
+    "officialEffect": "最大攻击力+10%、最小攻击力+10%、攻击速度+5、卓越一击概率+5%",
+    "kind": "armor",
+    "slot": "wing",
+    "quality": "normal",
+    "defenseMin": 12,
+    "defenseMax": 15,
+    "defense": 15
+  },
+  {
+    "id": "eq_d4229439",
+    "name": "飞龙之翼（二代）",
+    "category": "翅膀",
+    "classes": [
+      "剑士"
+    ],
+    "requiredLevel": 215,
+    "dropLevel": 215,
+    "statMin": 18,
+    "statMax": 22,
+    "requiredStrength": 200,
+    "requiredAgility": 80,
+    "requiredEnergy": 0,
+    "requiredCommand": 0,
+    "durability": 100,
+    "speed": 0,
+    "dropMaps": [
+      "仙踪林玛雅哥布林合成"
+    ],
+    "officialEffect": "最大攻击力+15%、最小攻击力+15%、攻击速度+7、卓越一击概率+7%、伤害减少+4%",
+    "kind": "armor",
+    "slot": "wing",
+    "quality": "normal",
+    "defenseMin": 18,
+    "defenseMax": 22,
+    "defense": 22
+  }
+]

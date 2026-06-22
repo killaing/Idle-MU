@@ -1,0 +1,22 @@
+# Local runtime logs
+*.log
+codex-http.*.log
+Start-MU-Idle.log
+
+# Local/editor/cache files
+.agents/
+Tools/StudioBackup/
+__pycache__/
+*.pyc
+
+# Generated release bundles
+dist/
+
+# Local exploratory/export folders
+output_monsters/
+mu_sets_full_output_fixed/
+mu_gems_package/**/*.db
+
+# OS files
+Thumbs.db
+.DS_Store

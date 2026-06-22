@@ -1,0 +1,2119 @@
+{
+  "version": 1,
+  "source": "mu_sets_full_output_fixed\\set_item_relations_full.csv",
+  "sets": [
+    {
+      "id": "sw_set_001",
+      "sourceSetId": "1",
+      "name": "哈德的套装",
+      "class": "剑士",
+      "pieceCount": 7,
+      "pieceIds": [
+        "set_sw_set_001_2_1_1",
+        "set_sw_set_001_7_5_2",
+        "set_sw_set_001_8_5_3",
+        "set_sw_set_001_9_5_4",
+        "set_sw_set_001_10_5_5",
+        "set_sw_set_001_11_5_6",
+        "set_sw_set_001_13_8_7"
+      ],
+      "bonuses": [
+        {
+          "requiredPieces": 2,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_2",
+              "effect": "setPiecesActive",
+              "value": 2
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 3,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_3",
+              "effect": "setPiecesActive",
+              "value": 3
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 4,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_4",
+              "effect": "setPiecesActive",
+              "value": 4
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 7,
+          "affixes": [
+            {
+              "affixId": "set_full_active",
+              "effect": "setFullActive",
+              "value": 1
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录满套激活。"
+        }
+      ],
+      "sourceUrl": ""
+    },
+    {
+      "id": "sw_set_002",
+      "sourceSetId": "2",
+      "name": "哈德的强化套装",
+      "class": "剑士",
+      "pieceCount": 4,
+      "pieceIds": [
+        "set_sw_set_002_6_0_1",
+        "set_sw_set_002_7_5_2",
+        "set_sw_set_002_9_5_3",
+        "set_sw_set_002_11_5_4"
+      ],
+      "bonuses": [
+        {
+          "requiredPieces": 2,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_2",
+              "effect": "setPiecesActive",
+              "value": 2
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 3,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_3",
+              "effect": "setPiecesActive",
+              "value": 3
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 4,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_4",
+              "effect": "setPiecesActive",
+              "value": 4
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 4,
+          "affixes": [
+            {
+              "affixId": "set_full_active",
+              "effect": "setFullActive",
+              "value": 1
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录满套激活。"
+        }
+      ],
+      "sourceUrl": ""
+    },
+    {
+      "id": "sw_set_003",
+      "sourceSetId": "3",
+      "name": "瑞恩的套装",
+      "class": "剑士",
+      "pieceCount": 3,
+      "pieceIds": [
+        "set_sw_set_003_8_0_1",
+        "set_sw_set_003_9_0_2",
+        "set_sw_set_003_11_0_3"
+      ],
+      "bonuses": [
+        {
+          "requiredPieces": 2,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_2",
+              "effect": "setPiecesActive",
+              "value": 2
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 3,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_3",
+              "effect": "setPiecesActive",
+              "value": 3
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 3,
+          "affixes": [
+            {
+              "affixId": "set_full_active",
+              "effect": "setFullActive",
+              "value": 1
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录满套激活。"
+        }
+      ],
+      "sourceUrl": ""
+    },
+    {
+      "id": "sw_set_004",
+      "sourceSetId": "4",
+      "name": "瑞恩的强化套装",
+      "class": "剑士",
+      "pieceCount": 3,
+      "pieceIds": [
+        "set_sw_set_004_7_0_1",
+        "set_sw_set_004_9_0_2",
+        "set_sw_set_004_10_0_3"
+      ],
+      "bonuses": [
+        {
+          "requiredPieces": 2,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_2",
+              "effect": "setPiecesActive",
+              "value": 2
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 3,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_3",
+              "effect": "setPiecesActive",
+              "value": 3
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 3,
+          "affixes": [
+            {
+              "affixId": "set_full_active",
+              "effect": "setFullActive",
+              "value": 1
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录满套激活。"
+        }
+      ],
+      "sourceUrl": ""
+    },
+    {
+      "id": "sw_set_005",
+      "sourceSetId": "5",
+      "name": "赫兰德的套装",
+      "class": "剑士",
+      "pieceCount": 5,
+      "pieceIds": [
+        "set_sw_set_005_6_9_1",
+        "set_sw_set_005_7_6_2",
+        "set_sw_set_005_8_6_3",
+        "set_sw_set_005_9_6_4",
+        "set_sw_set_005_13_12_5"
+      ],
+      "bonuses": [
+        {
+          "requiredPieces": 2,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_2",
+              "effect": "setPiecesActive",
+              "value": 2
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 3,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_3",
+              "effect": "setPiecesActive",
+              "value": 3
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 4,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_4",
+              "effect": "setPiecesActive",
+              "value": 4
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 5,
+          "affixes": [
+            {
+              "affixId": "set_full_active",
+              "effect": "setFullActive",
+              "value": 1
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录满套激活。"
+        }
+      ],
+      "sourceUrl": ""
+    },
+    {
+      "id": "sw_set_006",
+      "sourceSetId": "6",
+      "name": "赫兰德的强化套装",
+      "class": "剑士",
+      "pieceCount": 5,
+      "pieceIds": [
+        "set_sw_set_006_7_6_1",
+        "set_sw_set_006_8_6_2",
+        "set_sw_set_006_9_6_3",
+        "set_sw_set_006_10_6_4",
+        "set_sw_set_006_11_6_5"
+      ],
+      "bonuses": [
+        {
+          "requiredPieces": 2,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_2",
+              "effect": "setPiecesActive",
+              "value": 2
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 3,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_3",
+              "effect": "setPiecesActive",
+              "value": 3
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 4,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_4",
+              "effect": "setPiecesActive",
+              "value": 4
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 5,
+          "affixes": [
+            {
+              "affixId": "set_full_active",
+              "effect": "setFullActive",
+              "value": 1
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录满套激活。"
+        }
+      ],
+      "sourceUrl": ""
+    },
+    {
+      "id": "sw_set_007",
+      "sourceSetId": "7",
+      "name": "海德拉的套装",
+      "class": "剑士",
+      "pieceCount": 5,
+      "pieceIds": [
+        "set_sw_set_007_8_8_1",
+        "set_sw_set_007_9_8_2",
+        "set_sw_set_007_10_8_3",
+        "set_sw_set_007_11_8_4",
+        "set_sw_set_007_13_13_5"
+      ],
+      "bonuses": [
+        {
+          "requiredPieces": 2,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_2",
+              "effect": "setPiecesActive",
+              "value": 2
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 3,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_3",
+              "effect": "setPiecesActive",
+              "value": 3
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 4,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_4",
+              "effect": "setPiecesActive",
+              "value": 4
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 5,
+          "affixes": [
+            {
+              "affixId": "set_full_active",
+              "effect": "setFullActive",
+              "value": 1
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录满套激活。"
+        }
+      ],
+      "sourceUrl": ""
+    },
+    {
+      "id": "sw_set_008",
+      "sourceSetId": "8",
+      "name": "海德拉的强化套装",
+      "class": "剑士",
+      "pieceCount": 2,
+      "pieceIds": [
+        "set_sw_set_008_7_8_1",
+        "set_sw_set_008_9_8_2"
+      ],
+      "bonuses": [
+        {
+          "requiredPieces": 2,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_2",
+              "effect": "setPiecesActive",
+              "value": 2
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 2,
+          "affixes": [
+            {
+              "affixId": "set_full_active",
+              "effect": "setFullActive",
+              "value": 1
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录满套激活。"
+        }
+      ],
+      "sourceUrl": ""
+    },
+    {
+      "id": "sw_set_009",
+      "sourceSetId": "9",
+      "name": "菲斯特的套装",
+      "class": "剑士",
+      "pieceCount": 5,
+      "pieceIds": [
+        "set_sw_set_009_8_9_1",
+        "set_sw_set_009_10_9_2",
+        "set_sw_set_009_11_9_3",
+        "set_sw_set_009_13_9_4",
+        "set_sw_set_009_13_23_5"
+      ],
+      "bonuses": [
+        {
+          "requiredPieces": 2,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_2",
+              "effect": "setPiecesActive",
+              "value": 2
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 3,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_3",
+              "effect": "setPiecesActive",
+              "value": 3
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 4,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_4",
+              "effect": "setPiecesActive",
+              "value": 4
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 5,
+          "affixes": [
+            {
+              "affixId": "set_full_active",
+              "effect": "setFullActive",
+              "value": 1
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录满套激活。"
+        }
+      ],
+      "sourceUrl": ""
+    },
+    {
+      "id": "sw_set_010",
+      "sourceSetId": "10",
+      "name": "菲斯特的强化套装",
+      "class": "剑士",
+      "pieceCount": 3,
+      "pieceIds": [
+        "set_sw_set_010_7_9_1",
+        "set_sw_set_010_8_9_2",
+        "set_sw_set_010_9_9_3"
+      ],
+      "bonuses": [
+        {
+          "requiredPieces": 2,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_2",
+              "effect": "setPiecesActive",
+              "value": 2
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 3,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_3",
+              "effect": "setPiecesActive",
+              "value": 3
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 3,
+          "affixes": [
+            {
+              "affixId": "set_full_active",
+              "effect": "setFullActive",
+              "value": 1
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录满套激活。"
+        }
+      ],
+      "sourceUrl": ""
+    },
+    {
+      "id": "sw_set_011",
+      "sourceSetId": "11",
+      "name": "汉斯的套装",
+      "class": "剑士",
+      "pieceCount": 4,
+      "pieceIds": [
+        "set_sw_set_011_0_14_1",
+        "set_sw_set_011_7_1_2",
+        "set_sw_set_011_10_1_3",
+        "set_sw_set_011_11_1_4"
+      ],
+      "bonuses": [
+        {
+          "requiredPieces": 2,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_2",
+              "effect": "setPiecesActive",
+              "value": 2
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 3,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_3",
+              "effect": "setPiecesActive",
+              "value": 3
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 4,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_4",
+              "effect": "setPiecesActive",
+              "value": 4
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 4,
+          "affixes": [
+            {
+              "affixId": "set_full_active",
+              "effect": "setFullActive",
+              "value": 1
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录满套激活。"
+        }
+      ],
+      "sourceUrl": ""
+    },
+    {
+      "id": "sw_set_012",
+      "sourceSetId": "12",
+      "name": "汉斯的强化套装",
+      "class": "剑士",
+      "pieceCount": 4,
+      "pieceIds": [
+        "set_sw_set_012_7_1_1",
+        "set_sw_set_012_8_1_2",
+        "set_sw_set_012_9_1_3",
+        "set_sw_set_012_13_22_4"
+      ],
+      "bonuses": [
+        {
+          "requiredPieces": 2,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_2",
+              "effect": "setPiecesActive",
+              "value": 2
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 3,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_3",
+              "effect": "setPiecesActive",
+              "value": 3
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 4,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_4",
+              "effect": "setPiecesActive",
+              "value": 4
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 4,
+          "affixes": [
+            {
+              "affixId": "set_full_active",
+              "effect": "setFullActive",
+              "value": 1
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录满套激活。"
+        }
+      ],
+      "sourceUrl": ""
+    },
+    {
+      "id": "sw_set_013",
+      "sourceSetId": "78",
+      "name": "愤怒的套装 【400级】",
+      "class": "剑士",
+      "pieceCount": 4,
+      "pieceIds": [
+        "set_sw_set_013_7_98_1",
+        "set_sw_set_013_8_98_2",
+        "set_sw_set_013_9_98_3",
+        "set_sw_set_013_11_98_4"
+      ],
+      "bonuses": [
+        {
+          "requiredPieces": 2,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_2",
+              "effect": "setPiecesActive",
+              "value": 2
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 3,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_3",
+              "effect": "setPiecesActive",
+              "value": 3
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 4,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_4",
+              "effect": "setPiecesActive",
+              "value": 4
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 4,
+          "affixes": [
+            {
+              "affixId": "set_full_active",
+              "effect": "setFullActive",
+              "value": 1
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录满套激活。"
+        }
+      ],
+      "sourceUrl": ""
+    },
+    {
+      "id": "sw_set_014",
+      "sourceSetId": "188",
+      "name": "防御剑士1代套装 【400级】",
+      "class": "剑士",
+      "pieceCount": 4,
+      "pieceIds": [
+        "set_sw_set_014_7_200_1",
+        "set_sw_set_014_8_200_2",
+        "set_sw_set_014_9_200_3",
+        "set_sw_set_014_11_200_4"
+      ],
+      "bonuses": [
+        {
+          "requiredPieces": 2,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_2",
+              "effect": "setPiecesActive",
+              "value": 2
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 3,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_3",
+              "effect": "setPiecesActive",
+              "value": 3
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 4,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_4",
+              "effect": "setPiecesActive",
+              "value": 4
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 4,
+          "affixes": [
+            {
+              "affixId": "set_full_active",
+              "effect": "setFullActive",
+              "value": 1
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录满套激活。"
+        }
+      ],
+      "sourceUrl": ""
+    },
+    {
+      "id": "sw_set_015",
+      "sourceSetId": "110",
+      "name": "勇猛的套装 【600级】",
+      "class": "剑士",
+      "pieceCount": 4,
+      "pieceIds": [
+        "set_sw_set_015_7_138_1",
+        "set_sw_set_015_8_138_2",
+        "set_sw_set_015_9_138_3",
+        "set_sw_set_015_11_138_4"
+      ],
+      "bonuses": [
+        {
+          "requiredPieces": 2,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_2",
+              "effect": "setPiecesActive",
+              "value": 2
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 3,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_3",
+              "effect": "setPiecesActive",
+              "value": 3
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 4,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_4",
+              "effect": "setPiecesActive",
+              "value": 4
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 4,
+          "affixes": [
+            {
+              "affixId": "set_full_active",
+              "effect": "setFullActive",
+              "value": 1
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录满套激活。"
+        }
+      ],
+      "sourceUrl": ""
+    },
+    {
+      "id": "sw_set_016",
+      "sourceSetId": "189",
+      "name": "防御剑士2代套装 【600级】",
+      "class": "剑士",
+      "pieceCount": 4,
+      "pieceIds": [
+        "set_sw_set_016_7_201_1",
+        "set_sw_set_016_8_201_2",
+        "set_sw_set_016_9_201_3",
+        "set_sw_set_016_11_201_4"
+      ],
+      "bonuses": [
+        {
+          "requiredPieces": 2,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_2",
+              "effect": "setPiecesActive",
+              "value": 2
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 3,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_3",
+              "effect": "setPiecesActive",
+              "value": 3
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 4,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_4",
+              "effect": "setPiecesActive",
+              "value": 4
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 4,
+          "affixes": [
+            {
+              "affixId": "set_full_active",
+              "effect": "setFullActive",
+              "value": 1
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录满套激活。"
+        }
+      ],
+      "sourceUrl": ""
+    },
+    {
+      "id": "sw_set_017",
+      "sourceSetId": "118",
+      "name": "保护的套装 【800级】",
+      "class": "剑士",
+      "pieceCount": 4,
+      "pieceIds": [
+        "set_sw_set_017_7_150_1",
+        "set_sw_set_017_8_150_2",
+        "set_sw_set_017_9_150_3",
+        "set_sw_set_017_11_150_4"
+      ],
+      "bonuses": [
+        {
+          "requiredPieces": 2,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_2",
+              "effect": "setPiecesActive",
+              "value": 2
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 3,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_3",
+              "effect": "setPiecesActive",
+              "value": 3
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 4,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_4",
+              "effect": "setPiecesActive",
+              "value": 4
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 4,
+          "affixes": [
+            {
+              "affixId": "set_full_active",
+              "effect": "setFullActive",
+              "value": 1
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录满套激活。"
+        }
+      ],
+      "sourceUrl": ""
+    },
+    {
+      "id": "sw_set_018",
+      "sourceSetId": "190",
+      "name": "防御剑士3代套装 【800级】",
+      "class": "剑士",
+      "pieceCount": 4,
+      "pieceIds": [
+        "set_sw_set_018_7_202_1",
+        "set_sw_set_018_8_202_2",
+        "set_sw_set_018_9_202_3",
+        "set_sw_set_018_11_202_4"
+      ],
+      "bonuses": [
+        {
+          "requiredPieces": 2,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_2",
+              "effect": "setPiecesActive",
+              "value": 2
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 3,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_3",
+              "effect": "setPiecesActive",
+              "value": 3
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 4,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_4",
+              "effect": "setPiecesActive",
+              "value": 4
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 4,
+          "affixes": [
+            {
+              "affixId": "set_full_active",
+              "effect": "setFullActive",
+              "value": 1
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录满套激活。"
+        }
+      ],
+      "sourceUrl": ""
+    },
+    {
+      "id": "sw_set_019",
+      "sourceSetId": "132",
+      "name": "剑士觉醒之套装 【900级】",
+      "class": "剑士",
+      "pieceCount": 4,
+      "pieceIds": [
+        "set_sw_set_019_7_106_1",
+        "set_sw_set_019_8_106_2",
+        "set_sw_set_019_9_106_3",
+        "set_sw_set_019_11_106_4"
+      ],
+      "bonuses": [
+        {
+          "requiredPieces": 2,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_2",
+              "effect": "setPiecesActive",
+              "value": 2
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 3,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_3",
+              "effect": "setPiecesActive",
+              "value": 3
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 4,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_4",
+              "effect": "setPiecesActive",
+              "value": 4
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 4,
+          "affixes": [
+            {
+              "affixId": "set_full_active",
+              "effect": "setFullActive",
+              "value": 1
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录满套激活。"
+        }
+      ],
+      "sourceUrl": ""
+    },
+    {
+      "id": "sw_set_020",
+      "sourceSetId": "191",
+      "name": "防御剑士4代套装 【900级】",
+      "class": "剑士",
+      "pieceCount": 4,
+      "pieceIds": [
+        "set_sw_set_020_7_203_1",
+        "set_sw_set_020_8_203_2",
+        "set_sw_set_020_9_203_3",
+        "set_sw_set_020_11_203_4"
+      ],
+      "bonuses": [
+        {
+          "requiredPieces": 2,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_2",
+              "effect": "setPiecesActive",
+              "value": 2
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 3,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_3",
+              "effect": "setPiecesActive",
+              "value": 3
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 4,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_4",
+              "effect": "setPiecesActive",
+              "value": 4
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 4,
+          "affixes": [
+            {
+              "affixId": "set_full_active",
+              "effect": "setFullActive",
+              "value": 1
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录满套激活。"
+        }
+      ],
+      "sourceUrl": ""
+    },
+    {
+      "id": "sw_set_021",
+      "sourceSetId": "150",
+      "name": "剑士奥丁之套装 【1000级】",
+      "class": "剑士",
+      "pieceCount": 4,
+      "pieceIds": [
+        "set_sw_set_021_7_164_1",
+        "set_sw_set_021_8_164_2",
+        "set_sw_set_021_9_164_3",
+        "set_sw_set_021_11_164_4"
+      ],
+      "bonuses": [
+        {
+          "requiredPieces": 2,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_2",
+              "effect": "setPiecesActive",
+              "value": 2
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 3,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_3",
+              "effect": "setPiecesActive",
+              "value": 3
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 4,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_4",
+              "effect": "setPiecesActive",
+              "value": 4
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 4,
+          "affixes": [
+            {
+              "affixId": "set_full_active",
+              "effect": "setFullActive",
+              "value": 1
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录满套激活。"
+        }
+      ],
+      "sourceUrl": ""
+    },
+    {
+      "id": "sw_set_022",
+      "sourceSetId": "192",
+      "name": "防御剑士5代套装 【1000级】",
+      "class": "剑士",
+      "pieceCount": 4,
+      "pieceIds": [
+        "set_sw_set_022_7_204_1",
+        "set_sw_set_022_8_204_2",
+        "set_sw_set_022_9_204_3",
+        "set_sw_set_022_11_204_4"
+      ],
+      "bonuses": [
+        {
+          "requiredPieces": 2,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_2",
+              "effect": "setPiecesActive",
+              "value": 2
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 3,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_3",
+              "effect": "setPiecesActive",
+              "value": 3
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 4,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_4",
+              "effect": "setPiecesActive",
+              "value": 4
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 4,
+          "affixes": [
+            {
+              "affixId": "set_full_active",
+              "effect": "setFullActive",
+              "value": 1
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录满套激活。"
+        }
+      ],
+      "sourceUrl": ""
+    },
+    {
+      "id": "sw_set_023",
+      "sourceSetId": "174",
+      "name": "剑士先祖之套装 【1100级】",
+      "class": "剑士",
+      "pieceCount": 4,
+      "pieceIds": [
+        "set_sw_set_023_7_189_1",
+        "set_sw_set_023_8_189_2",
+        "set_sw_set_023_9_189_3",
+        "set_sw_set_023_11_189_4"
+      ],
+      "bonuses": [
+        {
+          "requiredPieces": 2,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_2",
+              "effect": "setPiecesActive",
+              "value": 2
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 3,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_3",
+              "effect": "setPiecesActive",
+              "value": 3
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 4,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_4",
+              "effect": "setPiecesActive",
+              "value": 4
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 4,
+          "affixes": [
+            {
+              "affixId": "set_full_active",
+              "effect": "setFullActive",
+              "value": 1
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录满套激活。"
+        }
+      ],
+      "sourceUrl": ""
+    },
+    {
+      "id": "sw_set_024",
+      "sourceSetId": "193",
+      "name": "防御剑士6代套装 【1100级】",
+      "class": "剑士",
+      "pieceCount": 4,
+      "pieceIds": [
+        "set_sw_set_024_7_205_1",
+        "set_sw_set_024_8_205_2",
+        "set_sw_set_024_9_205_3",
+        "set_sw_set_024_11_205_4"
+      ],
+      "bonuses": [
+        {
+          "requiredPieces": 2,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_2",
+              "effect": "setPiecesActive",
+              "value": 2
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 3,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_3",
+              "effect": "setPiecesActive",
+              "value": 3
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 4,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_4",
+              "effect": "setPiecesActive",
+              "value": 4
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 4,
+          "affixes": [
+            {
+              "affixId": "set_full_active",
+              "effect": "setFullActive",
+              "value": 1
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录满套激活。"
+        }
+      ],
+      "sourceUrl": ""
+    },
+    {
+      "id": "sw_set_025",
+      "sourceSetId": "206",
+      "name": "剑士咆哮之套装 【1200级】",
+      "class": "剑士",
+      "pieceCount": 4,
+      "pieceIds": [
+        "set_sw_set_025_7_221_1",
+        "set_sw_set_025_8_221_2",
+        "set_sw_set_025_9_221_3",
+        "set_sw_set_025_11_221_4"
+      ],
+      "bonuses": [
+        {
+          "requiredPieces": 2,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_2",
+              "effect": "setPiecesActive",
+              "value": 2
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 3,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_3",
+              "effect": "setPiecesActive",
+              "value": 3
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 4,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_4",
+              "effect": "setPiecesActive",
+              "value": 4
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 4,
+          "affixes": [
+            {
+              "affixId": "set_full_active",
+              "effect": "setFullActive",
+              "value": 1
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录满套激活。"
+        }
+      ],
+      "sourceUrl": ""
+    },
+    {
+      "id": "sw_set_026",
+      "sourceSetId": "218",
+      "name": "7代防御剑士套装 【1200级】",
+      "class": "剑士",
+      "pieceCount": 4,
+      "pieceIds": [
+        "set_sw_set_026_7_233_1",
+        "set_sw_set_026_8_233_2",
+        "set_sw_set_026_9_233_3",
+        "set_sw_set_026_11_233_4"
+      ],
+      "bonuses": [
+        {
+          "requiredPieces": 2,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_2",
+              "effect": "setPiecesActive",
+              "value": 2
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 3,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_3",
+              "effect": "setPiecesActive",
+              "value": 3
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 4,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_4",
+              "effect": "setPiecesActive",
+              "value": 4
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 4,
+          "affixes": [
+            {
+              "affixId": "set_full_active",
+              "effect": "setFullActive",
+              "value": 1
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录满套激活。"
+        }
+      ],
+      "sourceUrl": ""
+    },
+    {
+      "id": "sw_set_027",
+      "sourceSetId": "246",
+      "name": "剑士天界之套装 【1300级】",
+      "class": "剑士",
+      "pieceCount": 4,
+      "pieceIds": [
+        "set_sw_set_027_7_270_1",
+        "set_sw_set_027_8_270_2",
+        "set_sw_set_027_9_270_3",
+        "set_sw_set_027_11_270_4"
+      ],
+      "bonuses": [
+        {
+          "requiredPieces": 2,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_2",
+              "effect": "setPiecesActive",
+              "value": 2
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 3,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_3",
+              "effect": "setPiecesActive",
+              "value": 3
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 4,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_4",
+              "effect": "setPiecesActive",
+              "value": 4
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 4,
+          "affixes": [
+            {
+              "affixId": "set_full_active",
+              "effect": "setFullActive",
+              "value": 1
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录满套激活。"
+        }
+      ],
+      "sourceUrl": ""
+    },
+    {
+      "id": "sw_set_028",
+      "sourceSetId": "258",
+      "name": "防御剑士天界之套装 【1300级】",
+      "class": "剑士",
+      "pieceCount": 4,
+      "pieceIds": [
+        "set_sw_set_028_7_282_1",
+        "set_sw_set_028_8_282_2",
+        "set_sw_set_028_9_282_3",
+        "set_sw_set_028_11_282_4"
+      ],
+      "bonuses": [
+        {
+          "requiredPieces": 2,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_2",
+              "effect": "setPiecesActive",
+              "value": 2
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 3,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_3",
+              "effect": "setPiecesActive",
+              "value": 3
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 4,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_4",
+              "effect": "setPiecesActive",
+              "value": 4
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 4,
+          "affixes": [
+            {
+              "affixId": "set_full_active",
+              "effect": "setFullActive",
+              "value": 1
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录满套激活。"
+        }
+      ],
+      "sourceUrl": ""
+    },
+    {
+      "id": "sw_set_029",
+      "sourceSetId": "262",
+      "name": "剑士红焰之套装 【1400级】",
+      "class": "剑士",
+      "pieceCount": 4,
+      "pieceIds": [
+        "set_sw_set_029_7_284_1",
+        "set_sw_set_029_8_284_2",
+        "set_sw_set_029_9_284_3",
+        "set_sw_set_029_11_284_4"
+      ],
+      "bonuses": [
+        {
+          "requiredPieces": 2,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_2",
+              "effect": "setPiecesActive",
+              "value": 2
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 3,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_3",
+              "effect": "setPiecesActive",
+              "value": 3
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 4,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_4",
+              "effect": "setPiecesActive",
+              "value": 4
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 4,
+          "affixes": [
+            {
+              "affixId": "set_full_active",
+              "effect": "setFullActive",
+              "value": 1
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录满套激活。"
+        }
+      ],
+      "sourceUrl": ""
+    },
+    {
+      "id": "sw_set_030",
+      "sourceSetId": "274",
+      "name": "防御剑士红焰之套装 【1400级】",
+      "class": "剑士",
+      "pieceCount": 4,
+      "pieceIds": [
+        "set_sw_set_030_7_296_1",
+        "set_sw_set_030_8_296_2",
+        "set_sw_set_030_9_296_3",
+        "set_sw_set_030_11_296_4"
+      ],
+      "bonuses": [
+        {
+          "requiredPieces": 2,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_2",
+              "effect": "setPiecesActive",
+              "value": 2
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 3,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_3",
+              "effect": "setPiecesActive",
+              "value": 3
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 4,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_4",
+              "effect": "setPiecesActive",
+              "value": 4
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 4,
+          "affixes": [
+            {
+              "affixId": "set_full_active",
+              "effect": "setFullActive",
+              "value": 1
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录满套激活。"
+        }
+      ],
+      "sourceUrl": ""
+    },
+    {
+      "id": "sw_set_031",
+      "sourceSetId": "293",
+      "name": "剑士远古之套装 【1500级】",
+      "class": "剑士",
+      "pieceCount": 4,
+      "pieceIds": [
+        "set_sw_set_031_7_318_1",
+        "set_sw_set_031_8_318_2",
+        "set_sw_set_031_9_318_3",
+        "set_sw_set_031_11_318_4"
+      ],
+      "bonuses": [
+        {
+          "requiredPieces": 2,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_2",
+              "effect": "setPiecesActive",
+              "value": 2
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 3,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_3",
+              "effect": "setPiecesActive",
+              "value": 3
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 4,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_4",
+              "effect": "setPiecesActive",
+              "value": 4
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 4,
+          "affixes": [
+            {
+              "affixId": "set_full_active",
+              "effect": "setFullActive",
+              "value": 1
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录满套激活。"
+        }
+      ],
+      "sourceUrl": ""
+    },
+    {
+      "id": "sw_set_032",
+      "sourceSetId": "305",
+      "name": "防御剑士远古之套装 【1500级】",
+      "class": "剑士",
+      "pieceCount": 4,
+      "pieceIds": [
+        "set_sw_set_032_7_330_1",
+        "set_sw_set_032_8_330_2",
+        "set_sw_set_032_9_330_3",
+        "set_sw_set_032_11_330_4"
+      ],
+      "bonuses": [
+        {
+          "requiredPieces": 2,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_2",
+              "effect": "setPiecesActive",
+              "value": 2
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 3,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_3",
+              "effect": "setPiecesActive",
+              "value": 3
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 4,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_4",
+              "effect": "setPiecesActive",
+              "value": 4
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 4,
+          "affixes": [
+            {
+              "affixId": "set_full_active",
+              "effect": "setFullActive",
+              "value": 1
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录满套激活。"
+        }
+      ],
+      "sourceUrl": ""
+    },
+    {
+      "id": "sw_set_033",
+      "sourceSetId": "326",
+      "name": "传奇1代剑士套装 【1500级】",
+      "class": "剑士",
+      "pieceCount": 5,
+      "pieceIds": [
+        "set_sw_set_033_0_128_1",
+        "set_sw_set_033_7_355_2",
+        "set_sw_set_033_8_355_3",
+        "set_sw_set_033_9_355_4",
+        "set_sw_set_033_11_355_5"
+      ],
+      "bonuses": [
+        {
+          "requiredPieces": 2,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_2",
+              "effect": "setPiecesActive",
+              "value": 2
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 3,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_3",
+              "effect": "setPiecesActive",
+              "value": 3
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 4,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_4",
+              "effect": "setPiecesActive",
+              "value": 4
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 5,
+          "affixes": [
+            {
+              "affixId": "set_full_active",
+              "effect": "setFullActive",
+              "value": 1
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录满套激活。"
+        }
+      ],
+      "sourceUrl": ""
+    },
+    {
+      "id": "sw_set_034",
+      "sourceSetId": "338",
+      "name": "传奇1代信念套装 【1500级】",
+      "class": "剑士",
+      "pieceCount": 6,
+      "pieceIds": [
+        "set_sw_set_034_0_134_1",
+        "set_sw_set_034_6_83_2",
+        "set_sw_set_034_7_367_3",
+        "set_sw_set_034_8_367_4",
+        "set_sw_set_034_9_367_5",
+        "set_sw_set_034_11_367_6"
+      ],
+      "bonuses": [
+        {
+          "requiredPieces": 2,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_2",
+              "effect": "setPiecesActive",
+              "value": 2
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 3,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_3",
+              "effect": "setPiecesActive",
+              "value": 3
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 4,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_4",
+              "effect": "setPiecesActive",
+              "value": 4
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 6,
+          "affixes": [
+            {
+              "affixId": "set_full_active",
+              "effect": "setFullActive",
+              "value": 1
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录满套激活。"
+        }
+      ],
+      "sourceUrl": ""
+    },
+    {
+      "id": "sw_set_035",
+      "sourceSetId": "344",
+      "name": "传奇二转骑士套装 【1600级】",
+      "class": "剑士",
+      "pieceCount": 5,
+      "pieceIds": [
+        "set_sw_set_035_0_135_1",
+        "set_sw_set_035_7_410_2",
+        "set_sw_set_035_8_410_3",
+        "set_sw_set_035_9_410_4",
+        "set_sw_set_035_11_410_5"
+      ],
+      "bonuses": [
+        {
+          "requiredPieces": 2,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_2",
+              "effect": "setPiecesActive",
+              "value": 2
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 3,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_3",
+              "effect": "setPiecesActive",
+              "value": 3
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 4,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_4",
+              "effect": "setPiecesActive",
+              "value": 4
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 5,
+          "affixes": [
+            {
+              "affixId": "set_full_active",
+              "effect": "setFullActive",
+              "value": 1
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录满套激活。"
+        }
+      ],
+      "sourceUrl": ""
+    },
+    {
+      "id": "sw_set_036",
+      "sourceSetId": "356",
+      "name": "传奇二转信念骑士套装 【1600级】",
+      "class": "剑士",
+      "pieceCount": 6,
+      "pieceIds": [
+        "set_sw_set_036_0_141_1",
+        "set_sw_set_036_6_115_2",
+        "set_sw_set_036_7_422_3",
+        "set_sw_set_036_8_422_4",
+        "set_sw_set_036_9_422_5",
+        "set_sw_set_036_11_422_6"
+      ],
+      "bonuses": [
+        {
+          "requiredPieces": 2,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_2",
+              "effect": "setPiecesActive",
+              "value": 2
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 3,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_3",
+              "effect": "setPiecesActive",
+              "value": 3
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 4,
+          "affixes": [
+            {
+              "affixId": "set_piece_count_4",
+              "effect": "setPiecesActive",
+              "value": 4
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录激活阶段。"
+        },
+        {
+          "requiredPieces": 6,
+          "affixes": [
+            {
+              "affixId": "set_full_active",
+              "effect": "setFullActive",
+              "value": 1
+            }
+          ],
+          "note": "参考资料未给出明确数值，暂仅记录满套激活。"
+        }
+      ],
+      "sourceUrl": ""
+    }
+  ]
+}

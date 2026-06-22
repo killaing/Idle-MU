@@ -1,0 +1,79 @@
+[
+  {
+    "id": "mu_default_equipment",
+    "name": "默认装备Tooltip",
+    "target": "equipment",
+    "lines": [
+      {
+        "field": "name",
+        "label": "",
+        "color": "name",
+        "format": "{value}",
+        "showIf": "always"
+      },
+      {
+        "field": "quality",
+        "label": "品质",
+        "color": "normal",
+        "format": "{label}: {value}",
+        "showIf": "exists"
+      },
+      {
+        "field": "requiredLevel",
+        "label": "需要等级",
+        "color": "req",
+        "format": "{label}: {value}",
+        "showIf": "exists"
+      },
+      {
+        "field": "classes",
+        "label": "可用职业",
+        "color": "req",
+        "format": "{label}: {value}",
+        "showIf": "exists"
+      },
+      {
+        "field": "statMin,statMax",
+        "label": "攻击力",
+        "color": "normal",
+        "format": "{label}: {statMin} ~ {statMax}",
+        "showIf": "statMin"
+      },
+      {
+        "field": "defense",
+        "label": "防御力",
+        "color": "normal",
+        "format": "{label}: {value}",
+        "showIf": "exists"
+      },
+      {
+        "field": "durability",
+        "label": "耐久度",
+        "color": "normal",
+        "format": "{label}: {value}",
+        "showIf": "exists"
+      },
+      {
+        "field": "lucky",
+        "label": "幸运属性",
+        "color": "lucky",
+        "format": "幸运：灵魂宝石成功率 +25% / 会心一击 +5%",
+        "showIf": "truthy"
+      },
+      {
+        "field": "excellentOptions",
+        "label": "卓越属性",
+        "color": "excellent",
+        "format": "卓越：{value}",
+        "showIf": "exists"
+      },
+      {
+        "field": "setName",
+        "label": "套装",
+        "color": "set",
+        "format": "套装：{value}",
+        "showIf": "exists"
+      }
+    ]
+  }
+]

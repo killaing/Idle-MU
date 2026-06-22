@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>剑士战斗动态模型 Demo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <h1>剑士战斗动态模型 HTML Demo</h1>
+    <p class="tip">已升级：自动战斗、普攻/重击/技能自动匹配、敌人反击、受击、倒地死亡、复活重置。</p>
+    <section class="panel">
+      <canvas id="game" width="900" height="480"></canvas>
+      <aside class="hud">
+        <h2>战斗状态</h2>
+        <p>模式：<b id="modeText">自动战斗</b></p>
+        <p>动作：<b id="stateText">待机</b></p>
+        <p>剑士 HP：<b id="hp">100</b></p>
+        <p>剑士 MP：<b id="mp">100</b></p>
+        <p>敌人 HP：<b id="enemyHp">260</b></p>
+        <div class="btns">
+          <button id="autoBtn">自动/手动</button>
+          <button id="resetBtn">复活重置</button>
+          <button id="deathBtn">测试死亡</button>
+        </div>
+      </aside>
+    </section>
+    <div class="controls">
+      <button data-action="attack">J 普通攻击</button>
+      <button data-action="heavy">K 重击</button>
+      <button data-action="skill">L 技能攻击</button>
+    </div>
+    <div id="battleLog" class="log"></div>
+    <p class="note">键盘：A/D 手动移动，J 普攻，K 重击，L 技能，R 复活。真实项目中可继续替换更精细的透明 PNG 序列帧。</p>
+  </main>
+  <script src="game.js"></script>
+</body>
+</html>

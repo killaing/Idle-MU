@@ -1,0 +1,100 @@
+{
+  "version": "classic-mu-summary-v2",
+  "source": "原版经典全职业角色属性计算公式汇总.docx",
+  "activeClass": "dark_knight",
+  "note": "Runtime currently uses dark_knight. Other class formulas are stored for later class expansion.",
+  "classes": {
+    "dark_knight": {
+      "name": "剑士",
+      "hp": "birthLife + (level - 1) * 2 + vitality * 2, then excellent max life percent",
+      "mana": "birthMana + (level - 1) * 1.5 + energy * 1.5, then excellent max mana percent",
+      "ag": "strength * 0.15 + agility * 0.2 + vitality * 0.3 + energy * 1.0",
+      "attackMin": "strength / 6 + weaponMin + offhandWeaponMin * 0.55",
+      "attackMax": "strength / 4 + weaponMax + offhandWeaponMax * 0.55",
+      "defense": "agility / 3 + armorDefense + shieldDefense + fullSetDefense * 0.1 + excellentDefenseFlat",
+      "defenseSuccess": "agility / 3 + shieldDefenseRate + fullSetDefense * 0.1 + excellentDefenseSuccess",
+      "attackSuccess": "level * 5 + agility * 3 + strength / 4",
+      "attackSpeed": "weaponSpeed + offhandWeaponSpeed + agility / 15 + excellentAttackSpeed"
+    },
+    "dark_wizard": {
+      "name": "魔法师",
+      "hp": "birthLife + (level - 1) * 2 + vitality * 2",
+      "mana": "birthMana + (level - 1) * 1.5 + energy * 1.5",
+      "ag": "strength * 0.1 + agility * 0.15 + vitality * 0.2 + energy * 1.0",
+      "physicalAttackMin": "strength / 9 + weaponMin",
+      "physicalAttackMax": "strength / 6 + weaponMax",
+      "magicDamageMin": "energy / 9 + staffRise",
+      "magicDamageMax": "energy / 4 + staffRise",
+      "defense": "agility / 5 + armorDefense",
+      "attackSpeed": "agility / 18 + weaponSpeed"
+    },
+    "fairy_elf": {
+      "name": "弓箭手",
+      "hp": "birthLife + (level - 1) * 2 + vitality * 2",
+      "mana": "birthMana + (level - 1) * 1.5 + energy * 1.5",
+      "ag": "strength * 0.3 + agility * 0.2 + vitality * 0.3 + energy * 0.2",
+      "bowAttackMin": "(strength + agility) / 8 + weaponMin",
+      "bowAttackMax": "(strength + agility) / 4 + weaponMax",
+      "defense": "agility / 3 + armorDefense",
+      "attackSuccess": "level * 5 + agility * 1.5 + strength / 4",
+      "attackSpeed": "agility / 22 + weaponSpeed"
+    },
+    "magic_gladiator": {
+      "name": "魔剑士",
+      "hp": "birthLife + (level - 1) * 2 + vitality * 2",
+      "mana": "birthMana + (level - 1) * 1.5 + energy * 1.5",
+      "ag": "strength * 0.2 + agility * 0.2 + vitality * 0.25 + energy * 0.8",
+      "physicalAttackMin": "strength / 7 + weaponMin",
+      "physicalAttackMax": "strength / 5 + weaponMax",
+      "magicDamageMin": "energy / 9 + staffRise",
+      "magicDamageMax": "energy / 4 + staffRise",
+      "defense": "agility / 5 + armorDefense",
+      "attackSpeed": "agility / 18 + weaponSpeed"
+    },
+    "dark_lord": {
+      "name": "圣导师",
+      "hp": "birthLife + (level - 1) * 2 + vitality * 2",
+      "mana": "birthMana + (level - 1) * 1.5 + energy * 1.5",
+      "ag": "strength * 0.3 + agility * 0.2 + vitality * 0.1 + energy * 0.15 + command * 0.3",
+      "attackMin": "strength / 7 + energy / 14 + weaponMin",
+      "attackMax": "strength / 5 + energy / 10 + weaponMax",
+      "defense": "agility / 3 + armorDefense",
+      "attackSuccess": "level * 5 + agility * 2.5 + strength / 6 + command / 10",
+      "attackSpeed": "agility / 10 + weaponSpeed"
+    }
+  },
+  "criticalRules": {
+    "luckHit": "base 5% + lucky equipment * 5%, cap 70%; lucky hit locks attack roll to max attack",
+    "excellentHit": "excellent attack rate +10% per weapon option; excellent hit multiplies damage by 1.2",
+    "doubleDamage": "double damage multiplies base damage by 2 and can stack with excellent hit"
+  },
+  "skillFormula": "skillDamage = (baseAttack + skillFlatAttack - monsterDefense) * (200% + energy / 10 as skill bonus)",
+  "excellentOptions": {
+    "weapon": [
+      "excellentDamageRate",
+      "attackPerLevel",
+      "attackPercent",
+      "attackSpeed",
+      "lifeOnKill",
+      "manaOnKill"
+    ],
+    "armor": [
+      "maxLifePercent",
+      "maxManaPercent",
+      "damageDecrease",
+      "damageReflect",
+      "defenseSuccessRate",
+      "zenOnKill"
+    ],
+    "luck": [
+      "critChance +5%",
+      "soulJewelSuccess +25%"
+    ]
+  },
+  "dualWield": {
+    "dark_knight": true,
+    "offhandSlot": "shield",
+    "allowed": "one hand weapons only",
+    "offhandDamageRate": 0.55
+  }
+}

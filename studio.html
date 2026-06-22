@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MU Idle Studio</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="studio.css?v=1">
+</head>
+<body>
+  <main class="studio-shell">
+    <aside class="sidebar">
+      <div class="brand">
+        <span class="brand-mark">MU</span>
+        <div>
+          <strong>MU Idle Studio</strong>
+          <small>资源数据库编辑器</small>
+        </div>
+      </div>
+      <button class="primary-action" id="connectFolderBtn" type="button">打开项目目录</button>
+      <button class="ghost-action" id="reloadBtn" type="button">重新读取数据</button>
+      <nav class="library-nav" id="libraryNav"></nav>
+    </aside>
+
+    <section class="workspace">
+      <header class="studio-topbar">
+        <div>
+          <p class="eyebrow" id="libraryPath">未连接项目目录</p>
+          <h1 id="libraryTitle">装备数据库</h1>
+        </div>
+        <div class="topbar-actions">
+          <button id="exportBtn" type="button">导出当前库</button>
+          <button id="saveFileBtn" type="button">保存当前库</button>
+          <button id="saveAllBtn" type="button">保存全部</button>
+          <button id="rebuildEmbeddedBtn" type="button">重建内置数据</button>
+        </div>
+      </header>
+
+      <section class="summary-strip" id="summaryStrip"></section>
+
+      <section class="tool-row">
+        <label class="search-box">
+          <span>搜索</span>
+          <input id="searchInput" type="search" placeholder="名称、ID、地图、品质、字段值">
+        </label>
+        <label>
+          <span>文件</span>
+          <select id="fileSelect"></select>
+        </label>
+        <label>
+          <span>视图</span>
+          <select id="viewMode">
+            <option value="table">表格编辑</option>
+            <option value="json">JSON 编辑</option>
+          </select>
+        </label>
+        <button id="addRecordBtn" type="button">新增</button>
+        <button id="duplicateRecordBtn" type="button">复制</button>
+        <button class="danger" id="deleteRecordBtn" type="button">删除</button>
+      </section>
+
+      <section class="content-grid">
+        <div class="records-panel">
+          <div class="records-head">
+            <strong id="recordCount">0 条记录</strong>
+            <span id="dirtyState">已同步</span>
+          </div>
+          <div class="table-wrap">
+            <table id="recordTable"></table>
+          </div>
+        </div>
+
+        <aside class="editor-panel">
+          <div class="editor-head">
+            <strong id="editorTitle">选择一条记录</strong>
+            <span id="recordIndex"></span>
+          </div>
+          <form id="fieldForm" class="field-form"></form>
+          <textarea id="jsonEditor" class="json-editor" spellcheck="false"></textarea>
+          <div class="editor-actions">
+            <button id="applyJsonBtn" type="button">应用 JSON</button>
+            <button id="formatJsonBtn" type="button">格式化</button>
+          </div>
+          <div class="relation-panel" id="relationPanel"></div>
+        </aside>
+      </section>
+    </section>
+  </main>
+
+  <div class="toast" id="toast"></div>
+  <script type="module" src="Tools/mu-idle-studio.js?v=1"></script>
+</body>
+</html>

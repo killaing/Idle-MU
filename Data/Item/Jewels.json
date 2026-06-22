@@ -1,0 +1,674 @@
+[
+  {
+    "id": "ref_bd2a2327",
+    "name": "最大攻击力增加 +10%",
+    "category": "卓越词条",
+    "classes": [
+      "全职业"
+    ],
+    "requiredLevel": 0,
+    "dropLevel": 0,
+    "statMin": 0,
+    "statMax": 0,
+    "requiredStrength": 0,
+    "requiredAgility": 0,
+    "requiredEnergy": 0,
+    "requiredCommand": 0,
+    "durability": 0,
+    "speed": 0,
+    "dropMaps": [
+      "全地图怪物掉落"
+    ],
+    "officialEffect": "官方掉落概率：单条词条出现概率15%；生效规则：直接提升角色最大物理攻击力10%，与其他攻击加成词条加法叠加",
+    "kind": "reference",
+    "quality": "normal"
+  },
+  {
+    "id": "ref_7bce695c",
+    "name": "最小攻击力增加 +10%",
+    "category": "卓越词条",
+    "classes": [
+      "全职业"
+    ],
+    "requiredLevel": 0,
+    "dropLevel": 0,
+    "statMin": 0,
+    "statMax": 0,
+    "requiredStrength": 0,
+    "requiredAgility": 0,
+    "requiredEnergy": 0,
+    "requiredCommand": 0,
+    "durability": 0,
+    "speed": 0,
+    "dropMaps": [
+      "全地图怪物掉落"
+    ],
+    "officialEffect": "官方掉落概率：单条词条出现概率15%；生效规则：直接提升角色最小物理攻击力10%，与其他攻击加成词条加法叠加",
+    "kind": "reference",
+    "quality": "normal"
+  },
+  {
+    "id": "ref_cff6b28d",
+    "name": "攻击速度 +7",
+    "category": "卓越词条",
+    "classes": [
+      "全职业"
+    ],
+    "requiredLevel": 0,
+    "dropLevel": 0,
+    "statMin": 0,
+    "statMax": 0,
+    "requiredStrength": 0,
+    "requiredAgility": 0,
+    "requiredEnergy": 0,
+    "requiredCommand": 0,
+    "durability": 0,
+    "speed": 0,
+    "dropMaps": [
+      "全地图怪物掉落"
+    ],
+    "officialEffect": "官方掉落概率：单条词条出现概率12%；生效规则：直接提升角色攻击速度7点，攻速越高，单位时间内攻击次数越多，与武器基础攻速加法叠加",
+    "kind": "reference",
+    "quality": "normal"
+  },
+  {
+    "id": "ref_02b80338",
+    "name": "体力增加 +4%",
+    "category": "卓越词条",
+    "classes": [
+      "全职业"
+    ],
+    "requiredLevel": 0,
+    "dropLevel": 0,
+    "statMin": 0,
+    "statMax": 0,
+    "requiredStrength": 0,
+    "requiredAgility": 0,
+    "requiredEnergy": 0,
+    "requiredCommand": 0,
+    "durability": 0,
+    "speed": 0,
+    "dropMaps": [
+      "全地图怪物掉落"
+    ],
+    "officialEffect": "官方掉落概率：单条词条出现概率10%；生效规则：按角色基础体力值提升4%，额外增加生命值，与其他体力加成词条加法叠加",
+    "kind": "reference",
+    "quality": "normal"
+  },
+  {
+    "id": "ref_0cfca4d5",
+    "name": "魔力增加 +4%",
+    "category": "卓越词条",
+    "classes": [
+      "全职业"
+    ],
+    "requiredLevel": 0,
+    "dropLevel": 0,
+    "statMin": 0,
+    "statMax": 0,
+    "requiredStrength": 0,
+    "requiredAgility": 0,
+    "requiredEnergy": 0,
+    "requiredCommand": 0,
+    "durability": 0,
+    "speed": 0,
+    "dropMaps": [
+      "全地图怪物掉落"
+    ],
+    "officialEffect": "官方掉落概率：单条词条出现概率10%；生效规则：按角色基础智力值提升4%，额外增加魔法值，与其他魔力加成词条加法叠加",
+    "kind": "reference",
+    "quality": "normal"
+  },
+  {
+    "id": "ref_95d91cd7",
+    "name": "防御成功率增加 +10%",
+    "category": "卓越词条",
+    "classes": [
+      "全职业"
+    ],
+    "requiredLevel": 0,
+    "dropLevel": 0,
+    "statMin": 0,
+    "statMax": 0,
+    "requiredStrength": 0,
+    "requiredAgility": 0,
+    "requiredEnergy": 0,
+    "requiredCommand": 0,
+    "durability": 0,
+    "speed": 0,
+    "dropMaps": [
+      "全地图怪物掉落"
+    ],
+    "officialEffect": "官方掉落概率：单条词条出现概率10%；生效规则：直接提升角色防御成功率10%，越高越容易闪避敌人的物理攻击，与其他闪避加成词条加法叠加",
+    "kind": "reference",
+    "quality": "normal"
+  },
+  {
+    "id": "ref_db74a714",
+    "name": "伤害减少 +4%",
+    "category": "卓越词条",
+    "classes": [
+      "全职业"
+    ],
+    "requiredLevel": 0,
+    "dropLevel": 0,
+    "statMin": 0,
+    "statMax": 0,
+    "requiredStrength": 0,
+    "requiredAgility": 0,
+    "requiredEnergy": 0,
+    "requiredCommand": 0,
+    "durability": 0,
+    "speed": 0,
+    "dropMaps": [
+      "全地图怪物掉落"
+    ],
+    "officialEffect": "官方掉落概率：单条词条出现概率8%；生效规则：受到的所有伤害直接减少4%，与其他伤害减免词条加法叠加，最高可叠加至30%",
+    "kind": "reference",
+    "quality": "normal"
+  },
+  {
+    "id": "ref_c64cc677",
+    "name": "反射伤害 +5%",
+    "category": "卓越词条",
+    "classes": [
+      "全职业"
+    ],
+    "requiredLevel": 0,
+    "dropLevel": 0,
+    "statMin": 0,
+    "statMax": 0,
+    "requiredStrength": 0,
+    "requiredAgility": 0,
+    "requiredEnergy": 0,
+    "requiredCommand": 0,
+    "durability": 0,
+    "speed": 0,
+    "dropMaps": [
+      "全地图怪物掉落"
+    ],
+    "officialEffect": "官方掉落概率：单条词条出现概率8%；生效规则：将受到的物理伤害的5%反射给攻击者，PVP/PVE均生效，可叠加",
+    "kind": "reference",
+    "quality": "normal"
+  },
+  {
+    "id": "ref_1ab82fd4",
+    "name": "卓越一击概率 +10%",
+    "category": "卓越词条",
+    "classes": [
+      "全职业"
+    ],
+    "requiredLevel": 0,
+    "dropLevel": 0,
+    "statMin": 0,
+    "statMax": 0,
+    "requiredStrength": 0,
+    "requiredAgility": 0,
+    "requiredEnergy": 0,
+    "requiredCommand": 0,
+    "durability": 0,
+    "speed": 0,
+    "dropMaps": [
+      "全地图怪物掉落"
+    ],
+    "officialEffect": "官方掉落概率：单条词条出现概率10%；生效规则：攻击时有10%的概率触发卓越一击，造成150%的伤害，可与其他卓越一击概率词条加法叠加，最高可叠加至50%",
+    "kind": "reference",
+    "quality": "normal"
+  },
+  {
+    "id": "ref_359471b4",
+    "name": "击杀怪物生命值恢复 +8",
+    "category": "卓越词条",
+    "classes": [
+      "全职业"
+    ],
+    "requiredLevel": 0,
+    "dropLevel": 0,
+    "statMin": 0,
+    "statMax": 0,
+    "requiredStrength": 0,
+    "requiredAgility": 0,
+    "requiredEnergy": 0,
+    "requiredCommand": 0,
+    "durability": 0,
+    "speed": 0,
+    "dropMaps": [
+      "全地图怪物掉落"
+    ],
+    "officialEffect": "官方掉落概率：单条词条出现概率12%；生效规则：每击杀一个怪物，恢复8点生命值，持续生效，可叠加",
+    "kind": "reference",
+    "quality": "normal"
+  },
+  {
+    "id": "ref_7e752842",
+    "name": "技能攻击力增加 +20%",
+    "category": "卓越词条",
+    "classes": [
+      "全职业"
+    ],
+    "requiredLevel": 0,
+    "dropLevel": 0,
+    "statMin": 0,
+    "statMax": 0,
+    "requiredStrength": 0,
+    "requiredAgility": 0,
+    "requiredEnergy": 0,
+    "requiredCommand": 0,
+    "durability": 0,
+    "speed": 0,
+    "dropMaps": [
+      "卡利玛神庙",
+      "魔王昆顿掉落"
+    ],
+    "officialEffect": "官方掉落概率：单条词条出现概率5%；生效规则：所有主动技能的伤害提升20%，与其他技能伤害加成词条加法叠加",
+    "kind": "reference",
+    "quality": "normal"
+  },
+  {
+    "id": "ref_9c994696",
+    "name": "无视防御概率 +5%",
+    "category": "卓越词条",
+    "classes": [
+      "全职业"
+    ],
+    "requiredLevel": 0,
+    "dropLevel": 0,
+    "statMin": 0,
+    "statMax": 0,
+    "requiredStrength": 0,
+    "requiredAgility": 0,
+    "requiredEnergy": 0,
+    "requiredCommand": 0,
+    "durability": 0,
+    "speed": 0,
+    "dropMaps": [
+      "卡利玛神庙7层",
+      "大天使装备专属"
+    ],
+    "officialEffect": "官方掉落概率：单条词条出现概率3%；生效规则：攻击时有5%的概率完全无视目标的防御力，造成全额伤害，可叠加，最高可叠加至20%",
+    "kind": "reference",
+    "quality": "normal"
+  },
+  {
+    "id": "ref_63350f5b",
+    "name": "最大魔法攻击力增加 +10%",
+    "category": "卓越词条",
+    "classes": [
+      "魔法师",
+      "魔剑士",
+      "圣导师"
+    ],
+    "requiredLevel": 0,
+    "dropLevel": 0,
+    "statMin": 0,
+    "statMax": 0,
+    "requiredStrength": 0,
+    "requiredAgility": 0,
+    "requiredEnergy": 0,
+    "requiredCommand": 0,
+    "durability": 0,
+    "speed": 0,
+    "dropMaps": [
+      "全地图怪物掉落"
+    ],
+    "officialEffect": "官方掉落概率：单条词条出现概率15%；生效规则：直接提升角色最大魔法攻击力10%，与其他魔攻加成词条加法叠加",
+    "kind": "reference",
+    "quality": "normal"
+  },
+  {
+    "id": "ref_023edb07",
+    "name": "最小魔法攻击力增加 +10%",
+    "category": "卓越词条",
+    "classes": [
+      "魔法师",
+      "魔剑士",
+      "圣导师"
+    ],
+    "requiredLevel": 0,
+    "dropLevel": 0,
+    "statMin": 0,
+    "statMax": 0,
+    "requiredStrength": 0,
+    "requiredAgility": 0,
+    "requiredEnergy": 0,
+    "requiredCommand": 0,
+    "durability": 0,
+    "speed": 0,
+    "dropMaps": [
+      "全地图怪物掉落"
+    ],
+    "officialEffect": "官方掉落概率：单条词条出现概率15%；生效规则：直接提升角色最小魔法攻击力10%，与其他魔攻加成词条加法叠加",
+    "kind": "reference",
+    "quality": "normal"
+  },
+  {
+    "id": "ref_2c7754f8",
+    "name": "魔法速度 +7",
+    "category": "卓越词条",
+    "classes": [
+      "魔法师",
+      "魔剑士",
+      "圣导师"
+    ],
+    "requiredLevel": 0,
+    "dropLevel": 0,
+    "statMin": 0,
+    "statMax": 0,
+    "requiredStrength": 0,
+    "requiredAgility": 0,
+    "requiredEnergy": 0,
+    "requiredCommand": 0,
+    "durability": 0,
+    "speed": 0,
+    "dropMaps": [
+      "全地图怪物掉落"
+    ],
+    "officialEffect": "官方掉落概率：单条词条出现概率12%；生效规则：直接提升角色魔法释放速度7点，越高技能释放越快，与武器基础魔法速度加法叠加",
+    "kind": "reference",
+    "quality": "normal"
+  },
+  {
+    "id": "ref_a8d247a9",
+    "name": "宠物攻击力增加 +20%",
+    "category": "卓越词条",
+    "classes": [
+      "圣导师"
+    ],
+    "requiredLevel": 0,
+    "dropLevel": 0,
+    "statMin": 0,
+    "statMax": 0,
+    "requiredStrength": 0,
+    "requiredAgility": 0,
+    "requiredEnergy": 0,
+    "requiredCommand": 0,
+    "durability": 0,
+    "speed": 0,
+    "dropMaps": [
+      "天空之城",
+      "卡利玛神庙掉落"
+    ],
+    "officialEffect": "官方掉落概率：单条词条出现概率8%；生效规则：圣导师的宠物（黑王马、天鹰）攻击力提升20%，可叠加",
+    "kind": "reference",
+    "quality": "normal"
+  },
+  {
+    "id": "ref_987cee8e",
+    "name": "防御增加 +10%",
+    "category": "卓越词条",
+    "classes": [
+      "全职业"
+    ],
+    "requiredLevel": 0,
+    "dropLevel": 0,
+    "statMin": 0,
+    "statMax": 0,
+    "requiredStrength": 0,
+    "requiredAgility": 0,
+    "requiredEnergy": 0,
+    "requiredCommand": 0,
+    "durability": 0,
+    "speed": 0,
+    "dropMaps": [
+      "死亡沙漠",
+      "天空之城掉落"
+    ],
+    "officialEffect": "官方掉落概率：单条词条出现概率10%；生效规则：直接提升角色物理防御力10%，与其他防御加成词条加法叠加",
+    "kind": "reference",
+    "quality": "normal"
+  },
+  {
+    "id": "ref_db04efda",
+    "name": "生命值上限 +10%",
+    "category": "卓越词条",
+    "classes": [
+      "全职业"
+    ],
+    "requiredLevel": 0,
+    "dropLevel": 0,
+    "statMin": 0,
+    "statMax": 0,
+    "requiredStrength": 0,
+    "requiredAgility": 0,
+    "requiredEnergy": 0,
+    "requiredCommand": 0,
+    "durability": 0,
+    "speed": 0,
+    "dropMaps": [
+      "卡利玛神庙掉落"
+    ],
+    "officialEffect": "官方掉落概率：单条词条出现概率5%；生效规则：直接提升角色生命值上限10%，与其他生命加成词条加法叠加",
+    "kind": "reference",
+    "quality": "normal"
+  },
+  {
+    "id": "ref_bbcb8319",
+    "name": "魔法值上限 +10%",
+    "category": "卓越词条",
+    "classes": [
+      "全职业"
+    ],
+    "requiredLevel": 0,
+    "dropLevel": 0,
+    "statMin": 0,
+    "statMax": 0,
+    "requiredStrength": 0,
+    "requiredAgility": 0,
+    "requiredEnergy": 0,
+    "requiredCommand": 0,
+    "durability": 0,
+    "speed": 0,
+    "dropMaps": [
+      "卡利玛神庙掉落"
+    ],
+    "officialEffect": "官方掉落概率：单条词条出现概率5%；生效规则：直接提升角色魔法值上限10%，与其他魔力加成词条加法叠加",
+    "kind": "reference",
+    "quality": "normal"
+  },
+  {
+    "id": "item_b41c23e8",
+    "name": "祝福宝石",
+    "kind": "jewel",
+    "quality": "jewel",
+    "source": "monster officialDropText",
+    "stack": 99
+  },
+  {
+    "id": "item_803025c0",
+    "name": "玛雅之石",
+    "kind": "jewel",
+    "quality": "jewel",
+    "source": "monster officialDropText",
+    "stack": 99
+  },
+  {
+    "id": "item_b9557582",
+    "name": "灵魂宝石",
+    "kind": "jewel",
+    "quality": "jewel",
+    "source": "monster officialDropText",
+    "stack": 99
+  },
+  {
+    "id": "item_5292810a",
+    "name": "毒之戒指",
+    "kind": "item",
+    "quality": "normal",
+    "source": "monster officialDropText",
+    "stack": 99,
+    "classes": [
+      "剑士"
+    ],
+    "requiredLevel": 1,
+    "dropLevel": 1,
+    "tooltip": {
+      "templateId": "mu_default_equipment",
+      "lines": [
+        {
+          "field": "name",
+          "label": "",
+          "color": "name",
+          "format": "{value}",
+          "showIf": "always"
+        },
+        {
+          "field": "quality",
+          "label": "品质",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "requiredLevel",
+          "label": "需要等级",
+          "color": "req",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "classes",
+          "label": "可用职业",
+          "color": "req",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "statMin,statMax",
+          "label": "攻击力",
+          "color": "normal",
+          "format": "{label}: {statMin} ~ {statMax}",
+          "showIf": "statMin"
+        },
+        {
+          "field": "defense",
+          "label": "防御力",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "durability",
+          "label": "耐久度",
+          "color": "normal",
+          "format": "{label}: {value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "lucky",
+          "label": "幸运属性",
+          "color": "lucky",
+          "format": "幸运：灵魂宝石成功率 +25% / 会心一击 +5%",
+          "showIf": "truthy"
+        },
+        {
+          "field": "excellentOptions",
+          "label": "卓越属性",
+          "color": "excellent",
+          "format": "卓越：{value}",
+          "showIf": "exists"
+        },
+        {
+          "field": "setName",
+          "label": "套装",
+          "color": "set",
+          "format": "套装：{value}",
+          "showIf": "exists"
+        }
+      ]
+    }
+  },
+  {
+    "id": "item_b90c1797",
+    "name": "治疗之石",
+    "kind": "item",
+    "quality": "normal",
+    "source": "monster officialDropText",
+    "stack": 99
+  },
+  {
+    "id": "item_5ceb4fcb",
+    "name": "守护天使",
+    "kind": "item",
+    "quality": "normal",
+    "source": "monster officialDropText",
+    "stack": 99
+  },
+  {
+    "id": "item_a38483b1",
+    "name": "卓越青铜",
+    "kind": "item",
+    "quality": "normal",
+    "source": "monster officialDropText",
+    "stack": 99
+  },
+  {
+    "id": "item_6fafc4b9",
+    "name": "生命宝石",
+    "kind": "jewel",
+    "quality": "jewel",
+    "source": "monster officialDropText",
+    "stack": 99
+  },
+  {
+    "id": "item_49eee721",
+    "name": "创造宝石",
+    "kind": "jewel",
+    "quality": "jewel",
+    "source": "monster officialDropText",
+    "stack": 99
+  },
+  {
+    "id": "item_4386f6af",
+    "name": "洛克之羽",
+    "kind": "item",
+    "quality": "normal",
+    "source": "monster officialDropText",
+    "stack": 99
+  },
+  {
+    "id": "item_ce6d03b1",
+    "name": "国王卷轴",
+    "kind": "item",
+    "quality": "normal",
+    "source": "monster officialDropText",
+    "stack": 99
+  },
+  {
+    "id": "item_48370602",
+    "name": "昆顿印记",
+    "kind": "item",
+    "quality": "normal",
+    "source": "monster officialDropText",
+    "stack": 99
+  },
+  {
+    "id": "mat_fcdd0477",
+    "name": "再生宝石",
+    "kind": "material",
+    "quality": "material",
+    "stack": 99,
+    "source": "DropRates materials",
+    "use": "后期装备洗练、镶宝",
+    "dropMaps": "冰霜之城"
+  },
+  {
+    "id": "mat_9226d32e",
+    "name": "守护宝石",
+    "kind": "material",
+    "quality": "material",
+    "stack": 99,
+    "source": "DropRates materials",
+    "use": "后期装备洗练、镶宝",
+    "dropMaps": "冰霜之城"
+  },
+  {
+    "id": "mat_a83df982",
+    "name": "翅膀羽毛",
+    "kind": "material",
+    "quality": "material",
+    "stack": 99,
+    "source": "DropRates materials",
+    "use": "翅膀合成、升级必备",
+    "dropMaps": "全地图"
+  }
+]

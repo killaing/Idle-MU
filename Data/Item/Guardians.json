@@ -1,0 +1,394 @@
+[
+  {
+    "id": "guardian_unicorn",
+    "name": "独角兽",
+    "international": "Pet Unicorn",
+    "muId": "1013106",
+    "number": "13-106",
+    "category": "守护物",
+    "classes": [
+      "全职业"
+    ],
+    "requiredLevel": 28,
+    "dropLevel": 28,
+    "kind": "guardian",
+    "slot": "guardian",
+    "quality": "normal",
+    "petLife": 255,
+    "effects": [
+      {
+        "effect": "goldAutoPickup",
+        "value": 1,
+        "label": "自动拾取周围的金币"
+      },
+      {
+        "effect": "zenOnKill",
+        "value": 0.5,
+        "label": "金币获得量提高 +50%"
+      },
+      {
+        "effect": "defenseFlat",
+        "value": 50,
+        "label": "防御力 +50"
+      }
+    ],
+    "baseAttributes": [
+      "自动拾取周围的金币。",
+      "金币获得量提高50%%",
+      "防御力 +50",
+      "生命: 255",
+      "需求等级：28"
+    ],
+    "dropMonsters": [],
+    "detailUrl": "https://mu.dvg.cn/item_info.php?id=3893",
+    "icon": "Assets/guardians/unicorn.png",
+    "source": "剑士装备库/output(全职业守护物）"
+  },
+  {
+    "id": "guardian_rudolph",
+    "name": "鲁道夫",
+    "international": "Pet Rudolph",
+    "muId": "1013067",
+    "number": "13-67",
+    "category": "守护物",
+    "classes": [
+      "全职业"
+    ],
+    "requiredLevel": 28,
+    "dropLevel": 28,
+    "kind": "guardian",
+    "slot": "guardian",
+    "quality": "normal",
+    "petLife": 255,
+    "effects": [
+      {
+        "effect": "goldAutoPickup",
+        "value": 1,
+        "label": "自动拾取周围的金币"
+      }
+    ],
+    "baseAttributes": [
+      "自动拾取周围的金币。",
+      "生命: 255",
+      "需求等级：28"
+    ],
+    "dropMonsters": [],
+    "detailUrl": "https://mu.dvg.cn/item_info.php?id=3861",
+    "icon": "Assets/guardians/rudolph.png",
+    "source": "剑士装备库/output(全职业守护物）"
+  },
+  {
+    "id": "guardian_imp",
+    "name": "小恶魔",
+    "international": "Imp",
+    "muId": "1013001",
+    "number": "13-1",
+    "category": "守护物",
+    "classes": [
+      "全职业"
+    ],
+    "requiredLevel": 28,
+    "dropLevel": 28,
+    "kind": "guardian",
+    "slot": "guardian",
+    "quality": "normal",
+    "petLife": 255,
+    "effects": [
+      {
+        "effect": "damageIncrease",
+        "value": 0.3,
+        "label": "攻击力提高 +30%"
+      }
+    ],
+    "baseAttributes": [
+      "攻击力， 魔力提高30%%",
+      "生命: 255",
+      "需求等级：28"
+    ],
+    "dropMonsters": [
+      "[Lv.19]骷髅兵",
+      "[Lv.20]雪虫",
+      "[Lv.22]寒冰魔",
+      "[Lv.24]蓝魔怪",
+      "[Lv.26]暗杀者",
+      "[Lv.30]雪人",
+      "[Lv.36]雪人王",
+      "[Lv.25]毒虫",
+      "[Lv.28]独眼巨人",
+      "[Lv.32]幽灵",
+      "[Lv.34]骷髅弓箭手",
+      "[Lv.38]地狱猎犬怪",
+      "[Lv.40]地狱蜘蛛",
+      "[Lv.42]骷髅战士",
+      "[Lv.44]死灵巫师",
+      "[Lv.46]毒牛怪",
+      "[Lv.48]暗黑骑士",
+      "[Lv.43]小巴哈姆特",
+      "[Lv.45]死亡美人鱼",
+      "[Lv.46]蓝翼海怪",
+      "[Lv.66]大巴哈姆特",
+      "[Lv.68]银弓海怪",
+      "[Lv.70]巫师王",
+      "[Lv.47]鬼魂",
+      "[Lv.50]剧毒鬼魂",
+      "[Lv.54]诅咒巫师",
+      "[Lv.57]牛魔王",
+      "[Lv.60]恶魔",
+      "[Lv.62]死神骑士",
+      "[Lv.64]死神戈登",
+      "[Lv.96]幻影骑士"
+    ],
+    "detailUrl": "https://mu.dvg.cn/item_info.php?id=3796",
+    "icon": "Assets/guardians/imp.png",
+    "source": "剑士装备库/output(全职业守护物）"
+  },
+  {
+    "id": "guardian_guardian_angel",
+    "name": "守护天使",
+    "international": "Guardian Angel",
+    "muId": "1013000",
+    "number": "13-0",
+    "category": "守护物",
+    "classes": [
+      "全职业"
+    ],
+    "requiredLevel": 23,
+    "dropLevel": 23,
+    "kind": "guardian",
+    "slot": "guardian",
+    "quality": "normal",
+    "petLife": 255,
+    "effects": [
+      {
+        "effect": "damageAbsorb",
+        "value": 0.2,
+        "label": "伤害吸收 +20%"
+      },
+      {
+        "effect": "lifeFlat",
+        "value": 50,
+        "label": "最大生命力 +50"
+      }
+    ],
+    "baseAttributes": [
+      "伤害 20%% 吸收",
+      "最大生命力提高 +50",
+      "生命: 255",
+      "需求等级：23"
+    ],
+    "dropMonsters": [
+      "[Lv.19]骷髅兵",
+      "[Lv.20]雪虫",
+      "[Lv.22]寒冰魔",
+      "[Lv.24]蓝魔怪",
+      "[Lv.26]暗杀者",
+      "[Lv.30]雪人",
+      "[Lv.36]雪人王",
+      "[Lv.25]毒虫",
+      "[Lv.28]独眼巨人",
+      "[Lv.32]幽灵",
+      "[Lv.34]骷髅弓箭手",
+      "[Lv.38]地狱猎犬怪",
+      "[Lv.40]地狱蜘蛛",
+      "[Lv.42]骷髅战士",
+      "[Lv.44]死灵巫师",
+      "[Lv.46]毒牛怪",
+      "[Lv.48]暗黑骑士",
+      "[Lv.43]小巴哈姆特",
+      "[Lv.45]死亡美人鱼",
+      "[Lv.46]蓝翼海怪",
+      "[Lv.66]大巴哈姆特",
+      "[Lv.68]银弓海怪",
+      "[Lv.70]巫师王",
+      "[Lv.47]鬼魂",
+      "[Lv.50]剧毒鬼魂",
+      "[Lv.54]诅咒巫师",
+      "[Lv.57]牛魔王",
+      "[Lv.60]恶魔",
+      "[Lv.62]死神骑士",
+      "[Lv.64]死神戈登",
+      "[Lv.96]幻影骑士"
+    ],
+    "detailUrl": "https://mu.dvg.cn/item_info.php?id=3795",
+    "icon": "Assets/guardians/guardian_angel.png",
+    "source": "剑士装备库/output(全职业守护物）"
+  },
+  {
+    "id": "guardian_skeleton_dragon",
+    "name": "幼龙骨架",
+    "international": "Pet Skeleton",
+    "muId": "1013123",
+    "number": "13-123",
+    "category": "守护物",
+    "classes": [
+      "全职业"
+    ],
+    "requiredLevel": 1,
+    "dropLevel": 1,
+    "kind": "guardian",
+    "slot": "guardian",
+    "quality": "normal",
+    "petLife": 255,
+    "effects": [
+      {
+        "effect": "goldAutoPickup",
+        "value": 1,
+        "label": "自动拾取周围的金币"
+      },
+      {
+        "effect": "damageIncrease",
+        "value": 0.2,
+        "label": "攻击力提高 +20%"
+      },
+      {
+        "effect": "attackSpeed",
+        "value": 10,
+        "label": "攻击速度提高 +10"
+      },
+      {
+        "effect": "expBonus",
+        "value": 0.3,
+        "label": "经验值提高 +30%"
+      }
+    ],
+    "baseAttributes": [
+      "自动拾取周围的金币。",
+      "攻击力/魔力/诅咒提高 20%%",
+      "攻击速度提高 +10",
+      "经验值提高30%%",
+      "生命: 255",
+      "需求等级：1",
+      "与变身指环一起佩戴的话",
+      "可获得另加50%%的经验值。"
+    ],
+    "dropMonsters": [],
+    "detailUrl": "https://mu.dvg.cn/item_info.php?id=3909",
+    "icon": "Assets/guardians/skeleton_dragon.png",
+    "source": "剑士装备库/output(全职业守护物）"
+  },
+  {
+    "id": "guardian_panda",
+    "name": "熊猫",
+    "international": "Pet Panda",
+    "muId": "1013080",
+    "number": "13-80",
+    "category": "守护物",
+    "classes": [
+      "全职业"
+    ],
+    "requiredLevel": 1,
+    "dropLevel": 1,
+    "kind": "guardian",
+    "slot": "guardian",
+    "quality": "normal",
+    "petLife": 255,
+    "effects": [
+      {
+        "effect": "goldAutoPickup",
+        "value": 1,
+        "label": "自动拾取周围的金币"
+      },
+      {
+        "effect": "expBonus",
+        "value": 0.5,
+        "label": "经验值提高 +50%"
+      },
+      {
+        "effect": "defenseFlat",
+        "value": 50,
+        "label": "防御力 +50"
+      }
+    ],
+    "baseAttributes": [
+      "自动拾取周围的金币。",
+      "经验值提高50%%",
+      "防御力 +50",
+      "生命: 255",
+      "需求等级：1",
+      "与变身指环一起佩戴的话",
+      "可获得另加50%%的经验值。"
+    ],
+    "dropMonsters": [],
+    "detailUrl": "https://mu.dvg.cn/item_info.php?id=3873",
+    "icon": "Assets/guardians/panda.png",
+    "source": "剑士装备库/output(全职业守护物）"
+  },
+  {
+    "id": "guardian_enhanced_angel",
+    "name": "强化天使",
+    "international": "Spirit of Guardian",
+    "muId": "1013065",
+    "number": "13-65",
+    "category": "守护物",
+    "classes": [
+      "全职业"
+    ],
+    "requiredLevel": 1,
+    "dropLevel": 1,
+    "kind": "guardian",
+    "slot": "guardian",
+    "quality": "normal",
+    "petLife": 255,
+    "effects": [
+      {
+        "effect": "damageAbsorb",
+        "value": 0.3,
+        "label": "伤害吸收 +30%"
+      },
+      {
+        "effect": "lifeFlat",
+        "value": 50,
+        "label": "最大生命力 +50"
+      }
+    ],
+    "baseAttributes": [
+      "怪物伤害吸收30%%",
+      "最大生命力 +50",
+      "生命: 255",
+      "需求等级：1"
+    ],
+    "dropMonsters": [],
+    "detailUrl": "https://mu.dvg.cn/item_info.php?id=3859",
+    "icon": "Assets/guardians/enhanced_angel.png",
+    "source": "剑士装备库/output(全职业守护物）"
+  },
+  {
+    "id": "guardian_enhanced_imp",
+    "name": "强化恶魔",
+    "international": "Demon",
+    "muId": "1013064",
+    "number": "13-64",
+    "category": "守护物",
+    "classes": [
+      "全职业"
+    ],
+    "requiredLevel": 1,
+    "dropLevel": 1,
+    "kind": "guardian",
+    "slot": "guardian",
+    "quality": "normal",
+    "petLife": 255,
+    "effects": [
+      {
+        "effect": "damageIncrease",
+        "value": 0.4,
+        "label": "攻击力提高 +40%"
+      },
+      {
+        "effect": "attackSpeed",
+        "value": 10,
+        "label": "攻击速度提高 +10"
+      }
+    ],
+    "baseAttributes": [
+      "攻击力， 魔力， 诅咒提高40%%",
+      "攻击速度提高 +10",
+      "生命: 255",
+      "需求等级：1"
+    ],
+    "dropMonsters": [],
+    "detailUrl": "https://mu.dvg.cn/item_info.php?id=3858",
+    "icon": "Assets/guardians/enhanced_imp.png",
+    "source": "剑士装备库/output(全职业守护物）"
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "name": "[绑定]神秘之石",
+    "file": "so_stone01.png",
+    "url": "https://mu.dvg.cn/source/n_itemlitpic/so_stone01.png",
+    "local_path": "icons/so_stone01.png"
+  },
+  {
+    "name": "血色天使之魂变换标志",
+    "file": "rareitem_ticket7.png",
+    "url": "https://mu.dvg.cn/source/n_itemlitpic/rareitem_ticket7.png",
+    "local_path": "icons/rareitem_ticket7.png"
+  },
+  {
+    "name": "奇迹的铜币",
+    "file": "coin7.png",
+    "url": "https://mu.dvg.cn/source/n_itemlitpic/coin7.png",
+    "local_path": "icons/coin7.png"
+  },
+  {
+    "name": "神秘之石",
+    "file": "so_stone01.png",
+    "url": "https://mu.dvg.cn/source/n_itemlitpic/so_stone01.png",
+    "local_path": "icons/so_stone01.png"
+  },
+  {
+    "name": "提高宝石",
+    "file": "lucky_items02.png",
+    "url": "https://mu.dvg.cn/source/n_itemlitpic/lucky_items02.png",
+    "local_path": "icons/lucky_items02.png"
+  },
+  {
+    "name": "延长宝石",
+    "file": "lucky_items01.png",
+    "url": "https://mu.dvg.cn/source/n_itemlitpic/lucky_items01.png",
+    "local_path": "icons/lucky_items01.png"
+  },
+  {
+    "name": "高级进化宝石",
+    "file": "HighRefineStone.png",
+    "url": "https://mu.dvg.cn/source/n_itemlitpic/HighRefineStone.png",
+    "local_path": "icons/HighRefineStone.png"
+  },
+  {
+    "name": "初级进化宝石",
+    "file": "LowRefineStone.png",
+    "url": "https://mu.dvg.cn/source/n_itemlitpic/LowRefineStone.png",
+    "local_path": "icons/LowRefineStone.png"
+  },
+  {
+    "name": "再生宝石",
+    "file": "jos.png",
+    "url": "https://mu.dvg.cn/source/n_itemlitpic/jos.png",
+    "local_path": "icons/jos.png"
+  },
+  {
+    "name": "再生原石",
+    "file": "rs.png",
+    "url": "https://mu.dvg.cn/source/n_itemlitpic/rs.png",
+    "local_path": "icons/rs.png"
+  },
+  {
+    "name": "守护宝石",
+    "file": "suho.png",
+    "url": "https://mu.dvg.cn/source/n_itemlitpic/suho.png",
+    "local_path": "icons/suho.png"
+  },
+  {
+    "name": "创造宝石",
+    "file": "jewel22.png",
+    "url": "https://mu.dvg.cn/source/n_itemlitpic/jewel22.png",
+    "local_path": "icons/jewel22.png"
+  },
+  {
+    "name": "生命宝石",
+    "file": "Jewel03.png",
+    "url": "https://mu.dvg.cn/source/n_itemlitpic/Jewel03.png",
+    "local_path": "icons/Jewel03.png"
+  },
+  {
+    "name": "灵魂宝石",
+    "file": "Jewel02.png",
+    "url": "https://mu.dvg.cn/source/n_itemlitpic/Jewel02.png",
+    "local_path": "icons/Jewel02.png"
+  },
+  {
+    "name": "祝福宝石",
+    "file": "Jewel01.png",
+    "url": "https://mu.dvg.cn/source/n_itemlitpic/Jewel01.png",
+    "local_path": "icons/Jewel01.png"
+  },
+  {
+    "name": "玛雅之石",
+    "file": "Jewel15.png",
+    "url": "https://mu.dvg.cn/source/n_itemlitpic/Jewel15.png",
+    "local_path": "icons/Jewel15.png"
+  }
+]

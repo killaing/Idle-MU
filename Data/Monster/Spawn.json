@@ -1,0 +1,1240 @@
+{
+  "mu_103h_world": {
+    "zone_99a3fcaf": {
+      "mode": "single-monster-point",
+      "default": "randomEligible",
+      "points": [
+        {
+          "id": "zone_99a3fcaf_spawn_01",
+          "monsterId": "mon_29f7875b",
+          "name": "蜘蛛 刷怪点",
+          "unlockLevel": 2,
+          "weight": 1,
+          "dropPreview": [
+            "回城卷轴",
+            "小瓶治疗药水",
+            "小瓶魔力药水",
+            "苹果",
+            "封印的银箱子"
+          ]
+        },
+        {
+          "id": "zone_99a3fcaf_spawn_02",
+          "monsterId": "mon_28f785c8",
+          "name": "幼龙 刷怪点",
+          "unlockLevel": 4,
+          "weight": 1,
+          "dropPreview": [
+            "回城卷轴",
+            "小瓶治疗药水",
+            "小瓶魔力药水",
+            "苹果",
+            "封印的银箱子"
+          ]
+        },
+        {
+          "id": "zone_99a3fcaf_spawn_03",
+          "monsterId": "mon_2bf78a81",
+          "name": "猎犬怪 刷怪点",
+          "unlockLevel": 9,
+          "weight": 1,
+          "dropPreview": [
+            "回城卷轴",
+            "中瓶治疗药水",
+            "中瓶魔力药水",
+            "苹果",
+            "封印的银箱子"
+          ]
+        },
+        {
+          "id": "zone_99a3fcaf_spawn_04",
+          "monsterId": "mon_2ef78f3a",
+          "name": "蛮牛怪 刷怪点",
+          "unlockLevel": 12,
+          "weight": 1,
+          "dropPreview": [
+            "玛雅之石",
+            "回城卷轴",
+            "中瓶治疗药水",
+            "中瓶魔力药水",
+            "解毒剂"
+          ]
+        },
+        {
+          "id": "zone_99a3fcaf_spawn_05",
+          "monsterId": "mon_2cf78c14",
+          "name": "黑巫师 刷怪点",
+          "unlockLevel": 14,
+          "weight": 1,
+          "dropPreview": [
+            "玛雅之石",
+            "回城卷轴",
+            "中瓶治疗药水",
+            "中瓶魔力药水",
+            "解毒剂"
+          ]
+        },
+        {
+          "id": "zone_99a3fcaf_spawn_06",
+          "monsterId": "mon_2df78da7",
+          "name": "巨人 刷怪点",
+          "unlockLevel": 17,
+          "weight": 1,
+          "dropPreview": [
+            "玛雅之石",
+            "回城卷轴",
+            "中瓶治疗药水",
+            "中瓶魔力药水",
+            "解毒剂"
+          ]
+        },
+        {
+          "id": "zone_99a3fcaf_spawn_07",
+          "monsterId": "mon_ebaf5aef",
+          "name": "骷髅兵 刷怪点",
+          "unlockLevel": 19,
+          "weight": 1,
+          "dropPreview": [
+            "玛雅之石",
+            "守护天使",
+            "小恶魔",
+            "兽角",
+            "回城卷轴"
+          ]
+        }
+      ]
+    },
+    "zone_2008aa39": {
+      "mode": "single-monster-point",
+      "default": "randomEligible",
+      "points": [
+        {
+          "id": "zone_2008aa39_spawn_01",
+          "monsterId": "mon_7d14ec4c",
+          "name": "蜘蛛 刷怪点",
+          "unlockLevel": 2,
+          "weight": 1,
+          "dropPreview": [
+            "回城卷轴",
+            "小瓶治疗药水",
+            "小瓶魔力药水",
+            "苹果",
+            "封印的银箱子"
+          ]
+        },
+        {
+          "id": "zone_2008aa39_spawn_02",
+          "monsterId": "mon_63f285cb",
+          "name": "小哥布林 刷怪点",
+          "unlockLevel": 3,
+          "weight": 1,
+          "dropPreview": [
+            "回城卷轴",
+            "小瓶治疗药水",
+            "小瓶魔力药水",
+            "苹果",
+            "封印的银箱子"
+          ]
+        },
+        {
+          "id": "zone_2008aa39_spawn_03",
+          "monsterId": "mon_62f28438",
+          "name": "勾尾蝎 刷怪点",
+          "unlockLevel": 5,
+          "weight": 1,
+          "dropPreview": [
+            "回城卷轴",
+            "小瓶治疗药水",
+            "小瓶魔力药水",
+            "苹果",
+            "封印的银箱子"
+          ]
+        },
+        {
+          "id": "zone_2008aa39_spawn_04",
+          "monsterId": "mon_66f04bed",
+          "name": "大哥布林 刷怪点",
+          "unlockLevel": 8,
+          "weight": 1,
+          "dropPreview": [
+            "回城卷轴",
+            "中瓶治疗药水",
+            "中瓶魔力药水",
+            "苹果",
+            "封印的银箱子"
+          ]
+        },
+        {
+          "id": "zone_2008aa39_spawn_05",
+          "monsterId": "mon_61f282a5",
+          "name": "瓢虫怪 刷怪点",
+          "unlockLevel": 10,
+          "weight": 1,
+          "dropPreview": [
+            "回城卷轴",
+            "中瓶治疗药水",
+            "中瓶魔力药水",
+            "解毒剂",
+            "苹果"
+          ]
+        },
+        {
+          "id": "zone_2008aa39_spawn_06",
+          "monsterId": "mon_60f28112",
+          "name": "偷猎者 刷怪点",
+          "unlockLevel": 13,
+          "weight": 1,
+          "dropPreview": [
+            "玛雅之石",
+            "回城卷轴",
+            "中瓶治疗药水",
+            "中瓶魔力药水",
+            "解毒剂"
+          ]
+        },
+        {
+          "id": "zone_2008aa39_spawn_07",
+          "monsterId": "mon_63f04734",
+          "name": "树妖 刷怪点",
+          "unlockLevel": 15,
+          "weight": 1,
+          "dropPreview": [
+            "玛雅之石",
+            "回城卷轴",
+            "中瓶治疗药水",
+            "中瓶魔力药水",
+            "解毒剂"
+          ]
+        },
+        {
+          "id": "zone_2008aa39_spawn_08",
+          "monsterId": "mon_64f048c7",
+          "name": "亚昆 刷怪点",
+          "unlockLevel": 16,
+          "weight": 1,
+          "dropPreview": [
+            "玛雅之石",
+            "回城卷轴",
+            "中瓶治疗药水",
+            "中瓶魔力药水",
+            "解毒剂"
+          ]
+        },
+        {
+          "id": "zone_2008aa39_spawn_09",
+          "monsterId": "mon_65f04a5a",
+          "name": "石巨人 刷怪点",
+          "unlockLevel": 18,
+          "weight": 1,
+          "dropPreview": [
+            "玛雅之石",
+            "回城卷轴",
+            "中瓶治疗药水",
+            "中瓶魔力药水",
+            "解毒剂"
+          ]
+        }
+      ]
+    },
+    "zone_32c63aa6": {
+      "mode": "single-monster-point",
+      "default": "randomEligible",
+      "points": [
+        {
+          "id": "zone_32c63aa6_spawn_01",
+          "monsterId": "mon_fb747fe5",
+          "name": "蜘蛛 刷怪点",
+          "unlockLevel": 2,
+          "weight": 1,
+          "dropPreview": [
+            "回城卷轴",
+            "小瓶治疗药水",
+            "小瓶魔力药水",
+            "苹果",
+            "封印的银箱子"
+          ]
+        },
+        {
+          "id": "zone_32c63aa6_spawn_02",
+          "monsterId": "mon_eb11dbe1",
+          "name": "怪异的兔子 刷怪点",
+          "unlockLevel": 4,
+          "weight": 1,
+          "dropPreview": [
+            "玛雅之石",
+            "回城卷轴",
+            "小瓶治疗药水",
+            "小瓶魔力药水",
+            "苹果"
+          ]
+        },
+        {
+          "id": "zone_32c63aa6_spawn_03",
+          "monsterId": "mon_ea1418e5",
+          "name": "污染之蝶 刷怪点",
+          "unlockLevel": 13,
+          "weight": 1,
+          "dropPreview": [
+            "玛雅之石",
+            "回城卷轴",
+            "中瓶治疗药水",
+            "中瓶魔力药水",
+            "苹果"
+          ]
+        },
+        {
+          "id": "zone_32c63aa6_spawn_04",
+          "monsterId": "mon_ea11da4e",
+          "name": "疯狂的兔子 刷怪点",
+          "unlockLevel": 19,
+          "weight": 1,
+          "dropPreview": [
+            "玛雅之石",
+            "回城卷轴",
+            "中瓶治疗药水",
+            "中瓶魔力药水",
+            "苹果"
+          ]
+        },
+        {
+          "id": "zone_32c63aa6_spawn_05",
+          "monsterId": "mon_e9141752",
+          "name": "狼人 刷怪点",
+          "unlockLevel": 24,
+          "weight": 1,
+          "dropPreview": [
+            "玛雅之石",
+            "回城卷轴",
+            "中瓶治疗药水",
+            "中瓶魔力药水",
+            "苹果"
+          ]
+        },
+        {
+          "id": "zone_32c63aa6_spawn_06",
+          "monsterId": "mon_e714142c",
+          "name": "诅咒巫师 刷怪点",
+          "unlockLevel": 30,
+          "weight": 1,
+          "dropPreview": [
+            "祝福宝石",
+            "灵魂宝石",
+            "玛雅之石",
+            "回城卷轴",
+            "中瓶治疗药水"
+          ]
+        },
+        {
+          "id": "zone_32c63aa6_spawn_07",
+          "monsterId": "mon_e81415bf",
+          "name": "图腾树人 刷怪点",
+          "unlockLevel": 36,
+          "weight": 1,
+          "dropPreview": [
+            "祝福宝石",
+            "灵魂宝石",
+            "玛雅之石",
+            "回城卷轴",
+            "中瓶治疗药水"
+          ]
+        },
+        {
+          "id": "zone_32c63aa6_spawn_08",
+          "monsterId": "mon_e5141106",
+          "name": "灰熊 刷怪点",
+          "unlockLevel": 43,
+          "weight": 1,
+          "dropPreview": [
+            "祝福宝石",
+            "灵魂宝石",
+            "玛雅之石",
+            "回城卷轴",
+            "中瓶治疗药水"
+          ]
+        },
+        {
+          "id": "zone_32c63aa6_spawn_09",
+          "monsterId": "mon_e6141299",
+          "name": "残暴的灰熊 刷怪点",
+          "unlockLevel": 48,
+          "weight": 1,
+          "dropPreview": [
+            "祝福宝石",
+            "灵魂宝石",
+            "玛雅之石",
+            "回城卷轴",
+            "中瓶治疗药水"
+          ]
+        }
+      ]
+    },
+    "zone_f689d9c6": {
+      "mode": "single-monster-point",
+      "default": "randomEligible",
+      "points": [
+        {
+          "id": "zone_f689d9c6_spawn_01",
+          "monsterId": "mon_8fc1aa71",
+          "name": "骷髅兵 刷怪点",
+          "unlockLevel": 19,
+          "weight": 1,
+          "dropPreview": [
+            "玛雅之石",
+            "守护天使",
+            "小恶魔",
+            "兽角",
+            "回城卷轴"
+          ]
+        },
+        {
+          "id": "zone_f689d9c6_spawn_02",
+          "monsterId": "mon_91c1ad97",
+          "name": "毒虫 刷怪点",
+          "unlockLevel": 25,
+          "weight": 1,
+          "dropPreview": [
+            "祝福宝石",
+            "玛雅之石",
+            "守护天使",
+            "小恶魔",
+            "兽角"
+          ]
+        },
+        {
+          "id": "zone_f689d9c6_spawn_03",
+          "monsterId": "mon_8cc1a5b8",
+          "name": "独眼巨人 刷怪点",
+          "unlockLevel": 28,
+          "weight": 1,
+          "dropPreview": [
+            "祝福宝石",
+            "玛雅之石",
+            "守护天使",
+            "小恶魔",
+            "兽角"
+          ]
+        },
+        {
+          "id": "zone_f689d9c6_spawn_04",
+          "monsterId": "mon_92c1af2a",
+          "name": "幽灵 刷怪点",
+          "unlockLevel": 32,
+          "weight": 1,
+          "dropPreview": [
+            "祝福宝石",
+            "灵魂宝石",
+            "玛雅之石",
+            "守护天使",
+            "小恶魔"
+          ]
+        },
+        {
+          "id": "zone_f689d9c6_spawn_05",
+          "monsterId": "mon_8ec1a8de",
+          "name": "骷髅弓箭手 刷怪点",
+          "unlockLevel": 34,
+          "weight": 1,
+          "dropPreview": [
+            "祝福宝石",
+            "灵魂宝石",
+            "玛雅之石",
+            "守护天使",
+            "小恶魔"
+          ]
+        },
+        {
+          "id": "zone_f689d9c6_spawn_06",
+          "monsterId": "mon_b9643013",
+          "name": "地狱猎犬怪 刷怪点",
+          "unlockLevel": 38,
+          "weight": 1,
+          "dropPreview": [
+            "祝福宝石",
+            "灵魂宝石",
+            "玛雅之石",
+            "守护天使",
+            "小恶魔"
+          ]
+        },
+        {
+          "id": "zone_f689d9c6_spawn_07",
+          "monsterId": "mon_90c1ac04",
+          "name": "地狱蜘蛛 刷怪点",
+          "unlockLevel": 40,
+          "weight": 1,
+          "dropPreview": [
+            "祝福宝石",
+            "灵魂宝石",
+            "玛雅之石",
+            "守护天使",
+            "小恶魔"
+          ]
+        },
+        {
+          "id": "zone_f689d9c6_spawn_08",
+          "monsterId": "mon_8dc1a74b",
+          "name": "骷髅战士 刷怪点",
+          "unlockLevel": 42,
+          "weight": 1,
+          "dropPreview": [
+            "祝福宝石",
+            "灵魂宝石",
+            "玛雅之石",
+            "守护天使",
+            "小恶魔"
+          ]
+        },
+        {
+          "id": "zone_f689d9c6_spawn_09",
+          "monsterId": "mon_c56442f7",
+          "name": "死灵巫师 刷怪点",
+          "unlockLevel": 44,
+          "weight": 1,
+          "dropPreview": [
+            "祝福宝石",
+            "灵魂宝石",
+            "玛雅之石",
+            "守护天使",
+            "小恶魔"
+          ]
+        },
+        {
+          "id": "zone_f689d9c6_spawn_10",
+          "monsterId": "mon_c4644164",
+          "name": "毒牛怪 刷怪点",
+          "unlockLevel": 46,
+          "weight": 1,
+          "dropPreview": [
+            "祝福宝石",
+            "灵魂宝石",
+            "玛雅之石",
+            "守护天使",
+            "小恶魔"
+          ]
+        },
+        {
+          "id": "zone_f689d9c6_spawn_11",
+          "monsterId": "mon_93c1b0bd",
+          "name": "暗黑骑士 刷怪点",
+          "unlockLevel": 48,
+          "weight": 1,
+          "dropPreview": [
+            "祝福宝石",
+            "灵魂宝石",
+            "玛雅之石",
+            "守护天使",
+            "小恶魔"
+          ]
+        },
+        {
+          "id": "zone_f689d9c6_spawn_12",
+          "monsterId": "mon_8bc1a425",
+          "name": "魔鬼戈登 刷怪点",
+          "unlockLevel": 55,
+          "weight": 1,
+          "dropPreview": [
+            "卓越的黄金盔",
+            "卓越的黄金铠",
+            "卓越的黄金护腿",
+            "卓越的黄金护手",
+            "卓越的黄金靴"
+          ]
+        }
+      ]
+    },
+    "zone_f471c1d3": {
+      "mode": "single-monster-point",
+      "default": "randomEligible",
+      "points": [
+        {
+          "id": "zone_f471c1d3_spawn_01",
+          "monsterId": "mon_c99486ec",
+          "name": "雪虫 刷怪点",
+          "unlockLevel": 20,
+          "weight": 1,
+          "dropPreview": [
+            "玛雅之石",
+            "守护天使",
+            "小恶魔",
+            "兽角",
+            "回城卷轴"
+          ]
+        },
+        {
+          "id": "zone_f471c1d3_spawn_02",
+          "monsterId": "mon_c79483c6",
+          "name": "寒冰魔 刷怪点",
+          "unlockLevel": 22,
+          "weight": 1,
+          "dropPreview": [
+            "玛雅之石",
+            "守护天使",
+            "小恶魔",
+            "兽角",
+            "回城卷轴"
+          ]
+        },
+        {
+          "id": "zone_f471c1d3_spawn_03",
+          "monsterId": "mon_c8948559",
+          "name": "蓝魔怪 刷怪点",
+          "unlockLevel": 24,
+          "weight": 1,
+          "dropPreview": [
+            "玛雅之石",
+            "守护天使",
+            "小恶魔",
+            "兽角",
+            "回城卷轴"
+          ]
+        },
+        {
+          "id": "zone_f471c1d3_spawn_04",
+          "monsterId": "mon_c6948233",
+          "name": "暗杀者 刷怪点",
+          "unlockLevel": 26,
+          "weight": 1,
+          "dropPreview": [
+            "祝福宝石",
+            "玛雅之石",
+            "守护天使",
+            "小恶魔",
+            "兽角"
+          ]
+        },
+        {
+          "id": "zone_f471c1d3_spawn_05",
+          "monsterId": "mon_4e9c1410",
+          "name": "雪人 刷怪点",
+          "unlockLevel": 30,
+          "weight": 1,
+          "dropPreview": [
+            "祝福宝石",
+            "灵魂宝石",
+            "玛雅之石",
+            "守护天使",
+            "小恶魔"
+          ]
+        },
+        {
+          "id": "zone_f471c1d3_spawn_06",
+          "monsterId": "mon_c59480a0",
+          "name": "雪人王 刷怪点",
+          "unlockLevel": 36,
+          "weight": 1,
+          "dropPreview": [
+            "祝福宝石",
+            "灵魂宝石",
+            "玛雅之石",
+            "守护天使",
+            "小恶魔"
+          ]
+        },
+        {
+          "id": "zone_f471c1d3_spawn_07",
+          "monsterId": "mon_ca94887f",
+          "name": "冰后 刷怪点",
+          "unlockLevel": 52,
+          "weight": 1,
+          "dropPreview": [
+            "卓越的翡翠盔",
+            "卓越的翡翠铠",
+            "卓越的翡翠护腿",
+            "卓越的翡翠护手",
+            "卓越的翡翠靴"
+          ]
+        }
+      ]
+    },
+    "zone_9f2b14b4": {
+      "mode": "single-monster-point",
+      "default": "randomEligible",
+      "points": [
+        {
+          "id": "zone_9f2b14b4_spawn_01",
+          "monsterId": "mon_69068077",
+          "name": "鬼魂 刷怪点",
+          "unlockLevel": 47,
+          "weight": 1,
+          "dropPreview": [
+            "祝福宝石",
+            "灵魂宝石",
+            "玛雅之石",
+            "守护天使",
+            "小恶魔"
+          ]
+        },
+        {
+          "id": "zone_9f2b14b4_spawn_02",
+          "monsterId": "mon_5e066f26",
+          "name": "剧毒鬼魂 刷怪点",
+          "unlockLevel": 50,
+          "weight": 1,
+          "dropPreview": [
+            "祝福宝石",
+            "灵魂宝石",
+            "玛雅之石",
+            "守护天使",
+            "小恶魔"
+          ]
+        },
+        {
+          "id": "zone_9f2b14b4_spawn_03",
+          "monsterId": "mon_6b06839d",
+          "name": "诅咒巫师 刷怪点",
+          "unlockLevel": 54,
+          "weight": 1,
+          "dropPreview": [
+            "祝福宝石",
+            "灵魂宝石",
+            "玛雅之石",
+            "守护天使",
+            "小恶魔"
+          ]
+        },
+        {
+          "id": "zone_9f2b14b4_spawn_04",
+          "monsterId": "mon_661347b1",
+          "name": "牛魔王 刷怪点",
+          "unlockLevel": 57,
+          "weight": 1,
+          "dropPreview": [
+            "祝福宝石",
+            "灵魂宝石",
+            "玛雅之石",
+            "守护天使",
+            "小恶魔"
+          ]
+        },
+        {
+          "id": "zone_9f2b14b4_spawn_05",
+          "monsterId": "mon_68067ee4",
+          "name": "恶魔 刷怪点",
+          "unlockLevel": 60,
+          "weight": 1,
+          "dropPreview": [
+            "祝福宝石",
+            "灵魂宝石",
+            "玛雅之石",
+            "守护天使",
+            "小恶魔"
+          ]
+        },
+        {
+          "id": "zone_9f2b14b4_spawn_06",
+          "monsterId": "mon_6513461e",
+          "name": "死神骑士 刷怪点",
+          "unlockLevel": 62,
+          "weight": 1,
+          "dropPreview": [
+            "祝福宝石",
+            "灵魂宝石",
+            "玛雅之石",
+            "守护天使",
+            "小恶魔"
+          ]
+        },
+        {
+          "id": "zone_9f2b14b4_spawn_07",
+          "monsterId": "mon_6a06820a",
+          "name": "死神戈登 刷怪点",
+          "unlockLevel": 64,
+          "weight": 1,
+          "dropPreview": [
+            "祝福宝石",
+            "灵魂宝石",
+            "玛雅之石",
+            "守护天使",
+            "小恶魔"
+          ]
+        },
+        {
+          "id": "zone_9f2b14b4_spawn_08",
+          "monsterId": "mon_5f0670b9",
+          "name": "魔王巴洛克 刷怪点",
+          "unlockLevel": 66,
+          "weight": 1,
+          "dropPreview": [
+            "卓越的龙王之盔",
+            "卓越的龙王之铠",
+            "卓越的龙王护腿",
+            "卓越的龙王护手",
+            "卓越的龙王之靴"
+          ]
+        }
+      ]
+    },
+    "zone_783980e5": {
+      "mode": "single-monster-point",
+      "default": "randomEligible",
+      "points": [
+        {
+          "id": "zone_783980e5_spawn_01",
+          "monsterId": "mon_c384df94",
+          "name": "小巴哈姆特 刷怪点",
+          "unlockLevel": 43,
+          "weight": 1,
+          "dropPreview": [
+            "祝福宝石",
+            "灵魂宝石",
+            "玛雅之石",
+            "守护天使",
+            "小恶魔"
+          ]
+        },
+        {
+          "id": "zone_783980e5_spawn_02",
+          "monsterId": "mon_c684e44d",
+          "name": "死亡美人鱼 刷怪点",
+          "unlockLevel": 45,
+          "weight": 1,
+          "dropPreview": [
+            "祝福宝石",
+            "灵魂宝石",
+            "玛雅之石",
+            "守护天使",
+            "小恶魔"
+          ]
+        },
+        {
+          "id": "zone_783980e5_spawn_03",
+          "monsterId": "mon_c584e2ba",
+          "name": "蓝翼海怪 刷怪点",
+          "unlockLevel": 46,
+          "weight": 1,
+          "dropPreview": [
+            "祝福宝石",
+            "灵魂宝石",
+            "玛雅之石",
+            "守护天使",
+            "小恶魔"
+          ]
+        },
+        {
+          "id": "zone_783980e5_spawn_04",
+          "monsterId": "mon_bb829465",
+          "name": "大巴哈姆特 刷怪点",
+          "unlockLevel": 66,
+          "weight": 1,
+          "dropPreview": [
+            "祝福宝石",
+            "灵魂宝石",
+            "玛雅之石",
+            "守护天使",
+            "小恶魔"
+          ]
+        },
+        {
+          "id": "zone_783980e5_spawn_05",
+          "monsterId": "mon_b8828fac",
+          "name": "银弓海怪 刷怪点",
+          "unlockLevel": 68,
+          "weight": 1,
+          "dropPreview": [
+            "祝福宝石",
+            "灵魂宝石",
+            "玛雅之石",
+            "守护天使",
+            "小恶魔"
+          ]
+        },
+        {
+          "id": "zone_783980e5_spawn_06",
+          "monsterId": "mon_b884ce43",
+          "name": "巫师王 刷怪点",
+          "unlockLevel": 70,
+          "weight": 1,
+          "dropPreview": [
+            "祝福宝石",
+            "灵魂宝石",
+            "玛雅之石",
+            "守护天使",
+            "小恶魔"
+          ]
+        },
+        {
+          "id": "zone_783980e5_spawn_07",
+          "monsterId": "mon_b784ccb0",
+          "name": "海魔希特拉 刷怪点",
+          "unlockLevel": 74,
+          "weight": 1,
+          "dropPreview": [
+            "卓越的暴风之盔",
+            "卓越的暴风之铠",
+            "卓越的暴风护腿",
+            "卓越的暴风护手",
+            "卓越的暴风之靴"
+          ]
+        }
+      ]
+    },
+    "zone_798863a5": {
+      "mode": "single-monster-point",
+      "default": "randomEligible",
+      "points": [
+        {
+          "id": "zone_798863a5_spawn_01",
+          "monsterId": "mon_c9e52f46",
+          "name": "铁脊怪 刷怪点",
+          "unlockLevel": 72,
+          "weight": 1,
+          "dropPreview": [
+            "祝福宝石",
+            "灵魂宝石",
+            "玛雅之石",
+            "生命宝石",
+            "回城卷轴"
+          ]
+        },
+        {
+          "id": "zone_798863a5_spawn_02",
+          "monsterId": "mon_c7e52c20",
+          "name": "巨齿兽 刷怪点",
+          "unlockLevel": 76,
+          "weight": 1,
+          "dropPreview": [
+            "祝福宝石",
+            "灵魂宝石",
+            "玛雅之石",
+            "生命宝石",
+            "回城卷轴"
+          ]
+        },
+        {
+          "id": "zone_798863a5_spawn_03",
+          "monsterId": "mon_5eecd59a",
+          "name": "铁轮战士 刷怪点",
+          "unlockLevel": 80,
+          "weight": 1,
+          "dropPreview": [
+            "祝福宝石",
+            "灵魂宝石",
+            "生命宝石",
+            "创造宝石",
+            "洛克之羽"
+          ]
+        },
+        {
+          "id": "zone_798863a5_spawn_04",
+          "monsterId": "mon_51ecc123",
+          "name": "破坏骑士 刷怪点",
+          "unlockLevel": 83,
+          "weight": 1,
+          "dropPreview": [
+            "祝福宝石",
+            "灵魂宝石",
+            "生命宝石",
+            "创造宝石",
+            "洛克之羽"
+          ]
+        },
+        {
+          "id": "zone_798863a5_spawn_05",
+          "monsterId": "mon_c8e52db3",
+          "name": "黑炎魔 刷怪点",
+          "unlockLevel": 84,
+          "weight": 1,
+          "dropPreview": [
+            "祝福宝石",
+            "灵魂宝石",
+            "生命宝石",
+            "创造宝石",
+            "洛克之羽"
+          ]
+        },
+        {
+          "id": "zone_798863a5_spawn_06",
+          "monsterId": "mon_50ecbf90",
+          "name": "魔王扎坎 刷怪点",
+          "unlockLevel": 90,
+          "weight": 1,
+          "dropPreview": [
+            "祝福宝石",
+            "灵魂宝石",
+            "生命宝石",
+            "创造宝石",
+            "洛克之羽"
+          ]
+        },
+        {
+          "id": "zone_798863a5_spawn_07",
+          "monsterId": "mon_cae530d9",
+          "name": "炽炎魔 刷怪点",
+          "unlockLevel": 93,
+          "weight": 1,
+          "dropPreview": [
+            "祝福宝石",
+            "灵魂宝石",
+            "生命宝石",
+            "创造宝石",
+            "洛克之羽"
+          ]
+        }
+      ]
+    },
+    "zone_3ad3ce87": {
+      "mode": "single-monster-point",
+      "default": "randomEligible",
+      "points": [
+        {
+          "id": "zone_3ad3ce87_spawn_01",
+          "monsterId": "mon_e0e9671e",
+          "name": "阿卡摩斯 刷怪点",
+          "unlockLevel": 75,
+          "weight": 1,
+          "dropPreview": [
+            "祝福宝石",
+            "灵魂宝石",
+            "玛雅之石",
+            "生命宝石",
+            "洛克之羽"
+          ]
+        },
+        {
+          "id": "zone_3ad3ce87_spawn_02",
+          "monsterId": "mon_d4e715a3",
+          "name": "恶灵 刷怪点",
+          "unlockLevel": 78,
+          "weight": 1,
+          "dropPreview": [
+            "祝福宝石",
+            "灵魂宝石",
+            "生命宝石",
+            "创造宝石",
+            "洛克之羽"
+          ]
+        },
+        {
+          "id": "zone_3ad3ce87_spawn_03",
+          "monsterId": "mon_d3e71410",
+          "name": "风后 刷怪点",
+          "unlockLevel": 82,
+          "weight": 1,
+          "dropPreview": [
+            "祝福宝石",
+            "灵魂宝石",
+            "生命宝石",
+            "创造宝石",
+            "洛克之羽"
+          ]
+        },
+        {
+          "id": "zone_3ad3ce87_spawn_04",
+          "monsterId": "mon_d6e718c9",
+          "name": "蓝魔龙 刷怪点",
+          "unlockLevel": 86,
+          "weight": 1,
+          "dropPreview": [
+            "祝福宝石",
+            "灵魂宝石",
+            "生命宝石",
+            "创造宝石",
+            "洛克之羽"
+          ]
+        },
+        {
+          "id": "zone_3ad3ce87_spawn_05",
+          "monsterId": "mon_d7e71a5c",
+          "name": "恶灵王 刷怪点",
+          "unlockLevel": 92,
+          "weight": 1,
+          "dropPreview": [
+            "祝福宝石",
+            "灵魂宝石",
+            "生命宝石",
+            "创造宝石",
+            "洛克之羽"
+          ]
+        },
+        {
+          "id": "zone_3ad3ce87_spawn_06",
+          "monsterId": "mon_d5e71736",
+          "name": "幻影骑士 刷怪点",
+          "unlockLevel": 96,
+          "weight": 1,
+          "dropPreview": [
+            "祝福宝石",
+            "灵魂宝石",
+            "生命宝石",
+            "创造宝石",
+            "洛克之羽"
+          ]
+        },
+        {
+          "id": "zone_3ad3ce87_spawn_07",
+          "monsterId": "mon_d8e71bef",
+          "name": "红魔龙 刷怪点",
+          "unlockLevel": 100,
+          "weight": 1,
+          "dropPreview": [
+            "祝福宝石",
+            "灵魂宝石",
+            "生命宝石",
+            "创造宝石",
+            "洛克之羽"
+          ]
+        },
+        {
+          "id": "zone_3ad3ce87_spawn_08",
+          "monsterId": "mon_dae71f15",
+          "name": "天魔菲尼斯 刷怪点",
+          "unlockLevel": 108,
+          "weight": 1,
+          "dropPreview": [
+            "祝福宝石",
+            "灵魂宝石",
+            "生命宝石",
+            "创造宝石",
+            "昆顿印记"
+          ]
+        }
+      ]
+    },
+    "zone_0b70152a": {
+      "mode": "single-monster-point",
+      "default": "randomEligible",
+      "points": [
+        {
+          "id": "zone_0b70152a_spawn_01",
+          "monsterId": "mon_af5bb869",
+          "name": "丛林树精灵 刷怪点",
+          "unlockLevel": 72,
+          "weight": 1,
+          "dropPreview": [
+            "祝福宝石",
+            "灵魂宝石",
+            "玛雅之石",
+            "生命宝石",
+            "回城卷轴"
+          ]
+        },
+        {
+          "id": "zone_0b70152a_spawn_02",
+          "monsterId": "mon_b85bc694",
+          "name": "丛林残暴者 刷怪点",
+          "unlockLevel": 74,
+          "weight": 1,
+          "dropPreview": [
+            "祝福宝石",
+            "灵魂宝石",
+            "玛雅之石",
+            "生命宝石",
+            "回城卷轴"
+          ]
+        },
+        {
+          "id": "zone_0b70152a_spawn_03",
+          "monsterId": "mon_b95bc827",
+          "name": "丛林暗杀者 刷怪点",
+          "unlockLevel": 78,
+          "weight": 1,
+          "dropPreview": [
+            "祝福宝石",
+            "灵魂宝石",
+            "生命宝石",
+            "创造宝石",
+            "洛克之羽"
+          ]
+        },
+        {
+          "id": "zone_0b70152a_spawn_04",
+          "monsterId": "mon_ba5bc9ba",
+          "name": "丛林生命体 刷怪点",
+          "unlockLevel": 84,
+          "weight": 1,
+          "dropPreview": [
+            "祝福宝石",
+            "灵魂宝石",
+            "生命宝石",
+            "创造宝石",
+            "洛克之羽"
+          ]
+        },
+        {
+          "id": "zone_0b70152a_spawn_05",
+          "monsterId": "mon_bb5bcb4d",
+          "name": "丛林女巫师 刷怪点",
+          "unlockLevel": 94,
+          "weight": 1,
+          "dropPreview": [
+            "祝福宝石",
+            "灵魂宝石",
+            "生命宝石",
+            "创造宝石",
+            "洛克之羽"
+          ]
+        },
+        {
+          "id": "zone_0b70152a_spawn_06",
+          "monsterId": "mon_ae5bb6d6",
+          "name": "丛林召唤者 刷怪点",
+          "unlockLevel": 98,
+          "weight": 1,
+          "dropPreview": [
+            "祝福宝石",
+            "灵魂宝石",
+            "生命宝石",
+            "创造宝石",
+            "洛克之羽"
+          ]
+        },
+        {
+          "id": "zone_0b70152a_spawn_07",
+          "monsterId": "mon_04bdb4d8",
+          "name": "血色兽人 刷怪点",
+          "unlockLevel": 114,
+          "weight": 1,
+          "dropPreview": [
+            "祝福宝石",
+            "灵魂宝石",
+            "生命宝石",
+            "创造宝石",
+            "洛克之羽"
+          ]
+        },
+        {
+          "id": "zone_0b70152a_spawn_08",
+          "monsterId": "mon_17bb942a",
+          "name": "血色亡灵 刷怪点",
+          "unlockLevel": 115,
+          "weight": 1,
+          "dropPreview": [
+            "祝福宝石",
+            "灵魂宝石",
+            "生命宝石",
+            "创造宝石",
+            "洛克之羽"
+          ]
+        },
+        {
+          "id": "zone_0b70152a_spawn_09",
+          "monsterId": "mon_18bb95bd",
+          "name": "血色石人 刷怪点",
+          "unlockLevel": 117,
+          "weight": 1,
+          "dropPreview": [
+            "祝福宝石",
+            "灵魂宝石",
+            "生命宝石",
+            "创造宝石",
+            "洛克之羽"
+          ]
+        },
+        {
+          "id": "zone_0b70152a_spawn_10",
+          "monsterId": "mon_15bb9104",
+          "name": "血色魔女王 刷怪点",
+          "unlockLevel": 120,
+          "weight": 1,
+          "dropPreview": [
+            "祝福宝石",
+            "灵魂宝石",
+            "生命宝石",
+            "创造宝石",
+            "洛克之羽"
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "branch": "guardian",
+  "name": "守护物属性数据库",
+  "source": "剑士装备库/output(全职业守护物）/装备数据.json",
+  "attributes": [
+    {
+      "id": "goldAutoPickup",
+      "label": "自动拾取周围的金币",
+      "appliesTo": [
+        "guardian"
+      ]
+    },
+    {
+      "id": "zenOnKill",
+      "label": "金币获得量提高",
+      "appliesTo": [
+        "guardian"
+      ]
+    },
+    {
+      "id": "defenseFlat",
+      "label": "防御力",
+      "appliesTo": [
+        "guardian"
+      ]
+    },
+    {
+      "id": "damageIncrease",
+      "label": "攻击力提高",
+      "appliesTo": [
+        "guardian"
+      ]
+    },
+    {
+      "id": "damageAbsorb",
+      "label": "伤害吸收",
+      "appliesTo": [
+        "guardian"
+      ]
+    },
+    {
+      "id": "lifeFlat",
+      "label": "最大生命力",
+      "appliesTo": [
+        "guardian"
+      ]
+    },
+    {
+      "id": "attackSpeed",
+      "label": "攻击速度提高",
+      "appliesTo": [
+        "guardian"
+      ]
+    },
+    {
+      "id": "expBonus",
+      "label": "经验值提高",
+      "appliesTo": [
+        "guardian"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,309 @@
+[
+  {
+    "id": "eq_54e76f81",
+    "name": "东洋刀",
+    "category": "单手剑",
+    "classes": [
+      "剑士"
+    ],
+    "requiredLevel": 1,
+    "dropLevel": 1,
+    "statMin": 16,
+    "statMax": 26,
+    "requiredStrength": 58,
+    "requiredAgility": 39,
+    "requiredEnergy": 0,
+    "requiredCommand": 0,
+    "durability": 10,
+    "speed": 0,
+    "dropMaps": [
+      "冰风谷"
+    ],
+    "officialEffect": "无",
+    "kind": "weapon",
+    "slot": "weapon",
+    "quality": "normal",
+    "attackMin": 16,
+    "attackMax": 26
+  },
+  {
+    "id": "eq_872a6938",
+    "name": "短剑",
+    "category": "单手剑",
+    "classes": [
+      "剑士"
+    ],
+    "requiredLevel": 1,
+    "dropLevel": 1,
+    "statMin": 3,
+    "statMax": 7,
+    "requiredStrength": 25,
+    "requiredAgility": 0,
+    "requiredEnergy": 0,
+    "requiredCommand": 0,
+    "durability": 10,
+    "speed": 0,
+    "dropMaps": [
+      "勇者大陆"
+    ],
+    "officialEffect": "无",
+    "kind": "weapon",
+    "slot": "weapon",
+    "quality": "normal",
+    "attackMin": 3,
+    "attackMax": 7
+  },
+  {
+    "id": "eq_ae4ad801",
+    "name": "西洋剑",
+    "category": "单手剑",
+    "classes": [
+      "剑士"
+    ],
+    "requiredLevel": 1,
+    "dropLevel": 10,
+    "statMin": 9,
+    "statMax": 15,
+    "requiredStrength": 33,
+    "requiredAgility": 30,
+    "requiredEnergy": 0,
+    "requiredCommand": 0,
+    "durability": 38,
+    "speed": 40,
+    "dropMaps": [],
+    "officialEffect": "无",
+    "kind": "weapon",
+    "slot": "weapon",
+    "quality": "normal",
+    "attackMin": 9,
+    "attackMax": 15
+  },
+  {
+    "id": "eq_56ae729f",
+    "name": "波刃剑",
+    "category": "单手剑",
+    "classes": [
+      "剑士"
+    ],
+    "requiredLevel": 15,
+    "dropLevel": 17,
+    "statMin": 10,
+    "statMax": 18,
+    "requiredStrength": 28,
+    "requiredAgility": 10,
+    "requiredEnergy": 0,
+    "requiredCommand": 0,
+    "durability": 20,
+    "speed": 2,
+    "dropMaps": [
+      "勇者大陆",
+      "地下城"
+    ],
+    "officialEffect": "无",
+    "kind": "weapon",
+    "slot": "weapon",
+    "quality": "normal",
+    "attackMin": 10,
+    "attackMax": 18
+  },
+  {
+    "id": "eq_a3e6ecf1",
+    "name": "暗杀者",
+    "category": "单手剑",
+    "classes": [
+      "剑士"
+    ],
+    "requiredLevel": 30,
+    "dropLevel": 32,
+    "statMin": 18,
+    "statMax": 28,
+    "requiredStrength": 45,
+    "requiredAgility": 15,
+    "requiredEnergy": 0,
+    "requiredCommand": 0,
+    "durability": 30,
+    "speed": 3,
+    "dropMaps": [
+      "地下城",
+      "冰风谷"
+    ],
+    "officialEffect": "无",
+    "kind": "weapon",
+    "slot": "weapon",
+    "quality": "normal",
+    "attackMin": 18,
+    "attackMax": 28
+  },
+  {
+    "id": "eq_4842908e",
+    "name": "真红之剑",
+    "category": "单手剑",
+    "classes": [
+      "剑士"
+    ],
+    "requiredLevel": 45,
+    "dropLevel": 47,
+    "statMin": 28,
+    "statMax": 40,
+    "requiredStrength": 70,
+    "requiredAgility": 20,
+    "requiredEnergy": 0,
+    "requiredCommand": 0,
+    "durability": 40,
+    "speed": 3,
+    "dropMaps": [
+      "冰风谷",
+      "失落之塔"
+    ],
+    "officialEffect": "无",
+    "kind": "weapon",
+    "slot": "weapon",
+    "quality": "normal",
+    "attackMin": 28,
+    "attackMax": 40
+  },
+  {
+    "id": "eq_87909ffd",
+    "name": "极光刀",
+    "category": "单手剑",
+    "classes": [
+      "剑士"
+    ],
+    "requiredLevel": 60,
+    "dropLevel": 62,
+    "statMin": 40,
+    "statMax": 55,
+    "requiredStrength": 100,
+    "requiredAgility": 25,
+    "requiredEnergy": 0,
+    "requiredCommand": 0,
+    "durability": 50,
+    "speed": 4,
+    "dropMaps": [
+      "失落之塔",
+      "亚特兰蒂斯"
+    ],
+    "officialEffect": "无",
+    "kind": "weapon",
+    "slot": "weapon",
+    "quality": "normal",
+    "attackMin": 40,
+    "attackMax": 55
+  },
+  {
+    "id": "eq_f52137ab",
+    "name": "雷神之剑",
+    "category": "单手剑",
+    "classes": [
+      "剑士",
+      "魔剑士"
+    ],
+    "requiredLevel": 100,
+    "dropLevel": 102,
+    "statMin": 75,
+    "statMax": 95,
+    "requiredStrength": 170,
+    "requiredAgility": 40,
+    "requiredEnergy": 0,
+    "requiredCommand": 0,
+    "durability": 80,
+    "speed": 4,
+    "dropMaps": [
+      "死亡沙漠",
+      "天空之城"
+    ],
+    "officialEffect": "最大攻击力+10%、最小攻击力+10%、攻击速度+7、卓越一击概率+10%",
+    "kind": "weapon",
+    "slot": "weapon",
+    "quality": "normal",
+    "attackMin": 75,
+    "attackMax": 95
+  },
+  {
+    "id": "eq_ea21d3a9",
+    "name": "断月之光",
+    "category": "双手剑",
+    "classes": [
+      "剑士",
+      "魔剑士"
+    ],
+    "requiredLevel": 110,
+    "dropLevel": 112,
+    "statMin": 90,
+    "statMax": 110,
+    "requiredStrength": 200,
+    "requiredAgility": 50,
+    "requiredEnergy": 0,
+    "requiredCommand": 0,
+    "durability": 100,
+    "speed": 5,
+    "dropMaps": [
+      "死亡沙漠",
+      "天空之城"
+    ],
+    "officialEffect": "最大攻击力+10%、最小攻击力+10%、攻击速度+7、卓越一击概率+10%",
+    "kind": "weapon",
+    "slot": "weapon",
+    "quality": "normal",
+    "attackMin": 90,
+    "attackMax": 110
+  },
+  {
+    "id": "eq_f777a899",
+    "name": "魔神剑",
+    "category": "双手剑",
+    "classes": [
+      "剑士",
+      "魔剑士"
+    ],
+    "requiredLevel": 120,
+    "dropLevel": 122,
+    "statMin": 105,
+    "statMax": 125,
+    "requiredStrength": 230,
+    "requiredAgility": 60,
+    "requiredEnergy": 0,
+    "requiredCommand": 0,
+    "durability": 120,
+    "speed": 5,
+    "dropMaps": [
+      "天空之城",
+      "卡利玛神庙"
+    ],
+    "officialEffect": "最大攻击力+10%、最小攻击力+10%、攻击速度+7、卓越一击概率+10%",
+    "kind": "weapon",
+    "slot": "weapon",
+    "quality": "normal",
+    "attackMin": 105,
+    "attackMax": 125
+  },
+  {
+    "id": "eq_15dc088e",
+    "name": "大天使之剑",
+    "category": "双手剑",
+    "classes": [
+      "剑士",
+      "魔剑士"
+    ],
+    "requiredLevel": 150,
+    "dropLevel": 150,
+    "statMin": 120,
+    "statMax": 140,
+    "requiredStrength": 280,
+    "requiredAgility": 70,
+    "requiredEnergy": 0,
+    "requiredCommand": 0,
+    "durability": 150,
+    "speed": 6,
+    "dropMaps": [
+      "卡利玛神庙7层",
+      "魔王昆顿"
+    ],
+    "officialEffect": "全属性卓越、技能攻击力+30%、无视防御概率+5%",
+    "kind": "weapon",
+    "slot": "weapon",
+    "quality": "normal",
+    "attackMin": 120,
+    "attackMax": 140
+  }
+]

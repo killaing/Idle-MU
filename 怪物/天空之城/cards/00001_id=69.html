@@ -1,0 +1,2128 @@
+<!doctype html>
+<html data-bs-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Language" content="en">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>阿卡摩斯-奇迹MU-奇迹小册子|奇迹MU数据库资料站</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
+<meta name="keywords" content="奇迹小册子,MU小册子,奇迹数据库,奇迹资料站,MU数据库资料站" />
+<meta name="description" content="奇迹小册子是由DVG.cn整理的关于电脑版网络游戏《奇迹》online的一个综合攻略资料站，奇迹MU小册子的目的是为喜爱奇迹的玩家提供详细的装备数据，道具掉落数据，地图怪物分布数据，技能模拟器，综合职业攻略，历代版本更新等实用资料。">
+<meta name="msapplication-tap-highlight" content="no">
+<link href="/ui_baodianv2/bootstrap5/css/bootstrap.css" rel="stylesheet">
+<link href="/ui_baodianv2/fontawesome-free-5.15.4-web/css/all.css" rel="stylesheet">
+<link href="/ui_baodianv2/css/main_2023.css?v=2024011301" rel="stylesheet">
+<link href="/ui_baodianv2/css/kuozhan.css?v=2024011301" rel="stylesheet">
+<script src="/ui_baodianv2/js/jquery-2.1.4.min.js"></script>
+<script src="/ui_baodianv2/js/vue.global.js"></script>
+<script src="/ui_baodianv2/js/axios.min.js"></script>
+<!--  --></head>
+<body>
+<div class="app-container app-theme-black body-tabs-shadow fixed-sidebar fixed-header closed-sidebar">
+		<div class="app-header header-shadow bg-dark header-text-light">
+            <div class="app-header__logo"> 
+                <div class="header__pane ml-auto z-3">
+                    <div>
+                        <button type="button" class="hamburger close-sidebar-btn hamburger--elastic" data-class="closed-sidebar">
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="app-header__mobile-menu z-3">
+                <div>
+                    <button type="button" class="hamburger hamburger--elastic mobile-toggle-nav">
+                        <span class="hamburger-box">
+                            <span class="hamburger-inner"></span>
+                        </span>
+                    </button>
+                </div>
+            </div>
+            <div class="app-header__menu z-3">
+                <span>
+                    <button type="button" data-bs-toggle="modal" data-bs-target="#search-model" class="btn-sm mr-2 btn-icon btn-icon-only btn-pill btn btn-primary ">
+                        <i class="fas fa-search btn-icon-wrapper"> </i>
+                    </button>
+                </span>
+				<span class="d-none">
+				   <a href="/user/uinfo.php" class="btn-sm btn-icon btn-icon-only btn-pill btn btn-primary"><i class="fas fa-user btn-icon-wrapper"> </i></a>
+				</span>	
+            </div>    
+			<div class="baodian_logo z-3"><a href="/" class="d-flex align-items-center gap-2"><img src="/ui_baodianv2/images/mu_icon_1.png" class="logo_icon"> 奇迹小册子</a></div>
+			<div class="baodian_nav z-3"> 
+			  <ul class="yyui_menu1">
+				  <li class="li-p"><a href="/job_info.php?uclass=1">职业专题 <i class=" ml-1 fa fa-chevron-down"  aria-hidden="true" ></i></a>
+				    <ul class="one">
+						
+				      <li><a href="/job_info.php?uclass=1">魔法师</a></li>
+				    	
+				      <li><a href="/job_info.php?uclass=2">剑士</a></li>
+				    	
+				      <li><a href="/job_info.php?uclass=3">弓箭手</a></li>
+				    	
+				      <li><a href="/job_info.php?uclass=4">魔剑士</a></li>
+				    	
+				      <li><a href="/job_info.php?uclass=5">圣导师</a></li>
+				    	
+				      <li><a href="/job_info.php?uclass=6">召唤术师</a></li>
+				    	
+				      <li><a href="/job_info.php?uclass=7">格斗家</a></li>
+				    	
+				      <li><a href="/job_info.php?uclass=8">梦幻骑士</a></li>
+				    	
+				      <li><a href="/job_info.php?uclass=9">符文法师</a></li>
+				    	
+				      <li><a href="/job_info.php?uclass=10">疾风</a></li>
+				    	
+				      <li><a href="/job_info.php?uclass=11">火枪手</a></li>
+				    	
+				      <li><a href="/job_info.php?uclass=12">光明法师</a></li>
+				    	
+				      <li><a href="/job_info.php?uclass=13">圣光学者</a></li>
+				    	
+				      <li><a href="/job_info.php?uclass=14">赤色战士</a></li>
+				    	
+				      <li><a href="/job_info.php?uclass=15">炼金术士</a></li>
+				    	
+				      <li><a href="/job_info.php?uclass=16">圣骑士</a></li>
+				      
+				    </ul>
+				  </li>
+				  
+			    <li class="li-p"><a href="/item_list.php">装备道具 <i class=" ml-1 fa fa-chevron-down"  aria-hidden="true" ></i></a>
+			      <ul class="one">
+			        <li><a href="/item_list.php?type=1" class="more">武器</a>
+			          <ul class="two">
+			            <li ><a href="/item_list.php?type=1" >剑</a></li>
+			            <li ><a href="/item_list.php?type=2" >魔剑</a></li>
+			            <li ><a href="/item_list.php?type=4" >斧</a></li>
+			            <li ><a href="/item_list.php?type=5" >槌</a></li>
+			            <li ><a href="/item_list.php?type=8" >弓</a></li>
+			            <li ><a href="/item_list.php?type=9" >弩</a></li>
+			            <li ><a href="/item_list.php?type=75" >箭袋</a></li>
+			            <li ><a href="/item_list.php?type=7" >长矛</a></li>
+			            <li ><a href="/item_list.php?type=12" >法杖</a></li>
+			            <li ><a href="/item_list.php?type=13" >魔杖</a></li>
+			            <li ><a href="/item_list.php?type=14" >法书</a></li>
+			            <li ><a href="/item_list.php?type=6" >权杖</a></li>
+			            <li ><a href="/item_list.php?type=78" >符文魔棒</a></li>
+			            <li ><a href="/item_list.php?type=3" >拳套</a></li>
+			            <li ><a href="/item_list.php?type=81" >短剑</a></li>
+			            <li ><a href="/item_list.php?type=15" >盾牌</a></li>
+			            <li ><a href="/item_list.php?type=84" >魔法枪</a></li>
+						<li ><a href="/item_list.php?type=89" >魔法书</a></li>
+						<li ><a href="/item_list.php?type=90" >宝珠</a></li>
+						<li ><a href="/item_list.php?typex=901" >幻影剑</a></li>
+						<li ><a href="/item_list.php?type=115" >炼金杖</a></li>
+						<li ><a href="/item_list.php?type=114" >圣水</a></li>
+						<li ><a href="/item_list.php?type=123" >战锤</a></li>
+			          </ul>
+			        </li>
+					<li><a href="/item_list.php?type=16" class="more">防具</a>
+					  <ul class="two">
+					    <li ><a href="/item_list.php?type=16" >头盔</a></li>
+					    <li ><a href="/item_list.php?type=17" >铠甲</a></li>
+					    <li ><a href="/item_list.php?type=18" >护腿</a></li>
+					    <li ><a href="/item_list.php?type=19" >护手</a></li>
+					    <li ><a href="/item_list.php?type=20" >靴子</a></li>
+					  </ul>
+					</li>
+					<li ><div ><a href="/item_list.php?atype=8">元素道具 </a></div></li>
+					<li ><div ><a href="/item_list.php?atype=6">翅膀 <span class="layui-badge-dot"></span></a></div></li>	
+					<li ><div ><a href="/earring_list.php">耳环 <span class="layui-badge-dot"></span></a></div></li>
+					<li ><div ><a href="/item_list.php?atype=4">戒指 </a></div></li>
+					<li ><div ><a href="/item_list.php?atype=2">项链 <span class="layui-badge-dot"></span></a></div></li>
+					<li ><div ><a href="/item_list.php?atype=20">坐骑 <span class="layui-badge-dot"></span></a></div></li>
+					<li ><div ><a href="/tools/shenqi.php">神器道具 <span class="layui-badge-dot"></span></a></div></li>
+					<li><a href="/set_list.php?uclass=2" class="more">套装</a>
+					  <ul class="two">
+						  			             <li ><a href="/set_list.php?uclass=1" >魔法师</a></li>
+			             			             <li ><a href="/set_list.php?uclass=2" >剑士</a></li>
+			             			             <li ><a href="/set_list.php?uclass=3" >弓箭手</a></li>
+			             			             <li ><a href="/set_list.php?uclass=4" >魔剑士</a></li>
+			             			             <li ><a href="/set_list.php?uclass=5" >圣导师</a></li>
+			             			             <li ><a href="/set_list.php?uclass=6" >召唤术师</a></li>
+			             			             <li ><a href="/set_list.php?uclass=7" >格斗家</a></li>
+			             			             <li ><a href="/set_list.php?uclass=8" >梦幻骑士</a></li>
+			             			             <li ><a href="/set_list.php?uclass=9" >符文法师</a></li>
+			             			             <li ><a href="/set_list.php?uclass=10" >疾风</a></li>
+			             			             <li ><a href="/set_list.php?uclass=11" >火枪手</a></li>
+			             			             <li ><a href="/set_list.php?uclass=12" >光明法师</a></li>
+			             			             <li ><a href="/set_list.php?uclass=13" >圣光学者</a></li>
+			             			             <li ><a href="/set_list.php?uclass=14" >赤色战士</a></li>
+			             			             <li ><a href="/set_list.php?uclass=15" >炼金术士</a></li>
+			             			             <li ><a href="/set_list.php?uclass=16" >圣骑士</a></li>
+			             					  </ul>
+					</li>
+
+					<li><a href="/item_list.php?wplv=400" class="more">精通武器</a>
+					  <ul class="two">
+					     <li ><a href="/item_list.php?wplv=400" >血色天使</a></li>
+					     <li ><a href="/item_list.php?wplv=600" >黑暗天使</a></li>
+					     <li ><a href="/item_list.php?wplv=800" >圣天使</a></li>
+					     <li ><a href="/item_list.php?wplv=900" >灵魂</a></li>
+					     <li ><a href="/item_list.php?wplv=1000" >雪狼</a></li>
+					     <li ><a href="/item_list.php?wplv=1100" >银心</a></li>
+						 <li ><a href="/item_list.php?wplv=1200" >噬魂</a></li>
+						 <li ><a href="/item_list.php?wplv=1300" >辉煌</a></li>
+						 <li ><a href="/item_list.php?wplv=1400" >末世</a></li>
+						 <li ><a href="/item_list.php?wplv=1500" >雷霆</a></li>
+						 <li ><a href="/item_list.php?wplv=1500&settype=3" >圣殿</a></li>
+						 <li ><a href="/item_list.php?wplv=1600&settype=3" >帝国</a></li>
+					  </ul>
+					</li>
+					<li><a href="/item_list.php?atype=9" class="more">其他</a>
+					  <ul class="two">
+					     <li ><a href="/item_list.php?atype=10" >技能石/卷轴</a></li>
+					     <li ><a href="/item_list.php?type=42" >荧光宝石</a></li>
+					     <li ><a href="/item_list.php?atype=9" >宝石</a></li>			  
+					     <li ><a href="/pet_list.php" >宠物</a></li>
+					     <li ><a href="/item_list.php?atype=5" >肩饰</a></li>
+					     <li ><a href="/item_list.php?atype=7" >BUFF药</a></li>
+					     <li ><a href="/item_list.php?atype=11" >箱子</a></li>
+					     <li ><a href="/item_list.php?atype=14" >精通武器</a></li>
+					     <li ><a href="/item_list.php?atype=15" >精通防具</a></li>
+					     <li ><a href="/item_list.php?atype=21" >灵魂转换器</a></li>
+					     <li ><a href="/item_list.php?atype=999" >其他</a></li>
+					  </ul>
+					</li>
+					
+			      </ul>
+			    </li>
+			    <li class="li-p"><a href="/tools/maps.php">工具大全 <i class=" ml-1 fa fa-chevron-down"  aria-hidden="true" ></i></a>
+			      <ul class="one">
+					<li><a href="/tools/mixtools/" class="d-flex justify-content-between align-items-center">合成查询工具 <span class="bg bg-warning font-12 d-flex align-items-center rounded-pill px-2 text-dark" style="height:20px;">新增</span></a></li>  
+					<li><a href="/tools/5thtools/" class="d-flex justify-content-between align-items-center">五转技能模拟器 <span class="bg bg-warning font-12 d-flex align-items-center rounded-pill px-2 text-dark" style="height:20px;">新增</span></a></li>   
+					<li><a href="/tools/bufftools.php">BUFF计算器</a></li>    
+					<li><a href="/tools/gongsu_data.php">职业攻速查询</a></li>  
+					<li><a href="/tools/priceline.php" class="d-flex justify-content-between align-items-center">宝石价格走势图 <span class="bg bg-warning font-12 d-flex align-items-center rounded-pill px-2 text-dark" style="height:20px;">更新</span></a></li>    
+					<li><a href="/tools/equcal/default.php">配装模拟 V1.0</a></li>  
+			        <li><a href="/tools/maps.php">地图工具 V2.0</a></li>
+			        <li><a href="/tools/skillcals.php">3转大师模拟器</a></li>
+					<li><a href="/tools/skillcals_4th.php">4转技能模拟器</a></li>
+					<li><a href="/tools/drops.php">掉落查询工具</a></li>
+					<li><a href="/tools/exp.php">升级耗时计算器 V4</a></li>
+			        <li><a href="/tools/exp2.php">挂机等级预测器 V4</a></li>
+					<li><a href="/shows/3d.php">3D模型预览 V1</a></li>
+					<li><a href="/tools/equipstools.php">装备对比工具 V1</a></li>
+					<li><a href="/tools/gongsu.php">攻速计算器 V1</a></li>
+					
+			      </ul>
+			    </li>
+			    
+			    <li class="li-p"><a href="/zhuanti.php?id=10728">资料专题 <i class=" ml-1 fa fa-chevron-down"  aria-hidden="true" ></i></a>
+			      <ul class="one">
+			        <li><a href="/zhuanti.php?id=10728">新手指南</a></li>
+			        <li><a href="/zhuanti.php?id=10722">系统介绍</a></li>
+			        <li><a href="/zhuanti.php?id=10748">活动指引</a></li>
+					<li><a href="/zhuanti.php?id=10675">合成专题</a></li>
+					<li><a href="/zhuanti.php?id=10688">强化说明</a></li>
+					<li><a href="/shop_ruibi.php">商店</a></li>
+			      </ul>
+			    </li>
+				
+				<li class="li-p"><a href="/monster_list.php">数据大全 <i class=" ml-1 fa fa-chevron-down"  aria-hidden="true" ></i></a>
+				  <ul class="one">
+					<li><a href="/tools/shenqi.php" class="d-flex justify-content-between align-items-center">蜘蛛神器 <span class="bg bg-warning font-12 d-flex align-items-center rounded-pill px-2 text-dark" style="height:20px;">热门</span></a></li>  
+				    <li><a href="/tools/5th/5thskill.php">S19五转技能数据</a></li>
+					<li><a href="/item_zhandouli.php">S18武器战斗力</a></li>
+					<li><a href="/itempic_list.php">外观大全</a></li>  
+				    <li><a href="/monster_list.php">怪物大全</a></li>
+				    <li><a href="/npc_list.php">NPC大全</a></li>
+				    <li><a href="/quest_list.php">任务大全</a></li>
+					<li><a href="/skill_list.php">技能大全</a></li>
+					<li><a href="/news_info.php?id=10872">职业攻速档位</a></li>
+				  </ul>
+				</li>
+				
+				<li class="li-p"><a href="/news_list.php?c=50">攻略 <i class=" ml-1 fa fa-chevron-down"  aria-hidden="true" ></i></a>
+				  <ul class="one">
+					<li><a href="/gonglue.php">攻略大全 </a></li> 
+					<li><a href="/huati_list.php">热门话题 </a></li>
+				    <li><a href="/news_list.php?c=50">版本快报 </a></li>
+					<li><a href="/video_list.php?c=74">热门视频 </a></li>
+				    <li><a href="/news_list.php?c=2">国服新闻</a></li>
+					<li><a href="/tools/mu_licheng.php">奇迹历程</a></li>
+					
+				  </ul>
+				</li>
+				
+				<!-- <li class="li-p"><a href="/trade_list.php">市集 <i class=" ml-1 fa fa-chevron-down"  aria-hidden="true" ></i></a>
+				  <ul class="one">
+					<li><a href="/trade_list.php?c=1">出售版 </a></li> 
+				    <li><a href="/trade_list.php?c=2">收购版 </a></li>
+					<li><a href="/user/uinfo.php">会员中心 </a></li>
+				    <li><a href="/shixinren_list.php">失信人举报中心</a></li>
+				  </ul>
+				</li> -->
+
+				<li class="li-p"><a href="/fankui.php">反馈 <i class=" ml-1 fa fa-chevron-down"  aria-hidden="true" ></i></a>
+				  <ul class="one">
+					<li><a href="/fankui.php">留言反馈 </a></li>
+				    <li><a href="/news_list.php?c=8">站内日志</a></li>
+				  </ul>
+				</li>
+
+
+			  </ul>
+			
+			</div>
+			<div class="position-absolute container-fluid d-none d-lg-block">
+				<div class="search-top-c-box container-xl d-flex justify-content-end ">
+				<div data-bs-toggle="modal" data-bs-target="#search-model"  class="bd-search"
+				id="docsearch" data-bd-docs-version="5.3"><button type="button" class="DocSearch DocSearch-Button z-3"
+					aria-label="Search"><span class="DocSearch-Button-Container"><svg width="20" height="20"
+							class="DocSearch-Search-Icon" viewBox="0 0 20 20">
+							<path
+								d="M14.386 14.386l4.0877 4.0877-4.0877-4.0877c-2.9418 2.9419-7.7115 2.9419-10.6533 0-2.9419-2.9418-2.9419-7.7115 0-10.6533 2.9418-2.9419 7.7115-2.9419 10.6533 0 2.9419 2.9418 2.9419 7.7115 0 10.6533z"
+								stroke="currentColor" fill="none" fill-rule="evenodd" stroke-linecap="round"
+								stroke-linejoin="round"></path>
+						</svg><span class="DocSearch-Button-Placeholder">Search</span></span><span
+						class="DocSearch-Button-Keys"><kbd class="DocSearch-Button-Key"><svg width="15" height="15"
+								class="DocSearch-Control-Key-Icon">
+								<path
+									d="M4.505 4.496h2M5.505 5.496v5M8.216 4.496l.055 5.993M10 7.5c.333.333.5.667.5 1v2M12.326 4.5v5.996M8.384 4.496c1.674 0 2.116 0 2.116 1.5s-.442 1.5-2.116 1.5M3.205 9.303c-.09.448-.277 1.21-1.241 1.203C1 10.5.5 9.513.5 8V7c0-1.57.5-2.5 1.464-2.494.964.006 1.134.598 1.24 1.342M12.553 10.5h1.953"
+									stroke-width="1.2" stroke="currentColor" fill="none" stroke-linecap="square"></path>
+							</svg></kbd><kbd class="DocSearch-Button-Key">K</kbd></span></button>
+			</div>
+				</div>
+			</div>
+			<div class="app-header__content ">
+                <div class="app-header-left">
+				
+                </div>
+					
+                <div class="app-header-right">
+                    <div class="header-btn-lg pr-0">
+                        <div class="widget-content p-0">
+                            <div class="widget-content-wrapper d-none" id="header-box">
+	
+                                <div class="widget-content-left" v-if="is_login==1">
+                                    <div class="btn-group">
+                                        <a data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="p-0 btn">
+                                            <img width="42" class="rounded-circle user_face" src="/e/data/images/nouserpic.gif" alt="">
+                                           
+                                        </a>
+                                        <div tabindex="-1" role="menu" aria-hidden="true" class="dropdown-menu dropdown-menu-right top-user-btn">
+											<a href="/user/uinfo.php" tabindex="0" class="dropdown-item"></a>
+                							<a href="/user/uinfo.php" tabindex="0" class="dropdown-item">会员中心</a>
+                                            
+                                            <a onclick="yzlogout();" tabindex="0" class="dropdown-item">退出</a>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                				
+                                
+								<div class="nav-item" role="button" v-if="is_login==0">
+									<div v-if="is_wxxcz==0" class=" top-right-btnli d-flex align-items-center login-bt justify-content-center" data-bs-toggle="modal" data-bs-target="#loginModal">
+										<i class="fas fa-user"></i>
+									</div>
+									<div v-else class=" top-right-btnli d-flex align-items-center login-bt justify-content-center" @click="login_towxxcz">
+										<i class="fas fa-user"></i>
+									</div>
+								</div>
+								
+								<div class="widget-content-left ">
+								
+									<div class="dropdown d-inline-block">
+									    
+										<span class="lng_selectbutton ml-2" data-toggle="dropdown" ><i class="fas fa-cog"></i></span>
+									        <div tabindex="-1" role="menu" aria-hidden="true" class="dropdown-menu" x-placement="bottom-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(0px, 33px, 0px);">
+									                <button type="button" onclick="javascript:StranBody('zh');" tabindex="0" class="dropdown-item">简体</button>
+									                <button type="button" onclick="javascript:StranBody('tw');" tabindex="0" class="dropdown-item">繁體</button>
+									                                                
+									        </div>
+									</div>
+																			
+								</div>
+                				
+                            </div>
+                        </div>
+                    </div>        
+                </div>
+					
+            </div>
+        </div>  
+
+<!-- search box -->
+
+<div id="top-header-search">
+	<div class="modal fade " id="search-model" tabindex="1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable  ">
+			<div class="modal-content bg-700 border-0" style="min-height:300px">
+
+				<div class="modal-body  p-0">
+
+					<div class="">
+						<div class="">
+							<header class="DocSearch-SearchBar m-0 p-0">
+								<form class="DocSearch-Form" action="/search/" method="get"><label class="DocSearch-MagnifierLabel"
+										for="docsearch-input" id="docsearch-label"><svg width="20" height="20"
+											class="DocSearch-Search-Icon" viewBox="0 0 20 20">
+											<path
+												d="M14.386 14.386l4.0877 4.0877-4.0877-4.0877c-2.9418 2.9419-7.7115 2.9419-10.6533 0-2.9419-2.9418-2.9419-7.7115 0-10.6533 2.9418-2.9419 7.7115-2.9419 10.6533 0 2.9419 2.9418 2.9419 7.7115 0 10.6533z"
+												stroke="currentColor" fill="none" fill-rule="evenodd"
+												stroke-linecap="round" stroke-linejoin="round"></path>
+										</svg></label>
+									<div class="DocSearch-LoadingIndicator"><svg viewBox="0 0 38 38"
+											stroke="currentColor" stroke-opacity=".5">
+											<g fill="none" fill-rule="evenodd">
+												<g transform="translate(1 1)" stroke-width="2">
+													<circle stroke-opacity=".3" cx="18" cy="18" r="18"></circle>
+													<path d="M36 18c0-9.94-8.06-18-18-18">
+														<animateTransform attributeName="transform" type="rotate"
+															from="0 18 18" to="360 18 18" dur="1s"
+															repeatCount="indefinite"></animateTransform>
+													</path>
+												</g>
+											</g>
+										</svg></div><input v-model="search_words" name="query" class="DocSearch-Input"
+										aria-autocomplete="both" aria-labelledby="docsearch-label" id="docsearch-input"
+										autocomplete="off" autocorrect="off" autocapitalize="none" enterkeyhint="search"
+										spellcheck="false" autofocus="true" placeholder="输入关键词" maxlength="64"
+										type="search"><button type="reset" @click="words_clear()"
+										title="Clear the query" class="DocSearch-Reset"
+										v-bind:class="search_words.length>0?'':'d-none'"
+										aria-label="Clear the query"><svg width="20" height="20" viewBox="0 0 20 20">
+											<path
+												d="M10 10l5.09-5.09L10 10l5.09 5.09L10 10zm0 0L4.91 4.91 10 10l-5.09 5.09L10 10z"
+												stroke="currentColor" fill="none" fill-rule="evenodd"
+												stroke-linecap="round" stroke-linejoin="round"></path>
+										</svg></button>
+								</form>
+								<!-- <button class="DocSearch-Cancel" type="reset" aria-label="Cancel">Cancel</button> -->
+							</header>
+						</div>
+
+						<div class="position-relative z-10 d-flex justify-between pl-3">
+							<div class="d-flex font-15 flex-wrap flex-lg-nowrap">
+								<div @click="change_search_type(0)" v-bind:class="typeid==0?'active':'opacity-50'"
+									class="border-searchtab  cursor-pointer  d-flex h-10 align-items-center gap-2 px-2 transition">
+									<!----><span class="text-sm font-light text-nowrap">所有</span>
+									<div class="dcc h-5 min-w-[1.25rem] rounded-5 bg-500 px-1 text-xs">{{datas_count}}
+									</div>
+								</div>
+								<div @click="change_search_type(101)" v-bind:class="typeid==101?'active':'opacity-50'"
+									class="border-searchtab  cursor-pointer  d-flex h-10 align-items-center gap-2 px-2 transition">
+									<i class="fas fa-pen-nib"></i><span
+										class="text-sm font-light text-nowrap">专题</span>
+									<div class="dcc h-5 min-w-[1.25rem] rounded-5 bg-500 px-1 text-xs">
+										{{datas_count_type.zhuanti}}</div>
+								</div>
+								<div @click="change_search_type(1)" v-bind:class="typeid==1?'active':'opacity-50'"
+									class="border-searchtab  cursor-pointer  d-flex h-10 align-items-center gap-2 px-2 transition">
+									<i class="fab fa-sketch"></i><span
+										class="text-sm font-light text-nowrap">道具</span>
+									<div class="dcc h-5 min-w-[1.25rem] rounded-5 bg-500 px-1 text-xs">
+										{{datas_count_type.item}}</div>
+								</div>
+								<div @click="change_search_type(2)" v-bind:class="typeid==2?'active':'opacity-50'"
+									class="border-searchtab  cursor-pointer   d-flex h-10 align-items-center gap-2 px-2 transition">
+									<i class="fas fa-yin-yang"></i><span
+										class="text-sm font-light text-nowrap">技能</span>
+									<div class="dcc h-5 min-w-[1.25rem] rounded-5 bg-500 px-1 text-xs">
+										{{datas_count_type.skill}}</div>
+								</div>
+								<div @click="change_search_type(3)" v-bind:class="typeid==3?'active':'opacity-50'"
+									class="border-searchtab  cursor-pointer   d-flex h-10 align-items-center gap-2 px-2 transition">
+									<i class="fas fa-dragon"></i><span
+										class="text-sm font-light text-nowrap">怪物</span>
+									<div class="dcc h-5 min-w-[1.25rem] rounded-5 bg-500 px-1 text-xs">
+										{{datas_count_type.npc}}</div>
+								</div>
+								<div @click="change_search_type(4)" v-bind:class="typeid==4?'active':'opacity-50'"
+									class="border-searchtab  cursor-pointer  d-flex h-10 align-items-center gap-2 px-2 transition">
+									<svg data-v-9d2fac81="" xmlns="http://www.w3.org/2000/svg"
+										xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img"
+										class="icon" width="1em" height="1em" viewBox="0 0 576 512">
+										<path fill="currentColor"
+											d="M0 80v48c0 17.7 14.3 32 32 32h64V80c0-26.5-21.5-48-48-48S0 53.5 0 80m112-48c10 13.4 16 30 16 48v304c0 35.3 28.7 64 64 64s64-28.7 64-64v-5.3c0-32.4 26.3-58.7 58.7-58.7H480V128c0-53-43-96-96-96zm352 448c61.9 0 112-50.1 112-112c0-8.8-7.2-16-16-16H314.7c-14.7 0-26.7 11.9-26.7 26.7v5.3c0 53-43 96-96 96h176z">
+										</path>
+									</svg><span class="text-sm font-light text-nowrap">攻略</span>
+									<div class="dcc h-5 min-w-[1.25rem] rounded-5 bg-500 px-1 text-xs">
+										{{datas_count_type.news}}</div>
+								</div>
+								
+								<div @click="change_search_type(99)" v-bind:class="typeid==99?'active':'opacity-50'"
+									class="border-searchtab  cursor-pointer  d-flex h-10 align-items-center gap-2 px-2 transition">
+									<i class="fas fa-layer-group"></i><span
+										class="text-sm font-light text-nowrap">其他</span>
+									<div class="dcc h-5 min-w-[1.25rem] rounded-5 bg-500 px-1 text-xs">
+										{{datas_count_type.other}}</div>
+								</div>
+							</div>
+						</div>
+						<hr class="-mt-[2px]">
+
+						<div class="mt-1">
+							<div class="h-[500px] overflow-y-auto"><!---->
+							    <div v-if="state.code==-1">
+									<div class="pl-3 pr-3 pt-2 pb-2">{{state.msg}}</div>
+								</div>
+								<div v-if="state.code==1">
+									<p class="mt-2 px-3 text-sm text-200 none">分类</p>
+									<div class="d-flex flex-column divide-y divide-600">
+										<template v-for="(info,index) in search_datas">
+											<a :href="!info.link.includes('http')?`/${info.link}.php?${info.midkey}=${info.mid}`:`${info.link}`" :data-qtype="info.typeid" :data-itemid="info.mid" :data-subid="info.subid"
+												class=" bg-700 hover:bg-600  group d-flex w-full align-items-center justify-between gap-3 transition" :class="(info.typeid!=88 && info.typeid!=4 && info.typeid!=101 && info.typeid!=102 && info.typeid!=103 && info.typeid!=104 && info.typeid!=105  && info.typeid!=6)?'tipread_item':''"
+												id="" target="_blank">
+												<div 
+													class="d-flex flex-fill cursor-pointer align-items-center gap-3 px-3 py-1 transition">
+													<div 
+														:class="`h-9 w-9 rounded-3 bg-600 item-grade-border-${info.grade} `">
+														<img :src="`${info.icon}`" loading="lazy" lazy="lazy"
+															:class="`h-full w-full p-[2px] opacity-75 rounded-3 item-border-${info.grade} ${(info.typeid!=4 && info.typeid!=101 && info.typeid!=102 && info.typeid!=103 && info.typeid!=104 && info.typeid!=105 && info.typeid!=5 && info.typeid!=6)?'':'p-1'}`">
+													</div>
+													<p :class="`underline item-grade-${info.grade} pinzhi_${info.grade}`">{{info.name}}</p>
+												</div>
+												<div class="d-flex align-items-center gap-2">
+													<div class="mx-2 rounded bg-500 px-2 py-1 text-xs text-nowrap">{{info.typename}}
+													</div>
+													<div
+														class="dcc h-10 w-10 opacity-0 transition group-hover:opacity-75">
+														<svg data-v-9d2fac81="" xmlns="http://www.w3.org/2000/svg"
+															xmlns:xlink="http://www.w3.org/1999/xlink"
+															aria-hidden="true" role="img" class="icon" width="1em"
+															height="1em" viewBox="0 0 512 512">
+															<path fill="currentColor"
+																d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32zM80 32C35.8 32 0 67.8 0 112v320c0 44.2 35.8 80 80 80h320c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32v112c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16h112c17.7 0 32-14.3 32-32s-14.3-32-32-32z">
+															</path>
+														</svg>
+													</div>
+												</div>
+											</a>
+										</template>
+									</div><!---->
+									<div v-if="canShowMore==1"
+										class="mt-1 mb-3 d-flex align-items-center justify-content-center">
+										<div class="mx-3 h-[2px] grow bg-600"></div><button @click="fetchMoreData"
+											class="font-16 border-0 text-warning rounded-3 bg-600/0 p-1  font-semibold opacity-50 transition hover:opacity-100">Show
+											More</button>
+										<div class="mx-3 h-[2px] grow bg-600"></div>
+									</div>
+								</div><!----><!----><!---->
+							</div>
+						</div>
+
+					</div>
+
+					<div class="search-btn-box">
+						<span class="search-btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="fas fa-times"></i> 关闭</span>
+						<span onclick="searchAndRedirect()" class="search-btn-close mr-1" ><i class="fas fa-external-link-alt"></i> 全屏</span>
+					</div>
+
+				</div>
+
+
+			</div>
+
+
+
+		</div>
+	</div>
+	<template>
+		<div @keydown.ctrl.h="dosearch">
+			<!-- 其他内容 -->
+		</div>
+	</template>
+</div>
+
+<!-- search box end -->		
+<script src="/tools/js/topheader.js?v=2025100401"></script>	  
+<div class="app-main">
+                <div class="app-sidebar sidebar-shadow bg-dark sidebar-text-light">
+                    <div class="app-header__logo">
+                       
+                        <div class="header__pane ml-auto">
+                            <div>
+                                <button type="button" class="hamburger close-sidebar-btn hamburger--elastic" data-class="closed-sidebar">
+                                    <span class="hamburger-box">
+                                        <span class="hamburger-inner"></span>
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="app-header__mobile-menu">
+                        <div>
+                            <button type="button" class="hamburger hamburger--elastic mobile-toggle-nav">
+                                <span class="hamburger-box">
+                                    <span class="hamburger-inner"></span>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="app-header__menu">
+                        <span>
+                            <button type="button" class="btn-icon btn-icon-only btn btn-primary btn-sm mobile-toggle-header-nav">
+                                <span class="btn-icon-wrapper">
+                                    <i class="fa fa-ellipsis-v fa-w-6"></i>
+                                </span>
+                            </button>
+                        </span>
+                    </div>    
+					<div class="scrollbar-sidebar">
+                        <div class="app-sidebar__inner">
+                            <ul class="vertical-nav-menu">
+                                <li class="app-sidebar__heading">奇迹小册子 V2.0</li>
+                                <li>
+                                    <div class="mm-active overh"  style="width: 232px; overflow: hidden; white-space: nowrap;" >
+                                        <a href="/" class="fl sider_lhl" ><i class="metismenu-icon fa fa-journal-whills"></i> 首页</a>
+										<span class="fr sider_lhr" ><a href="javascript:StranBody('zh');" class="mb-2 mr-2 badge badge-primary sider_lhr_i">简</a> <a href="javascript:StranBody('tw');" class="mb-2 mr-2 badge badge-danger sider_lhr_i">繁</a></span>
+                                    </div>
+                                </li>
+																<li>
+									
+									<div class="mm-active overh"  style="width: 232px; overflow: hidden; white-space: nowrap;" >
+									    <a href="/trade_list.php" class="fl sider_lhl" ><i class="metismenu-icon fas fa-balance-scale-left"></i> 市集</a>
+										<span class="fr sider_lhr" ><a href="/trade_list.php" target="_blank"  class="mb-2 mr-2 badge badge-success sider_lhr_i">发布</a> <a target="_blank" href="/user/uinfo.php" class="mb-2 mr-2 badge badge-alternate sider_lhr_i">管理</a></span>
+									</div>
+									</li>
+                                <li class="app-sidebar__heading">数据库</li>
+                                <li>
+                                    <a href="#">
+                                        <i class="metismenu-icon fa fa-khanda"></i> 装备查询
+                                        <i class="metismenu-state-icon fas fa-chevron-down caret-left f10"></i>
+                                    </a>
+                                    <ul>
+                                        <li>
+                                            <a href="/item_list.php?type=1">
+                                                <i class="metismenu-icon"></i>武器
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/item_list.php?type=16">
+                                                <i class="metismenu-icon"></i>防具
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/item_list.php?atype=8">
+                                                <i class="metismenu-icon"></i>元素道具 
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/item_list.php?atype=6">
+                                                <i class="metismenu-icon"></i>翅膀
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/earring_list.php">
+                                                <i class="metismenu-icon"></i>耳环 
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/item_list.php?atype=4">
+                                                <i class="metismenu-icon"></i>戒指
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/item_list.php?atype=2">
+                                                <i class="metismenu-icon"></i>项链
+                                            </a>
+                                        </li>
+										<li>
+										    <a href="/item_list.php?atype=20">
+										        <i class="metismenu-icon"></i>坐骑
+										    </a>
+										</li>
+										<li>
+										    <a href="/tools/shenqi.php">
+										        <i class="metismenu-icon"></i>神器
+										    </a>
+										</li>
+                                        <li>
+                                            <a href="/set_list.php?uclass=2">
+                                                <i class="metismenu-icon"></i>套装
+                                            </a>
+                                        </li>
+										<li>
+										    <a href="/set_list.php?jtset_type=1">
+										        <i class="metismenu-icon"></i>精通套装 
+										    </a>
+										</li>
+										<li>
+										    <a href="/item_list.php?wplv=400">
+										        <i class="metismenu-icon"></i>精通武器 
+										    </a>
+										</li>
+										<li>
+										    <a href="/item_list.php?atype=10">
+										        <i class="metismenu-icon"></i>其他
+										    </a>
+										</li>
+                                    </ul>
+                                </li>
+								<li>
+								    <a href="#">
+								        <i class="metismenu-icon fas fa-atlas"></i>
+								        职业专题
+								        <i class="metismenu-state-icon fa fa-chevron-down caret-left f10"></i>
+								    </a>
+								    <ul>
+																		        <li>
+								            <a href="/job_info.php?uclass=1">
+								                <i class="metismenu-icon">
+								                </i>魔法师								            </a>
+								        </li>
+								        								        <li>
+								            <a href="/job_info.php?uclass=2">
+								                <i class="metismenu-icon">
+								                </i>剑士								            </a>
+								        </li>
+								        								        <li>
+								            <a href="/job_info.php?uclass=3">
+								                <i class="metismenu-icon">
+								                </i>弓箭手								            </a>
+								        </li>
+								        								        <li>
+								            <a href="/job_info.php?uclass=4">
+								                <i class="metismenu-icon">
+								                </i>魔剑士								            </a>
+								        </li>
+								        								        <li>
+								            <a href="/job_info.php?uclass=5">
+								                <i class="metismenu-icon">
+								                </i>圣导师								            </a>
+								        </li>
+								        								        <li>
+								            <a href="/job_info.php?uclass=6">
+								                <i class="metismenu-icon">
+								                </i>召唤术师								            </a>
+								        </li>
+								        								        <li>
+								            <a href="/job_info.php?uclass=7">
+								                <i class="metismenu-icon">
+								                </i>格斗家								            </a>
+								        </li>
+								        								        <li>
+								            <a href="/job_info.php?uclass=8">
+								                <i class="metismenu-icon">
+								                </i>梦幻骑士								            </a>
+								        </li>
+								        								        <li>
+								            <a href="/job_info.php?uclass=9">
+								                <i class="metismenu-icon">
+								                </i>符文法师								            </a>
+								        </li>
+								        								        <li>
+								            <a href="/job_info.php?uclass=10">
+								                <i class="metismenu-icon">
+								                </i>疾风								            </a>
+								        </li>
+								        								        <li>
+								            <a href="/job_info.php?uclass=11">
+								                <i class="metismenu-icon">
+								                </i>火枪手								            </a>
+								        </li>
+								        								        <li>
+								            <a href="/job_info.php?uclass=12">
+								                <i class="metismenu-icon">
+								                </i>光明法师								            </a>
+								        </li>
+								        								        <li>
+								            <a href="/job_info.php?uclass=13">
+								                <i class="metismenu-icon">
+								                </i>圣光学者								            </a>
+								        </li>
+								        								        <li>
+								            <a href="/job_info.php?uclass=14">
+								                <i class="metismenu-icon">
+								                </i>赤色战士								            </a>
+								        </li>
+								        								        <li>
+								            <a href="/job_info.php?uclass=15">
+								                <i class="metismenu-icon">
+								                </i>炼金术士								            </a>
+								        </li>
+								        								        <li>
+								            <a href="/job_info.php?uclass=16">
+								                <i class="metismenu-icon">
+								                </i>圣骑士								            </a>
+								        </li>
+								        								    </ul>
+								</li>
+                                <li>
+                                    <a href="#">
+                                        <i class="metismenu-icon fas fa-cannabis"></i>
+                                        数据大全
+                                        <i class="metismenu-state-icon fa fa-chevron-down caret-left f10"></i>
+                                    </a>
+                                    <ul>
+										<li><a href="/tools/shenqi.php" class="d-flex justify-content-between align-items-center">蜘蛛神器 <span class="bg bg-warning font-12 d-flex align-items-center rounded-pill px-2 text-dark" style="height:20px;">热门</span></a></li>
+										<li><a href="/tools/5th/5thskill.php">S19五转技能数据</a></li>
+										<li><a href="/item_zhandouli.php"><i class="metismenu-icon"></i>S18武器战斗力</a></li>
+										<li>
+										    <a href="/itempic_list.php">
+										        <i class="metismenu-icon">
+										        </i>外观大全
+										    </a>
+										</li>
+                                        <li>
+                                            <a href="/monster_list.php">
+                                                <i class="metismenu-icon">
+                                                </i>怪物大全
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/npc_list.php">
+                                                <i class="metismenu-icon">
+                                                </i>NPC大全
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/quest_list.php">
+                                                <i class="metismenu-icon">
+                                                </i>任务大全
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/skill_list.php">
+                                                <i class="metismenu-icon">
+                                                </i>技能大全
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/news_info.php?id=10872">
+                                                <i class="metismenu-icon">
+                                                </i>职业攻速档位
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </li>
+								
+								<li>
+								    <a href="#">
+								        <i class="metismenu-icon fas fa-book"></i>
+								        攻略资讯
+								        <i class="metismenu-state-icon fa fa-chevron-down caret-left f10"></i>
+								    </a>
+								    <ul>
+								        <li>
+								            <a href="/gonglue.php">
+								                <i class="metismenu-icon">
+								                </i>攻略大全
+								            </a>
+								        </li>
+										<li>
+										    <a href="/huati_list.php">
+										        <i class="metismenu-icon">
+										        </i>热门话题
+										    </a>
+										</li>
+										<li>
+										    <a href="/video_list.php?c=74">
+										        <i class="metismenu-icon">
+										        </i>热门视频
+										    </a>
+										</li>
+								        <li>
+								            <a href="/news_list.php?c=50">
+								                <i class="metismenu-icon">
+								                </i>版本快讯
+								            </a>
+								        </li>
+
+								    </ul>
+								</li>
+								
+                                <li class="app-sidebar__heading">实用工具</li>
+																<li>
+								    <a href="/tools/xinfu.php">
+								        <i class="metismenu-icon fas fa-gamepad"></i>
+								        正版服推荐
+								    </a>
+								</li>
+																<li>
+								    <a href="/tools/mixtools/" class="d-flex justify-content-between align-items-center">
+								        <span><i class="metismenu-icon fas fa-chart-line"></i> 合成查询工具</span>
+										<span class="bg bg-warning font-12 d-flex align-items-center rounded-pill px-2 text-dark" style="height:20px;">新增</span>
+								    </a>
+								</li>
+								<li>
+								    <a href="/tools/5thtools/" class="d-flex justify-content-between align-items-center">
+								        <span><i class="metismenu-icon fas fa-chart-line"></i> 五转技能模拟器</span>
+										<span class="bg bg-warning font-12 d-flex align-items-center rounded-pill px-2 text-dark" style="height:20px;">新增</span>
+								    </a>
+								</li>
+								<li>
+								    <a href="/tools/gongsu_data.php">
+								        <i class="metismenu-icon fas fa-weight"></i>
+								        攻速查询表
+								    </a>
+								</li>
+								<li>
+								    <a href="/tools/priceline.php" class="d-flex justify-content-between align-items-center">
+								        <span><i class="metismenu-icon fas fa-chart-line"></i> 宝石与金币价格</span>
+										<span class="bg bg-warning font-12 d-flex align-items-center rounded-pill px-2 text-dark" style="height:20px;">更新</span>
+								    </a>
+								</li>
+								<li>
+								    <a href="/tools/equcal/default.php">
+								        <i class="metismenu-icon fas fa-user-shield"></i>
+								        配装模拟 V1.0
+								    </a>
+								</li>
+                                <li>
+                                    <a href="/tools/maps.php">
+                                        <i class="metismenu-icon fas fa-map"></i>
+                                        地图工具 V2.0
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/tools/skillcals.php">
+                                        <i class="metismenu-icon fas fa-book-reader"></i>
+                                        3转大师模拟器
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/tools/skillcals_4th.php">
+                                        <i class="metismenu-icon fas fa-chess-queen"></i>
+                                        4转技能模拟器
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/tools/drops.php">
+                                        <i class="metismenu-icon fas fa-skull"></i>
+                                        掉落查询工具
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/tools/exp.php">
+                                        <i class="metismenu-icon fas fa-history"></i>
+                                        升级耗时计算器
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/tools/exp2.php">
+                                        <i class="metismenu-icon fas fa-coffee"></i>
+                                        挂机等级预测器
+                                    </a>
+                                </li>
+								<li>
+									<a href="/shows/3d.php">
+								        <i class="metismenu-icon fas fa-cube"></i>
+										3D模型预览 V1
+								    </a>
+								</li>
+								<li>
+									<a href="/tools/equipstools.php">
+								        <i class="metismenu-icon fas fa-cog"></i>
+										装备对比工具
+								    </a>
+								</li>
+								<li>
+									<a href="/tools/gongsu.php">
+								        <i class="metismenu-icon fas fa-tachometer-alt"></i>
+										攻速计算器 V1.0
+								    </a>
+								</li>
+								
+								<li class="app-sidebar__heading">资料专题</li>
+								<li>
+								    <a href="/zhuanti.php?id=10728">
+								        <i class="metismenu-icon fas fa-chess-queen">
+								        </i>新手指南
+								    </a>
+								</li>
+								<li>
+								    <a href="/zhuanti.php?id=10722">
+								        <i class="metismenu-icon fas fa-dice-d6">
+								        </i>系统介绍
+								    </a>
+								</li>
+								<li>
+								    <a href="/zhuanti.php?id=10748">
+								        <i class="metismenu-icon fas fa-medal">
+								        </i>活动指引
+								    </a>
+								</li>
+								<li>
+								    <a href="/zhuanti.php?id=10675">
+								        <i class="metismenu-icon fab fa-megaport">
+								        </i>合成专题
+								    </a>
+								</li>
+								<li>
+								    <a href="/zhuanti.php?id=10688">
+								        <i class="metismenu-icon fab fa-sketch">
+								        </i>强化说明
+								    </a>
+								</li>
+								<li>
+								    <a href="/shop_ruibi.php">
+								        <i class="metismenu-icon fas fa-shopping-cart">
+								        </i>商店
+								    </a>
+								</li>
+
+                                <li class="app-sidebar__heading">其它资讯</li>
+
+								<li>
+                                    <a href="/fankui.php">
+                                        <i class="metismenu-icon fas fa-pencil-alt">
+                                        </i>反馈中心
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="/news_list.php?c=2">
+                                        <i class="metismenu-icon fas fa-feather">
+                                        </i>国服新闻
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/news_list.php?c=8">
+                                        <i class="metismenu-icon fas fa-blog">
+                                        </i>站内日志
+                                    </a>
+                                </li>
+								<li>
+								    <a href="/tools/mu_licheng.php">
+								        <i class="metismenu-icon fab fa-stumbleupon">
+								        </i>奇迹历程
+								    </a>
+								</li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>    
+					
+<div class="app-main__outer">
+<div class="app-main__inner">
+
+
+                                <div class="main-card mb-3 card select_boxp">
+									<div class="card-header-tab card-header-tab-animation card-header">
+									    <div class="card-header-title zhedie_h"><i class="fa fa-fw" aria-hidden="true" title="Copy to use align-right"></i>  <span class="pl5">筛选清单</span></div>
+									    <ul class="nav"><li class="nav-item"><a href="javascript:void(0);" class="active nav-link zhedie_bt"><i class="fa fa-fw" aria-hidden="true" title="Copy to use expand"></i> 展开 </a></li></ul>
+									</div>
+                                    <div class="card-body zhedian_box " style="display:block" >
+                                     
+                                       <div class="selectm_li d-flex">	
+                                       <div class=""><a href="" class="mb-2 mr-2 btn btn-sm btn-warning selectm-li-title">主城区域</a></div>
+									   <div class="flex-fill">
+									   <a href="monster_list.php?mapid=0"  class="mb-2 mr-2 btn-transition btn btn-sm btn-outline-warning active  ">勇者大陆</a>
+									   <a href="monster_list.php?mapid=3"  class="mb-2 mr-2 btn-transition btn btn-sm btn-outline-warning   ">仙踪林</a>
+									   <a href="monster_list.php?mapid=51"  class="mb-2 mr-2 btn-transition btn btn-sm btn-outline-warning   ">幻术园</a>
+									   <a href="monster_list.php?mapid=2"  class="mb-2 mr-2 btn-transition btn btn-sm btn-outline-warning ">冰风谷</a>
+									   <a href="monster_list.php?mapid=999"  class="mb-2 mr-2 btn-transition btn btn-sm btn-outline-warning   ">罗兰市场/活动地图广场</a>
+                                       </div>
+									   </div>
+
+                                       <div class="selectm_li d-flex">
+                                       <div class=""><a href="" class="mb-2 mr-2 btn btn-sm btn-warning selectm-li-title">常规区域</a></div>
+									   <div class="flex-fill">
+                                       <a href="monster_list.php?mapid=1"  class="mb-2 mr-2 btn-transition btn btn-sm btn-outline-warning   ">地下城</a>
+                                       <a href="monster_list.php?mapid=7"  class="mb-2 mr-2 btn-transition btn btn-sm btn-outline-warning   ">亚特兰蒂斯</a>
+                                       <a href="monster_list.php?mapid=4"  class="mb-2 mr-2 btn-transition btn btn-sm btn-outline-warning   ">失落之塔</a>
+                                       <a href="monster_list.php?mapid=8"  class="mb-2 mr-2 btn-transition btn btn-sm btn-outline-warning   ">死亡沙漠</a>
+                                       <a href="monster_list.php?mapid=33"  class="mb-2 mr-2 btn-transition btn btn-sm btn-outline-warning   ">幽暗森林</a>
+                                       <a href="monster_list.php?mapid=10"  class="mb-2 mr-2 btn-transition btn btn-sm btn-outline-warning   ">天空之城</a>
+                                       <a href="monster_list.php?mapid=34"  class="mb-2 mr-2 btn-transition btn btn-sm btn-outline-warning   ">狼魂要塞</a>
+                                       <a href="monster_list.php?mapid=41"  class="mb-2 mr-2 btn-transition btn btn-sm btn-outline-warning   " style="display: none;">巴卡斯兵营</a>
+                                       <a href="monster_list.php?mapid=37"  class="mb-2 mr-2 btn-transition btn btn-sm btn-outline-warning   ">坎特鲁废墟</a>
+                                       <a href="monster_list.php?mapid=38"  class="mb-2 mr-2 btn-transition btn btn-sm btn-outline-warning   ">坎特鲁遗址</a>
+                                       <a href="monster_list.php?mapid=80"  class="mb-2 mr-2 btn-transition btn btn-sm btn-outline-warning   ">卡伦特</a>
+                                       <a href="monster_list.php?mapid=57"  class="mb-2 mr-2 btn-transition btn btn-sm btn-outline-warning   ">冰霜之城</a>
+                                       <a href="monster_list.php?mapid=56"  class="mb-2 mr-2 btn-transition btn btn-sm btn-outline-warning   ">安宁池</a>
+                                       <a href="monster_list.php?mapid=31"  class="mb-2 mr-2 btn-transition btn btn-sm btn-outline-warning   ">魔炼之地</a>
+                                       </div>
+									   </div>
+									   
+									   <div class="selectm_li d-flex">
+									   <div class=""><a href="" class="mb-2 mr-2 btn btn-sm btn-warning selectm-li-title">阿卡伦区</a></div>
+									   <div class="flex-fill">
+									   <a href="monster_list.php?mapid=91"  class="mb-2 mr-2 btn-transition btn btn-sm btn-outline-warning  ">阿卡伦</a>	
+									   <!-- <a href="monster_list.php?mapid=91"  class="mb-2 mr-2 btn-transition btn btn-sm btn-outline-warning  ">艾克玛</a> -->
+									   <a href="monster_list.php?mapid=95"  class="mb-2 mr-2 btn-transition btn btn-sm btn-outline-warning    ">德班泰尔</a>
+									   <a href="monster_list.php?mapid=110"  class="mb-2 mr-2 btn-transition btn btn-sm btn-outline-warning    ">纳尔斯</a>
+									   <!-- <a href="monster_list.php?mapid=91"  class="mb-2 mr-2 btn-transition btn btn-sm btn-outline-warning    ">欧贝德</a> -->
+									   <a href="monster_list.php?mapid=100"  class="mb-2 mr-2 btn-transition btn btn-sm btn-outline-warning    ">乌尔克山</a>
+									   </div>
+									   </div>
+									   
+									   <div class="selectm_li d-flex">
+									   <div class=""><a href="" class="mb-2 mr-2 btn btn-sm btn-warning selectm-li-title">元素区域</a></div>
+									   <div class="flex-fill">
+									   <a href="monster_list.php?mapid=112"  class="mb-2 mr-2 btn-transition btn btn-sm btn-outline-warning   ">菲利亚</a>
+									   <a href="monster_list.php?mapid=113"  class="mb-2 mr-2 btn-transition btn btn-sm btn-outline-warning   ">尼克西斯之湖</a>
+									   <a href="monster_list.php?mapid=116"  class="mb-2 mr-2 btn-transition btn btn-sm btn-outline-warning   ">深渊地下城</a>
+									   <a href="monster_list.php?mapid=122"  class="mb-2 mr-2 btn-transition btn btn-sm btn-outline-warning   ">黑暗之沼泽</a>
+									   <a href="monster_list.php?mapid=123"  class="mb-2 mr-2 btn-transition btn btn-sm btn-outline-warning   ">库贝拉矿山</a>
+									   <a href="monster_list.php?mapid=128"  class="mb-2 mr-2 btn-transition btn btn-sm btn-outline-warning   ">深渊之亚特兰蒂斯</a>
+									   <a href="monster_list.php?mapid=131"  class="mb-2 mr-2 btn-transition btn btn-sm btn-outline-warning   ">焦蛇峡谷</a>
+									   <a href="monster_list.php?mapid=132"  class="mb-2 mr-2 btn-transition btn btn-sm btn-outline-warning   ">红烟之天空之城</a>
+									   <a href="monster_list.php?mapid=133"  class="mb-2 mr-2 btn-transition btn btn-sm btn-outline-warning   ">阿尼尔神殿</a>
+									   <a href="monster_list.php?mapid=134"  class="mb-2 mr-2 btn-transition btn btn-sm btn-outline-warning   ">暗魂之森</a>
+									   <a href="monster_list.php?mapid=135"  class="mb-2 mr-2 btn-transition btn btn-sm btn-outline-warning   ">烈焰废墟 - 坎特鲁</a>
+									   <a href="monster_list.php?mapid=136"  class="mb-2 mr-2 btn-transition btn btn-sm btn-outline-warning   ">烈焰废墟</a>
+									   <a href="monster_list.php?mapid=137"  class="mb-2 mr-2 btn-transition btn btn-sm btn-outline-warning   ">坎特鲁地下基地</a>
+									   <a href="monster_list.php?mapid=138"  class="mb-2 mr-2 btn-transition btn btn-sm btn-outline-warning   ">伊格尼斯火山</a>
+									   <a href="monster_list.php?mapid=140"  class="mb-2 mr-2 btn-transition btn btn-sm btn-outline-warning   ">猩红沙漠</a>
+									   <a href="monster_list.php?mapid=141"  class="mb-2 mr-2 btn-transition btn btn-sm btn-outline-warning   ">暴风之岛</a>
+									   <a href="monster_list.php?mapid=142"  class="mb-2 mr-2 btn-transition btn btn-sm btn-outline-warning   ">上古卡伦特遗址</a>
+									   <a href="monster_list.php?mapid=143"  class="mb-2 mr-2 btn-transition btn btn-sm btn-outline-warning   ">炼狱魔宫</a>
+									   <a href="monster_list.php?mapid=144"  class="mb-2 mr-2 btn-transition btn btn-sm btn-outline-warning   ">混沌沼泽</a>
+									   </div>
+									   </div>
+
+									   
+									   <div class="selectm_li d-flex">
+									   <div class=""><a href="" class="mb-2 mr-2 btn btn-sm btn-warning selectm-li-title">其他地图</a></div>
+									   <div class="flex-fill">
+									   <a href="monster_list.php?mapid=63"  class="mb-2 mr-2 btn-transition btn btn-sm btn-outline-warning   ">囚禁之岛</a>
+									   <a href="monster_list.php?mapid=24"  class="mb-2 mr-2 btn-transition btn btn-sm btn-outline-warning   ">卡利玛神庙</a>
+									   </div>
+									   </div>
+
+                                    </div>
+									
+									<div class="select_searchbox">
+									<div class="search-wrapper active">
+									                        <div class="input-holder">
+																<form class="navbar-search navbar-form table-cell hidden-xs" action="/monster_list.php" id="huiji-search-form" role="search">
+									                            <input name="words" type="text" class="search-input" placeholder="输入您想搜索的内容关键词" value="">
+									                            <button class="search-icon"><span></span></button>
+																</form>
+									                        </div>
+									  </div>
+									</div>
+																			
+                                </div>
+<div class="row">
+<div class="col-md-6 col-lg-6 admin-grid">
+<div class="main-card mb-3 card ">
+<div class="card-header-tab card-header-tab-animation card-header">
+<div class="card-header-title zhedie_h"><i class="fa fa-fw" aria-hidden="true" title="Copy to use align-right"></i>  <span class="pl5">怪物信息</span></div>
+<ul class="nav"><li class="nav-item"></li></ul>
+</div>
+<div class="card-body zhedian_box p-0"  >
+<div class="iteminfobox table-responsive" style="">
+<table class="mb-0 table table-bordered" width="100%">
+<tbody>
+<tr>
+<td colspan="2" rowspan="1" style="text-align: center; width: 50%;" class="td-hui">怪物名称</td>
+<td colspan="2" rowspan="1" style="text-align: center; width: 50%;" class="td-hui">怪物说明</td>
+</tr>
+<tr>
+<td colspan="2" rowspan="1" style="text-align: center;"><img src="/source/n_monster/n_monster_51.png" style="max-width:100%" ><br>阿卡摩斯</td>
+<td colspan="2" rowspan="1" style=" vertical-align: top; ">
+<div>[Lv.75] 阿卡摩斯 【<span class="c_hong">怪物</span>】</div>
+<div class="mt-2">出现地图：天空之城</div>
+</td>
+</tr>
+<tr>
+<td style="text-align: center;" class="td-hui">血量</td>
+<td>11500</td>
+<td style="text-align: center;" class="td-hui">魔力值</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;" class="td-hui">攻击力</td>
+<td>255 ~ 290</td>
+<td style="text-align: center;" class="td-hui">防御力</td>
+<td>195</td>
+</tr>
+<tr>
+<td style="text-align: center;" class="td-hui">防御率</td>
+<td>125</td>
+<td style="text-align: center;" class="td-hui">魔法防御</td>
+<td>0</td>
+</tr>
+<tr>
+<td style="text-align: center;" class="td-hui">元素攻击</td>
+<td>9 ~ 9</td>
+<td style="text-align: center;" class="td-hui">元素防御</td>
+<td>146</td>
+</tr>
+<tr>
+<td style="text-align: center;" class="td-hui">元素攻击率</td>
+<td>0</td>
+<td style="text-align: center;" class="td-hui">元素防御率</td>
+<td>0</td>
+</tr>
+<!-- <tr>
+<td style="text-align: center;" class="td-hui">攻击率</td>
+<td>385</td>
+<td style="text-align: center;" class="td-hui">移动范围</td>
+<td>3</td>
+</tr>
+<tr>
+<td style="text-align: center;" class="td-hui">攻击类型</td>
+<td>17</td>
+<td style="text-align: center;" class="td-hui">攻击范围</td>
+<td>5</td>
+</tr>
+<tr>
+<td style="text-align: center;" class="td-hui">视野范围</td>
+<td>5</td>
+<td style="text-align: center;" class="td-hui">移动速度</td>
+<td>400</td>
+</tr>
+<tr>
+<td style="text-align: center;" class="td-hui">攻击速度</td>
+<td>1400</td>
+<td style="text-align: center;" class="td-hui">重生时间</td>
+<td>10</td>
+</tr>
+<tr>
+<td style="text-align: center;" class="td-hui">属性</td>
+<td>2</td>
+<td style="text-align: center;" class="td-hui">道具掉率</td>
+<td>160</td>
+</tr>
+<tr>
+<td style="text-align: center;" class="td-hui">金币掉率</td>
+<td>46</td>
+<td style="text-align: center;" class="td-hui">最高道具等级</td>
+<td>3</td>
+</tr>
+<tr>
+<td style="text-align: center;" class="td-hui">怪物技能</td>
+<td>0</td>
+<td style="text-align: center;" class="td-hui">抗性1</td>
+<td>9</td>
+</tr>
+<tr>
+<td style="text-align: center;" class="td-hui">抗性2</td>
+<td>9</td>
+<td style="text-align: center;" class="td-hui">抗性3</td>
+<td>11</td>
+</tr>
+<tr>
+<td style="text-align: center;" class="td-hui">抗性4</td>
+<td>9</td>
+<td style="text-align: center;" class="td-hui">抗性5</td>
+<td>0</td>
+</tr>
+<tr>
+<td style="text-align: center;" class="td-hui">抗性6</td>
+<td>0</td>
+<td style="text-align: center;" class="td-hui">抗性7</td>
+<td>0</td>
+</tr>
+<tr>
+<td style="text-align: center;" class="td-hui">元素属性</td>
+<td>0</td>
+<td style="text-align: center;" class="td-hui">元素Pattern</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center;" class="td-hui">CriticalDamageRes</td>
+<td>0</td>
+<td style="text-align: center;" class="td-hui">ExcellentDamageRes</td>
+<td>0</td>
+</tr>
+<tr>
+<td style="text-align: center;" class="td-hui">DebuffApplyRes</td>
+<td>0</td>
+<td style="text-align: center;" class="td-hui">精英</td>
+<td>0</td>
+</tr> -->
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<!-- talk -->
+
+<!-- CSS -->
+<link href="https://talk.dvg.cn:8080/dist/Artalk.css" rel="stylesheet">
+<link href="/ui_baodianv2/css/Artalk-dvg-dark.css?v=8" rel="stylesheet">
+<!-- JS -->
+<script src="https://talk.dvg.cn:8080/dist/Artalk.js"></script>
+<!-- Artalk -->
+<div class="card p-2 mb-3" id="talk_bottom_box">
+<div class="" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+  <div class="offcanvas-header none" id="talkbox_header">
+    <h5 class="offcanvas-title" id="offcanvasScrollingLabel">说两句</h5>
+    <button type="button" class="btn-close"  onclick="talk_close()" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body" id="talk_t_box">	
+<div id="Comments" class="Comments"></div>
+  </div>
+</div>
+</div>
+
+<script>
+// 1) 发往 Artalk 的请求自动带 Authorization
+(function injectAuthFetch(){
+  const ORIGIN = new URL('https://talk.dvg.cn:8080').origin;
+  const rawFetch = window.fetch;
+  window.fetch = function(input, init){
+    const url = typeof input === 'string' ? input : input.url;
+    const cfg = init ? {...init} : {};
+    try {
+      const u = new URL(url, location.href);
+      if (u.origin === ORIGIN) {
+        const t = localStorage.getItem('atk_token') || '';
+        if (t) {
+          const h = new Headers(cfg.headers || {});
+          h.set('Authorization', 'Bearer ' + t);
+          cfg.headers = h;
+        }
+      }
+    } catch(_) {}
+    return rawFetch(input, cfg);
+  };
+})();
+
+let artalk = null;
+let mountCount = 0;
+
+// 2) 彻底重建：销毁实例 + 替换容器节点 + 重新 init（表单与列表都会重渲）
+function remountArtalk() {
+  try { artalk?.destroy?.(); } catch(_) {}
+
+  const old = document.querySelector('.Comments');
+  if (old) {
+    const fresh = document.createElement('div');
+    fresh.className = 'Comments';
+    fresh.id = 'Comments__' + (++mountCount);
+    old.replaceWith(fresh);
+  }
+
+  artalk = Artalk.init({
+    el: '.Comments',
+    pageKey: "http:\/\/mu.dvg.cn:443\/monster_info.php?id=69",
+    pageTitle: "\u963f\u5361\u6469\u65af-\u5947\u8ff9MU",
+    server: 'https://talk.dvg.cn:8080',
+    site: "Mu.dvg.cn", // 必须与后端配置完全一致（区分大小写）
+  });
+  artalk.setDarkMode(true);
+}
+
+// 3) 首次挂载（未登录也能看列表）
+remountArtalk();
+
+// 4) 静默登录 + 短路优化 + 无邮箱用户（托管邮箱）
+(function autoLoginArtalk(){
+  const loggedUser = {
+    email:    "", // 站内邮箱，可能为空（微信快捷登录）
+    nickname: "DVG\u7528\u62370",
+    userid:   0,
+    link:     ''
+  };
+  if (!loggedUser.userid) return;
+
+  let localAU = {};
+  try { localAU = JSON.parse(localStorage.getItem('ArtalkUser') || '{}') || {}; } catch(_) {}
+
+  // 若站内没有邮箱 → 允许后端生成托管邮箱
+  const payload = {
+    email:      loggedUser.email || '',
+    nickname:   loggedUser.nickname,
+    userid:     loggedUser.userid,
+    allow_temp: loggedUser.email ? false : true,
+  };
+
+  fetch('/user/artalk_token.php', {
+    method: 'POST',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify(payload)
+  })
+  .then(r => r.json())
+  .then((res) => {
+    if (!res?.ok || !res?.token) {
+      if (res?.need_email) {
+        console.warn('Artalk 需要邮箱，当前账号未绑定。');
+      } else {
+        console.warn('Artalk token 获取失败：', res);
+      }
+      return;
+    }
+
+    // A) 保存 token（给 fetch 代理用）
+    localStorage.setItem('atk_token', res.token);
+
+    // B) 这次实际用于 Artalk 的邮箱（可能是托管邮箱）
+    const usedEmail = (res.email && String(res.email).trim()) || (loggedUser.email || '');
+    const isTemp    = !!res.temp_email;
+
+    // C) 短路优化：如果本地 ArtalkUser 已有相同 email → 仅同步 token，不重建
+    if (localAU.email && localAU.email.toLowerCase() === usedEmail.toLowerCase()) {
+      if (localAU.token !== res.token) {
+        localAU.token = res.token;
+        localStorage.setItem('ArtalkUser', JSON.stringify(localAU));
+      }
+      // 可选：artalk.reload(); 这里只同步 token，不强制重建
+      return;
+    }
+
+    // D) 正常写入 ArtalkUser 并重建实例（表单 + 列表）
+    const artalkUser = {
+      name:     loggedUser.nickname || '',
+      email:    usedEmail || '',
+      link:     loggedUser.link || '',
+      token:    res.token,
+      is_admin: false
+    };
+    localStorage.setItem('ArtalkUser', JSON.stringify(artalkUser));
+
+    remountArtalk();
+
+    // E) 若是托管邮箱 → 置灰邮箱输入框并加提示
+    if (isTemp) {
+      setTimeout(() => {
+        const emailWrap  = document.querySelector('[data-atk-el="email"]') || document.querySelector('input[name="email"]')?.closest('.atk-form-item') || null;
+        const emailInput = document.querySelector('input[name="email"], [data-atk-el="email"] input');
+        if (emailInput) {
+          emailInput.value = artalkUser.email;
+          emailInput.readOnly = true;
+          emailInput.style.opacity = '0.6';
+        }
+        if (emailWrap && !emailWrap.querySelector('.atk-temp-tip')) {
+          const tip = document.createElement('div');
+          tip.className = 'atk-temp-tip';
+          tip.style.cssText = 'margin-top:6px;font-size:12px;opacity:.8;';
+          tip.textContent = '已使用临时邮箱登录，可在“个人中心”绑定真实邮箱后自动切换。';
+          emailWrap.appendChild(tip);
+        }
+      }, 250);
+    }
+
+    // F) 兜底：如果昵称/邮箱输入仍为空，回填一次（极少触发）
+    setTimeout(() => {
+      const nick  = document.querySelector('input[name="nick"], [data-atk-el="nick"] input');
+      const email = document.querySelector('input[name="email"], [data-atk-el="email"] input');
+      if (nick && !nick.value) {
+        nick.value = artalkUser.name;
+        nick.dispatchEvent(new Event('input', {bubbles:true}));
+      }
+      if (email && !email.value) {
+        email.value = artalkUser.email;
+        email.dispatchEvent(new Event('input', {bubbles:true}));
+      }
+    }, 300);
+  })
+  .catch(err => console.error('Artalk token 异常：', err));
+})();
+</script>
+
+
+
+<script>
+function talk_do(){
+	$("#offcanvasScrolling").addClass("offcanvas offcanvas-end");
+	$("#talkbox_header").removeClass("none");
+	new bootstrap.Offcanvas('#offcanvasScrolling').toggle();
+}
+function talk_close(){
+	new bootstrap.Offcanvas('#offcanvasScrolling').hide();
+	$("#talkbox_header").addClass("none");
+	$("#offcanvasScrolling").removeClass("offcanvas offcanvas-end");
+}
+</script>
+</div>
+<div class="col-md-6 col-lg-6">
+<div class="main-card mb-3 card ">
+<div class="card-header-tab card-header-tab-animation card-header">
+<div class="card-header-title zhedie_h"><i class="fa fa-fw" aria-hidden="true" title="Copy to use align-right"></i>  <span class="pl5">掉落道具</span></div>
+<ul class="nav"><li class="nav-item"></li></ul>
+</div>
+<div class="card-body zhedian_box p-0 "  >
+<table class="table table-borderless table-striped table-dark mb-0">
+	<tr>
+		<td class="td-hui text-warning" style="width:50px">防具</td>
+		<td>
+			<div class="d-flex flex-wrap">
+						    <div class="d-flex w-50 ">
+					<a class="mb-1 d-flex align-items-center tipread_item pinzhi_1" data-itemid='5308' data-qtype="1" href="/item_info.php?id=5308" >
+					<div class="item-litpic bg-body-secondary mr-1 rounded item-border-1"><img src="./source/n_itemlitpic/helmmale10.png" ></div>
+					<div>卓越的 白金盔</div>
+					</a>
+				</div>
+						    <div class="d-flex w-50 ">
+					<a class="mb-1 d-flex align-items-center tipread_item pinzhi_1" data-itemid='5430' data-qtype="1" href="/item_info.php?id=5430" >
+					<div class="item-litpic bg-body-secondary mr-1 rounded item-border-1"><img src="./source/n_itemlitpic/armormale10.png" ></div>
+					<div>卓越的 白金铠</div>
+					</a>
+				</div>
+						    <div class="d-flex w-50 ">
+					<a class="mb-1 d-flex align-items-center tipread_item pinzhi_1" data-itemid='5569' data-qtype="1" href="/item_info.php?id=5569" >
+					<div class="item-litpic bg-body-secondary mr-1 rounded item-border-1"><img src="./source/n_itemlitpic/pantmale10.png" ></div>
+					<div>卓越的 白金护腿</div>
+					</a>
+				</div>
+						    <div class="d-flex w-50 ">
+					<a class="mb-1 d-flex align-items-center tipread_item pinzhi_1" data-itemid='5708' data-qtype="1" href="/item_info.php?id=5708" >
+					<div class="item-litpic bg-body-secondary mr-1 rounded item-border-1"><img src="./source/n_itemlitpic/glovemale10.png" ></div>
+					<div>卓越的 白金护手</div>
+					</a>
+				</div>
+						    <div class="d-flex w-50 ">
+					<a class="mb-1 d-flex align-items-center tipread_item pinzhi_1" data-itemid='5837' data-qtype="1" href="/item_info.php?id=5837" >
+					<div class="item-litpic bg-body-secondary mr-1 rounded item-border-1"><img src="./source/n_itemlitpic/bootmale10.png" ></div>
+					<div>卓越的 白金靴</div>
+					</a>
+				</div>
+						    <div class="d-flex w-50 ">
+					<a class="mb-1 d-flex align-items-center tipread_item pinzhi_1" data-itemid='5302' data-qtype="1" href="/item_info.php?id=5302" >
+					<div class="item-litpic bg-body-secondary mr-1 rounded item-border-1"><img src="./source/n_itemlitpic/helmmale04.png" ></div>
+					<div>卓越的 传说之盔</div>
+					</a>
+				</div>
+						    <div class="d-flex w-50 ">
+					<a class="mb-1 d-flex align-items-center tipread_item pinzhi_1" data-itemid='5702' data-qtype="1" href="/item_info.php?id=5702" >
+					<div class="item-litpic bg-body-secondary mr-1 rounded item-border-1"><img src="./source/n_itemlitpic/glovemale04.png" ></div>
+					<div>卓越的 传说之护手</div>
+					</a>
+				</div>
+						    <div class="d-flex w-50 ">
+					<a class="mb-1 d-flex align-items-center tipread_item pinzhi_1" data-itemid='5831' data-qtype="1" href="/item_info.php?id=5831" >
+					<div class="item-litpic bg-body-secondary mr-1 rounded item-border-1"><img src="./source/n_itemlitpic/bootmale04.png" ></div>
+					<div>卓越的 传说之靴</div>
+					</a>
+				</div>
+						    <div class="d-flex w-50 ">
+					<a class="mb-1 d-flex align-items-center tipread_item pinzhi_1" data-itemid='5312' data-qtype="1" href="/item_info.php?id=5312" >
+					<div class="item-litpic bg-body-secondary mr-1 rounded item-border-1"><img src="./source/n_itemlitpic/helmelf04.png" ></div>
+					<div>卓越的 精灵之盔</div>
+					</a>
+				</div>
+						    <div class="d-flex w-50 ">
+					<a class="mb-1 d-flex align-items-center tipread_item pinzhi_1" data-itemid='5434' data-qtype="1" href="/item_info.php?id=5434" >
+					<div class="item-litpic bg-body-secondary mr-1 rounded item-border-1"><img src="./source/n_itemlitpic/armorelf04.png" ></div>
+					<div>卓越的 精灵之铠</div>
+					</a>
+				</div>
+						    <div class="d-flex w-50 ">
+					<a class="mb-1 d-flex align-items-center tipread_item pinzhi_1" data-itemid='5573' data-qtype="1" href="/item_info.php?id=5573" >
+					<div class="item-litpic bg-body-secondary mr-1 rounded item-border-1"><img src="./source/n_itemlitpic/pantelf04.png" ></div>
+					<div>卓越的 精灵之护腿</div>
+					</a>
+				</div>
+						    <div class="d-flex w-50 ">
+					<a class="mb-1 d-flex align-items-center tipread_item pinzhi_1" data-itemid='5841' data-qtype="1" href="/item_info.php?id=5841" >
+					<div class="item-litpic bg-body-secondary mr-1 rounded item-border-1"><img src="./source/n_itemlitpic/bootelf04.png" ></div>
+					<div>卓越的 精灵之靴</div>
+					</a>
+				</div>
+						    <div class="d-flex w-50 ">
+					<a class="mb-1 d-flex align-items-center tipread_item pinzhi_1" data-itemid='5713' data-qtype="1" href="/item_info.php?id=5713" >
+					<div class="item-litpic bg-body-secondary mr-1 rounded item-border-1"><img src="./source/n_itemlitpic/gloveelf05.png" ></div>
+					<div>卓越的 女神之护手</div>
+					</a>
+				</div>
+						    <div class="d-flex w-50 ">
+					<a class="mb-1 d-flex align-items-center tipread_item pinzhi_1" data-itemid='5334' data-qtype="1" href="/item_info.php?id=5334" >
+					<div class="item-litpic bg-body-secondary mr-1 rounded item-border-1"><img src="./source/n_itemlitpic/helmmale41.png" ></div>
+					<div>卓越的 红翼之盔</div>
+					</a>
+				</div>
+						    <div class="d-flex w-50 ">
+					<a class="mb-1 d-flex align-items-center tipread_item pinzhi_1" data-itemid='5739' data-qtype="1" href="/item_info.php?id=5739" >
+					<div class="item-litpic bg-body-secondary mr-1 rounded item-border-1"><img src="./source/n_itemlitpic/glovemale41.png" ></div>
+					<div>卓越的 红翼之护手</div>
+					</a>
+				</div>
+						    <div class="d-flex w-50 ">
+					<a class="mb-1 d-flex align-items-center tipread_item pinzhi_1" data-itemid='5868' data-qtype="1" href="/item_info.php?id=5868" >
+					<div class="item-litpic bg-body-secondary mr-1 rounded item-border-1"><img src="./source/n_itemlitpic/bootmale41.png" ></div>
+					<div>卓越的 红翼之靴</div>
+					</a>
+				</div>
+						    <div class="d-flex w-50 ">
+					<a class="mb-1 d-flex align-items-center tipread_item pinzhi_1" data-itemid='5872' data-qtype="1" href="/item_info.php?id=5872" >
+					<div class="item-litpic bg-body-secondary mr-1 rounded item-border-1"><img src="./source/n_itemlitpic/bootmale60.png" ></div>
+					<div>卓越的 神圣火焰之靴</div>
+					</a>
+				</div>
+						    <div class="d-flex w-50 ">
+					<a class="mb-1 d-flex align-items-center tipread_item pinzhi_1" data-itemid='5321' data-qtype="1" href="/item_info.php?id=5321" >
+					<div class="item-litpic bg-body-secondary mr-1 rounded item-border-1"><img src="./source/n_itemlitpic/helmmale26.png" ></div>
+					<div>卓越的 圣元之盔</div>
+					</a>
+				</div>
+						    <div class="d-flex w-50 ">
+					<a class="mb-1 d-flex align-items-center tipread_item pinzhi_1" data-itemid='5585' data-qtype="1" href="/item_info.php?id=5585" >
+					<div class="item-litpic bg-body-secondary mr-1 rounded item-border-1"><img src="./source/n_itemlitpic/pantmale26.png" ></div>
+					<div>卓越的 圣元护腿</div>
+					</a>
+				</div>
+						    <div class="d-flex w-50 ">
+					<a class="mb-1 d-flex align-items-center tipread_item pinzhi_1" data-itemid='5724' data-qtype="1" href="/item_info.php?id=5724" >
+					<div class="item-litpic bg-body-secondary mr-1 rounded item-border-1"><img src="./source/n_itemlitpic/glovemale26.png" ></div>
+					<div>卓越的 圣元护手</div>
+					</a>
+				</div>
+						    <div class="d-flex w-50 ">
+					<a class="mb-1 d-flex align-items-center tipread_item pinzhi_1" data-itemid='5853' data-qtype="1" href="/item_info.php?id=5853" >
+					<div class="item-litpic bg-body-secondary mr-1 rounded item-border-1"><img src="./source/n_itemlitpic/bootmale26.png" ></div>
+					<div>卓越的 圣元之靴</div>
+					</a>
+				</div>
+						    <div class="d-flex w-50 ">
+					<a class="mb-1 d-flex align-items-center tipread_item pinzhi_1" data-itemid='5343' data-qtype="1" href="/item_info.php?id=5343" >
+					<div class="item-litpic bg-body-secondary mr-1 rounded item-border-1"><img src="./source/n_itemlitpic/helmmale93.png" ></div>
+					<div>卓越的 格罗西之盔</div>
+					</a>
+				</div>
+						    <div class="d-flex w-50 ">
+					<a class="mb-1 d-flex align-items-center tipread_item pinzhi_1" data-itemid='5744' data-qtype="1" href="/item_info.php?id=5744" >
+					<div class="item-litpic bg-body-secondary mr-1 rounded item-border-1"><img src="./source/n_itemlitpic/glovemale93.png" ></div>
+					<div>卓越的 格罗西护手</div>
+					</a>
+				</div>
+						    <div class="d-flex w-50 ">
+					<a class="mb-1 d-flex align-items-center tipread_item pinzhi_1" data-itemid='5877' data-qtype="1" href="/item_info.php?id=5877" >
+					<div class="item-litpic bg-body-secondary mr-1 rounded item-border-1"><img src="./source/n_itemlitpic/bootmale93.png" ></div>
+					<div>卓越的 格罗西靴子</div>
+					</a>
+				</div>
+						    <div class="d-flex w-50 ">
+					<a class="mb-1 d-flex align-items-center tipread_item pinzhi_1" data-itemid='5279' data-qtype="1" href="/item_info.php?id=5279" >
+					<div class="item-litpic bg-body-secondary mr-1 rounded item-border-1"><img src="./source/n_itemlitpic/shield09.png" ></div>
+					<div>卓越的 失落之盾</div>
+					</a>
+				</div>
+						    <div class="d-flex w-50 ">
+					<a class="mb-1 d-flex align-items-center tipread_item pinzhi_1" data-itemid='5282' data-qtype="1" href="/item_info.php?id=5282" >
+					<div class="item-litpic bg-body-secondary mr-1 rounded item-border-1"><img src="./source/n_itemlitpic/shield12.png" ></div>
+					<div>卓越的 毒蛇之盾</div>
+					</a>
+				</div>
+						    <div class="d-flex w-50 ">
+					<a class="mb-1 d-flex align-items-center tipread_item pinzhi_1" data-itemid='5285' data-qtype="1" href="/item_info.php?id=5285" >
+					<div class="item-litpic bg-body-secondary mr-1 rounded item-border-1"><img src="./source/n_itemlitpic/shield15.png" ></div>
+					<div>卓越的 传说之盾</div>
+					</a>
+				</div>
+						    <div class="d-flex w-50 ">
+					<a class="mb-1 d-flex align-items-center tipread_item pinzhi_1" data-itemid='5291' data-qtype="1" href="/item_info.php?id=5291" >
+					<div class="item-litpic bg-body-secondary mr-1 rounded item-border-1"><img src="./source/n_itemlitpic/alacranshield.png" ></div>
+					<div>卓越的 雅兰克之盾</div>
+					</a>
+				</div>
+						</div>
+		</td>
+	</tr>
+	<tr>
+		<td class="td-hui text-warning">武器</td>
+		<td>
+			<div class="d-flex flex-wrap">
+						    <div class="d-flex w-50">
+					<a class="mb-1 d-flex align-items-center tipread_item pinzhi_1" data-itemid='5094' data-qtype="1" href="/item_info.php?id=5094" >
+					<div class="item-litpic bg-body-secondary mr-1 rounded item-border-1"><img src="./source/n_itemlitpic/sword11.png" ></div>
+					<div>卓越的 天行者</div>
+					</a>
+				</div>
+						    <div class="d-flex w-50">
+					<a class="mb-1 d-flex align-items-center tipread_item pinzhi_1" data-itemid='5097' data-qtype="1" href="/item_info.php?id=5097" >
+					<div class="item-litpic bg-body-secondary mr-1 rounded item-border-1"><img src="./source/n_itemlitpic/sword14.png" ></div>
+					<div>卓越的 真红之剑</div>
+					</a>
+				</div>
+						    <div class="d-flex w-50">
+					<a class="mb-1 d-flex align-items-center tipread_item pinzhi_1" data-itemid='5175' data-qtype="1" href="/item_info.php?id=5175" >
+					<div class="item-litpic bg-body-secondary mr-1 rounded item-border-1"><img src="./source/n_itemlitpic/spear01.png" ></div>
+					<div>卓越的 黑武士</div>
+					</a>
+				</div>
+						    <div class="d-flex w-50">
+					<a class="mb-1 d-flex align-items-center tipread_item pinzhi_1" data-itemid='5145' data-qtype="1" href="/item_info.php?id=5145" >
+					<div class="item-litpic bg-body-secondary mr-1 rounded item-border-1"><img src="./source/n_itemlitpic/axe08.png" ></div>
+					<div>卓越的 斗神之斧</div>
+					</a>
+				</div>
+						    <div class="d-flex w-50">
+					<a class="mb-1 d-flex align-items-center tipread_item pinzhi_1" data-itemid='5095' data-qtype="1" href="/item_info.php?id=5095" >
+					<div class="item-litpic bg-body-secondary mr-1 rounded item-border-1"><img src="./source/n_itemlitpic/sword12.png" ></div>
+					<div>卓越的 传说之剑</div>
+					</a>
+				</div>
+						    <div class="d-flex w-50">
+					<a class="mb-1 d-flex align-items-center tipread_item pinzhi_1" data-itemid='5179' data-qtype="1" href="/item_info.php?id=5179" >
+					<div class="item-litpic bg-body-secondary mr-1 rounded item-border-1"><img src="./source/n_itemlitpic/spear05.png" ></div>
+					<div>卓越的 巨蛇镰刀</div>
+					</a>
+				</div>
+						    <div class="d-flex w-50">
+					<a class="mb-1 d-flex align-items-center tipread_item pinzhi_1" data-itemid='5202' data-qtype="1" href="/item_info.php?id=5202" >
+					<div class="item-litpic bg-body-secondary mr-1 rounded item-border-1"><img src="./source/n_itemlitpic/bow05.png" ></div>
+					<div>卓越的 黄金之虎</div>
+					</a>
+				</div>
+						    <div class="d-flex w-50">
+					<a class="mb-1 d-flex align-items-center tipread_item pinzhi_1" data-itemid='5210' data-qtype="1" href="/item_info.php?id=5210" >
+					<div class="item-litpic bg-body-secondary mr-1 rounded item-border-1"><img src="./source/n_itemlitpic/crossbow05.png" ></div>
+					<div>卓越的 诱惑之弩</div>
+					</a>
+				</div>
+						    <div class="d-flex w-50">
+					<a class="mb-1 d-flex align-items-center tipread_item pinzhi_1" data-itemid='5235' data-qtype="1" href="/item_info.php?id=5235" >
+					<div class="item-litpic bg-body-secondary mr-1 rounded item-border-1"><img src="./source/n_itemlitpic/staff04.png" ></div>
+					<div>卓越的 闪电杖</div>
+					</a>
+				</div>
+						    <div class="d-flex w-50">
+					<a class="mb-1 d-flex align-items-center tipread_item pinzhi_1" data-itemid='5246' data-qtype="1" href="/item_info.php?id=5246" >
+					<div class="item-litpic bg-body-secondary mr-1 rounded item-border-1"><img src="./source/n_itemlitpic/staff16.png" ></div>
+					<div>卓越的 飓风之杖</div>
+					</a>
+				</div>
+						</div>
+		</td>
+	</tr>
+	<tr>
+		<td class="td-hui text-warning">配件</td>
+		<td>
+			<div class="d-flex flex-wrap">
+								    <div class="d-flex w-50">
+						<a class="mb-1 d-flex align-items-center tipread_item pinzhi_1" data-itemid='6573' data-qtype="1" href="/item_info.php?id=6573" >
+						<div class="item-litpic bg-body-secondary mr-1 rounded item-border-1"><img src="./source/n_itemlitpic/windnecklace.png" ></div>
+						<div>卓越的 风之项链</div>
+						</a>
+					</div>
+								    <div class="d-flex w-50">
+						<a class="mb-1 d-flex align-items-center tipread_item pinzhi_1" data-itemid='6574' data-qtype="1" href="/item_info.php?id=6574" >
+						<div class="item-litpic bg-body-secondary mr-1 rounded item-border-1"><img src="./source/n_itemlitpic/waternecklace.png" ></div>
+						<div>卓越的 水之项链</div>
+						</a>
+					</div>
+								    <div class="d-flex w-50">
+						<a class="mb-1 d-flex align-items-center tipread_item pinzhi_1" data-itemid='6575' data-qtype="1" href="/item_info.php?id=6575" >
+						<div class="item-litpic bg-body-secondary mr-1 rounded item-border-1"><img src="./source/n_itemlitpic/agnecklace.png" ></div>
+						<div>卓越的 紫晶项链</div>
+						</a>
+					</div>
+								    <div class="d-flex w-50">
+						<a class="mb-1 d-flex align-items-center tipread_item pinzhi_1" data-itemid='6570' data-qtype="1" href="/item_info.php?id=6570" >
+						<div class="item-litpic bg-body-secondary mr-1 rounded item-border-1"><img src="./source/n_itemlitpic/windring.png" ></div>
+						<div>卓越的 风之指环</div>
+						</a>
+					</div>
+								    <div class="d-flex w-50">
+						<a class="mb-1 d-flex align-items-center tipread_item pinzhi_1" data-itemid='6571' data-qtype="1" href="/item_info.php?id=6571" >
+						<div class="item-litpic bg-body-secondary mr-1 rounded item-border-1"><img src="./source/n_itemlitpic/manaring.png" ></div>
+						<div>卓越的 魔之指环</div>
+						</a>
+					</div>
+							</div>
+		</td>
+	</tr>
+	<tr>
+		<td class="td-hui text-warning">技能</td>
+		<td>
+			<div class="d-flex flex-wrap">
+								    <div class="d-flex w-50">
+						<a class="mb-1 d-flex align-items-center tipread_item pinzhi_0" data-itemid='3550' data-qtype="1" href="/item_info.php?id=3550" >
+						<div class="item-litpic bg-body-secondary mr-1 rounded item-border-0"><img src="./source/n_itemlitpic/gem03.png" ></div>
+						<div>防御之石</div>
+						</a>
+					</div>
+								    <div class="d-flex w-50">
+						<a class="mb-1 d-flex align-items-center tipread_item pinzhi_0" data-itemid='3559' data-qtype="1" href="/item_info.php?id=3559" >
+						<div class="item-litpic bg-body-secondary mr-1 rounded item-border-0"><img src="./source/n_itemlitpic/gem12.png" ></div>
+						<div>冰封箭之石</div>
+						</a>
+					</div>
+								    <div class="d-flex w-50">
+						<a class="mb-1 d-flex align-items-center tipread_item pinzhi_0" data-itemid='4676' data-qtype="1" href="/item_info.php?id=4676" >
+						<div class="item-litpic bg-body-secondary mr-1 rounded item-border-0"><img src="./source/n_itemlitpic/book15.png" ></div>
+						<div>小挪移术</div>
+						</a>
+					</div>
+								    <div class="d-flex w-50">
+						<a class="mb-1 d-flex align-items-center tipread_item pinzhi_0" data-itemid='4679' data-qtype="1" href="/item_info.php?id=4679" >
+						<div class="item-litpic bg-body-secondary mr-1 rounded item-border-0"><img src="./source/n_itemlitpic/book18.png" ></div>
+						<div>暴风雪术</div>
+						</a>
+					</div>
+								    <div class="d-flex w-50">
+						<a class="mb-1 d-flex align-items-center tipread_item pinzhi_0" data-itemid='4687' data-qtype="1" href="/item_info.php?id=4687" >
+						<div class="item-litpic bg-body-secondary mr-1 rounded item-border-0"><img src="./source/n_itemlitpic/rollofpaper.png" ></div>
+						<div>虚弱阵 羊皮纸</div>
+						</a>
+					</div>
+								    <div class="d-flex w-50">
+						<a class="mb-1 d-flex align-items-center tipread_item pinzhi_0" data-itemid='4688' data-qtype="1" href="/item_info.php?id=4688" >
+						<div class="item-litpic bg-body-secondary mr-1 rounded item-border-0"><img src="./source/n_itemlitpic/rollofpaper.png" ></div>
+						<div>破御阵 羊皮纸</div>
+						</a>
+					</div>
+								    <div class="d-flex w-50">
+						<a class="mb-1 d-flex align-items-center tipread_item pinzhi_0" data-itemid='3682' data-qtype="1" href="/item_info.php?id=3682" >
+						<div class="item-litpic bg-body-secondary mr-1 rounded item-border-0"><img src="./source/n_itemlitpic/skillscroll.png" ></div>
+						<div>炎舞卷轴</div>
+						</a>
+					</div>
+								    <div class="d-flex w-50">
+						<a class="mb-1 d-flex align-items-center tipread_item pinzhi_0" data-itemid='9630' data-qtype="1" href="/item_info.php?id=9630" >
+						<div class="item-litpic bg-body-secondary mr-1 rounded item-border-0"><img src="./source/n_itemlitpic/skillscroll.png" ></div>
+						<div>超能灌注卷轴</div>
+						</a>
+					</div>
+								    <div class="d-flex w-50">
+						<a class="mb-1 d-flex align-items-center tipread_item pinzhi_0" data-itemid='9631' data-qtype="1" href="/item_info.php?id=9631" >
+						<div class="item-litpic bg-body-secondary mr-1 rounded item-border-0"><img src="./source/n_itemlitpic/skillscroll.png" ></div>
+						<div>战魂附体卷轴</div>
+						</a>
+					</div>
+							</div>
+			
+		</td>
+	</tr>
+	<tr>
+		<td class="td-hui text-warning">其他</td>
+		<td>
+			<div class="d-flex flex-wrap">
+								    <div class="d-flex w-50 ">
+						<a class="mb-1 d-flex align-items-center tipread_item pinzhi_0" data-itemid='4247' data-qtype="1" href="/item_info.php?id=4247" >
+						<div class="item-litpic bg-body-secondary mr-1 rounded item-border-0"><img src="./source/n_itemlitpic/scroll01.png" ></div>
+						<div>回城卷轴</div>
+						</a>
+					</div>
+								    <div class="d-flex w-50 ">
+						<a class="mb-1 d-flex align-items-center tipread_item pinzhi_0" data-itemid='4356' data-qtype="1" href="/item_info.php?id=4356" >
+						<div class="item-litpic bg-body-secondary mr-1 rounded item-border-0"><img src="./source/n_itemlitpic/itembox_silver.png" ></div>
+						<div>封印的银箱子</div>
+						</a>
+					</div>
+								    <div class="d-flex w-50 ">
+						<a class="mb-1 d-flex align-items-center tipread_item pinzhi_0" data-itemid='4355' data-qtype="1" href="/item_info.php?id=4355" >
+						<div class="item-litpic bg-body-secondary mr-1 rounded item-border-0"><img src="./source/n_itemlitpic/itembox_gold.png" ></div>
+						<div>封印的金箱子</div>
+						</a>
+					</div>
+								    <div class="d-flex w-50 ">
+						<a class="mb-1 d-flex align-items-center tipread_item pinzhi_0" data-itemid='6620' data-qtype="1" href="/item_info.php?id=6620" >
+						<div class="item-litpic bg-body-secondary mr-1 rounded item-border-0"><img src="./source/n_itemlitpic/conchip00.png" ></div>
+						<div>城主标识</div>
+						</a>
+					</div>
+								    <div class="d-flex w-50 ">
+						<a class="mb-1 d-flex align-items-center tipread_item pinzhi_0" data-itemid='3765' data-qtype="1" href="/item_info.php?id=3765" >
+						<div class="item-litpic bg-body-secondary mr-1 rounded item-border-0"><img src="./source/n_itemlitpic/wdrop3.png" ></div>
+						<div>洛克魔法珠子</div>
+						</a>
+					</div>
+								    <div class="d-flex w-50 ">
+						<a class="mb-1 d-flex align-items-center tipread_item pinzhi_0" data-itemid='3808' data-qtype="1" href="/item_info.php?id=3808" >
+						<div class="item-litpic bg-body-secondary mr-1 rounded item-border-0"><img src="./source/n_itemlitpic/quest04.png" ></div>
+						<div>洛克之羽</div>
+						</a>
+					</div>
+								    <div class="d-flex w-50 ">
+						<a class="mb-1 d-flex align-items-center tipread_item pinzhi_0" data-itemid='3810' data-qtype="1" href="/item_info.php?id=3810" >
+						<div class="item-litpic bg-body-secondary mr-1 rounded item-border-0"><img src="./source/n_itemlitpic/eventbloodcastle00.png" ></div>
+						<div>血灵之书</div>
+						</a>
+					</div>
+								    <div class="d-flex w-50 ">
+						<a class="mb-1 d-flex align-items-center tipread_item pinzhi_0" data-itemid='3810' data-qtype="1" href="/item_info.php?id=3810" >
+						<div class="item-litpic bg-body-secondary mr-1 rounded item-border-0"><img src="./source/n_itemlitpic/eventbloodcastle00.png" ></div>
+						<div>血灵之书</div>
+						</a>
+					</div>
+								    <div class="d-flex w-50 ">
+						<a class="mb-1 d-flex align-items-center tipread_item pinzhi_0" data-itemid='4254' data-qtype="1" href="/item_info.php?id=4254" >
+						<div class="item-litpic bg-body-secondary mr-1 rounded item-border-0"><img src="./source/n_itemlitpic/devil00.png" ></div>
+						<div>恶魔之眼</div>
+						</a>
+					</div>
+								    <div class="d-flex w-50 ">
+						<a class="mb-1 d-flex align-items-center tipread_item pinzhi_0" data-itemid='4254' data-qtype="1" href="/item_info.php?id=4254" >
+						<div class="item-litpic bg-body-secondary mr-1 rounded item-border-0"><img src="./source/n_itemlitpic/devil00.png" ></div>
+						<div>恶魔之眼</div>
+						</a>
+					</div>
+								    <div class="d-flex w-50 ">
+						<a class="mb-1 d-flex align-items-center tipread_item pinzhi_0" data-itemid='4265' data-qtype="1" href="/item_info.php?id=4265" >
+						<div class="item-litpic bg-body-secondary mr-1 rounded item-border-0"><img src="./source/n_itemlitpic/hellasitem01.png" ></div>
+						<div>昆顿印记</div>
+						</a>
+					</div>
+								    <div class="d-flex w-50 ">
+						<a class="mb-1 d-flex align-items-center tipread_item pinzhi_0" data-itemid='4344' data-qtype="1" href="/item_info.php?id=4344" >
+						<div class="item-litpic bg-body-secondary mr-1 rounded item-border-0"><img src="./source/n_itemlitpic/indication.png" ></div>
+						<div>次元标识</div>
+						</a>
+					</div>
+								    <div class="d-flex w-50 ">
+						<a class="mb-1 d-flex align-items-center tipread_item pinzhi_0" data-itemid='4335' data-qtype="1" href="/item_info.php?id=4335" >
+						<div class="item-litpic bg-body-secondary mr-1 rounded item-border-0"><img src="./source/n_itemlitpic/doubt_paper.png" ></div>
+						<div>奇怪的纸条</div>
+						</a>
+					</div>
+								    <div class="d-flex w-50 ">
+						<a class="mb-1 d-flex align-items-center tipread_item pinzhi_0" data-itemid='4246' data-qtype="1" href="/item_info.php?id=4246" >
+						<div class="item-litpic bg-body-secondary mr-1 rounded item-border-0"><img src="./source/n_itemlitpic/Beer01.png" ></div>
+						<div>酒</div>
+						</a>
+					</div>
+								    <div class="d-flex w-50 ">
+						<a class="mb-1 d-flex align-items-center tipread_item pinzhi_0" data-itemid='3556' data-qtype="1" href="/item_info.php?id=3556" >
+						<div class="item-litpic bg-body-secondary mr-1 rounded item-border-0"><img src="./source/n_itemlitpic/jewel15.png" ></div>
+						<div>玛雅之石</div>
+						</a>
+					</div>
+								    <div class="d-flex w-50 ">
+						<a class="mb-1 d-flex align-items-center tipread_item pinzhi_0" data-itemid='4250' data-qtype="1" href="/item_info.php?id=4250" >
+						<div class="item-litpic bg-body-secondary mr-1 rounded item-border-0"><img src="./source/n_itemlitpic/jewel01.png" ></div>
+						<div>祝福宝石</div>
+						</a>
+					</div>
+								    <div class="d-flex w-50 ">
+						<a class="mb-1 d-flex align-items-center tipread_item pinzhi_0" data-itemid='4251' data-qtype="1" href="/item_info.php?id=4251" >
+						<div class="item-litpic bg-body-secondary mr-1 rounded item-border-0"><img src="./source/n_itemlitpic/jewel02.png" ></div>
+						<div>灵魂宝石</div>
+						</a>
+					</div>
+								    <div class="d-flex w-50 ">
+						<a class="mb-1 d-flex align-items-center tipread_item pinzhi_0" data-itemid='4253' data-qtype="1" href="/item_info.php?id=4253" >
+						<div class="item-litpic bg-body-secondary mr-1 rounded item-border-0"><img src="./source/n_itemlitpic/jewel03.png" ></div>
+						<div>生命宝石</div>
+						</a>
+					</div>
+							</div>
+		</td>
+	</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div style="width: 100px;">
+	<div class="leftNav-item rounded-5">
+			<ul>
+			    <li data-toggle="modal" onclick="window.location.href = '/fankui.php'" >
+					<i class="fas fa-pencil-alt" aria-hidden="true" title="反馈" ></i>
+				</li>
+				<li data-toggle="modal" data-target=".bd-example-modal-sm-qq">
+					<i class="fab fa-qq" aria-hidden="true" title="QQ群" ></i>
+				</li>
+								<li data-toggle="modal" data-target=".bd-example-modal-sm-mobile">
+					<i class="fa fa-qrcode" aria-hidden="true" title="手机版二维码"></i>
+				</li>
+								<li data-toggle="modal" data-target=".bd-example-modal-sm-xcx">
+					<i class="fab fa-weixin" aria-hidden="true" title="微信小程序"></i>
+				</li>
+				<li title="返回顶部" class="for-top">
+					<i class="fa fa-angle-up" aria-hidden="true" title="返回顶部"></i>
+				</li>
+			</ul>
+	</div>
+
+	<!-- google-ad -->
+						<style>
+		/* 左侧悬浮广告 */
+		.left_xad { width: 1px; margin:0 auto; position:fixed; bottom:100px; height:400px;  }
+		.left_xad_right { width: 1px; margin:0 auto; position:fixed; bottom:100px; height:400px; margin-left:1700px;  }
+		.left_xad_left_top { width: 1px; margin:0 auto; position:fixed; top:100px; height:400px;   }
+		.left_xad_img { width: 200px; height:400px; background-color:#000; position: relative; left:-220px;  }
+		.left_xad_img .mulu_tit { font-size: 16px;line-height: 30px; font-weight: 400;  }
+		.left_xad_img_img img { width: 200px; height:400px; }
+		@media (max-width:767px){
+			.left_xad { display: none; }
+		}
+		/* google-2 */
+		.left_xad-g { width: 1px; margin:0 auto; position:fixed; bottom:100px; height:330px;  }
+		.left_xad_img-g { width: 300px; height:330px; background-color:#FFF; position: relative; left:-320px;  }
+		.left_xad_img-g .mulu_tit { font-size: 16px;line-height: 30px; font-weight: 400; }
+		.left_xad_img_img-g { width: 300px; height:300px; }
+		.left_xad_img_img-g img { width: 300px; height:300px; }
+		@media (max-width:767px){
+			.left_xad-g { display: none; }
+		}
+	</style>	
+</div>
+	
+</div>   
+</div>
+</div>
+<div class="app-wrapper-footer">
+    <div class="app-footer">
+        <div class="app-footer__inner">
+            <p>Powered by <a href="https://www.mu.dvg.cn" target="_blank"><strong>奇迹MU小册子</strong></a> DVG小册子V2.0版 - <a href="https://www.dvg.cn/" target="_blank">DVG游戏网</a> <br>
+               本站是自发的个人非官方游戏资料攻略站点 <span class="">©2021-2026</span><br>
+			   <a  href="https://www.rainyun.com/NDk2MjY4_" target="_blank">本站由雨云提供免费计算赞助-游戏专用服务器推荐</a><br><br>
+             <a href="https://80.dvg.cn/" class="extiw" title="魔兽世界80级数据库" target="_blank">魔兽世界80级数据库</a> | <a href="https://seal.dvg.cn/" class="extiw" title="希望宝典数据库" target="_blank">希望宝典数据库</a> | <a href="https://mu.dvg.cn/" class="extiw" title="奇迹MU小册子" target="_blank">奇迹MU小册子</a> | <a href="https://gw2.dvg.cn/" class="extiw" title="激战2宝典" target="_blank">激战2小册子</a> | <a href="https://ro.dvg.cn/" class="extiw" title="RO小册子" target="_blank">RO小册子</a> | <a href="https://mxd.dvg.cn/" class="extiw" title="冒险岛小册子" target="_blank">冒险岛小册子</a> | <a href="https://lostark.dvg.cn/" class="extiw" title="命运方舟小册子" target="_blank">命运方舟小册子</a> | <a href="https://bd.dvg.cn/" class="extiw" title="黑沙小册子" target="_blank">黑沙小册子</a>
+             </p>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="/ui_baodianv2/js/main.js"></script>
+<script src="/ui_baodianv2/bootstrap5/js/bootstrap.bundle.min.js"></script>
+<script src="/ui_baodianv2/js/clipboard.min.js?v=2025050401"></script>
+<script src="/ui_baodianv2/js/lazyload.js?v=2025050401"></script>
+<script type="module" src="/ui_baodianv2/js/baodian_v2.js?v=2025050401"></script>
+<script type="text/javascript" src="/ui_baodianv2/js/baodian_lng.js?v=2025050401"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?711a6efae65bd4c366dbfea1e285dceb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+<script type="text/javascript" src="/tools/js/login.js?v=2024011301"></script>
+<link rel="stylesheet" type="text/css" href="/tools/js/ajaxlogin.css?v=2025061201" />
+<script type='text/javascript' src='/ui_baodianv3/js/jweixin-1.3.2.js'></script>
+
+	<div class="modal fade bd-example-modal-sm-qq qq_tip" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+	    <div class="modal-dialog modal-sm modal-dialog-centered">
+	        <div class="modal-content">
+	            <div class="modal-header">
+	                <h5 class="modal-title" id="exampleModalLongTitle">资料站QQ群</h5>
+	                 <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+	            </div>
+	            <div class="modal-body text_c" >
+	                <p>QQ群号：310862148</p>
+					<p>您可以 <a href="https://jq.qq.com/?_wv=1027&k=9xwfNEFH">点击入群</a>，或者扫码入群<br>期待您的加入 </p>
+					<p><img class="home_qcode_pic" src="/ui_baodianv2/image/qqqun.jpg"> </p>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+	
+
+
+	<div class="modal fade bd-example-modal-sm-mobile mobile_tip" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+	    <div class="modal-dialog modal-sm modal-dialog-centered">
+	        <div class="modal-content">
+	            <div class="modal-header">
+	                <h5 class="modal-title " id="exampleModalLongTitle">手机扫码浏览</h5>
+	                 <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+	            </div>
+	            <div class="modal-body text_c" >
+	                <p>用手机浏览器扫码浏览，喜欢我们请添加收藏！</p>
+	                <p><img class="home_qcode_pic" src="/ui_baodianv2/image/mobile_qcode2.png"> </p>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+		
+	<div class="modal fade bd-example-modal-sm-xcx mobile_tip" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+	    <div class="modal-dialog modal-sm modal-dialog-centered">
+	        <div class="modal-content">
+	            <div class="modal-header">
+	                <h5 class="modal-title " id="exampleModalLongTitle">小册子微信小程序</h5>
+	                 <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+	            </div>
+	            <div class="modal-body text_c" >
+	                <p>打开微信扫一扫，关注奇迹MU小册子官方小程序。</p>
+	                <p><img class="home_qcode_pic" src="/skin/images/gh_258.jpg"> </p>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+
+	
+	<!-- 登录注册 Modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content border-0 shadow-lg">
+            <div class="modal-header pt-3 pb-2 px-3 " style="border-bottom: 0px;">
+                <div class="modal-title fs-6 " id="loginModalLabel">
+                    <div class="d-flex login-modal-tab" id="authTab" role="tablist">
+                        <div class="nav-link active mx-2 fs-5" id="login-tab" data-bs-toggle="tab" data-bs-target="#login-panel" type="button" role="tab">登录</div>
+                        <div class="nav-link mx-2 fs-5" id="register-tab" data-bs-toggle="tab" data-bs-target="#register-panel" type="button" role="tab">注册</div>
+                    </div>
+                </div>
+                <button type="button" class="btn-close " data-bs-dismiss="modal" aria-label="关闭"></button>
+            </div>
+            <div class="modal-body mx-4 px-0 " style="min-height: 300px;">
+
+                <!-- Tab 切换 -->
+
+                <div class="tab-content" id="authTabContent">
+                    <!-- 登录面板 -->
+                    <div class="tab-pane fade show active" id="login-panel" role="tabpanel">
+                        <div id="wechatLoginArea">
+                                                        <a href="https://open.weixin.qq.com/connect/qrconnect?appid=wx7f9fbf226ed003ce&redirect_uri=https%3A%2F%2Fmu.dvg.cn%2Fapi_wx%2Fwechat_callback.php&response_type=code&scope=snsapi_login&state=login#wechat_redirect" class="btn btn-success w-100 mb-3 fs-6">
+                                <i class="fab fa-weixin"></i> 使用微信快捷登录
+                            </a>
+                                                        <div class="text-center">
+                                <span role="button" onclick="toggleLoginForm(true)" class="text-decoration-none">使用账号密码登录</span>
+                            </div>
+                        </div>
+
+                        <div id="accountLoginArea" style="display:none">
+                            <div class="mb-3">
+                                <label for="loginUsername" class="form-label">用户名</label>
+                                <input type="text" class="form-control" id="loginUsername" name="login_username" placeholder="请输入用户名">
+                            </div>
+                            <div class="mb-3">
+                                <label for="loginPassword" class="form-label">密码</label>
+                                <input type="password" class="form-control" id="loginPassword" name="login_password" placeholder="请输入密码">
+                            </div>
+                            <div class="form-check mb-3">
+                                <input class="form-check-input" type="checkbox" id="rememberMe">
+                                <label class="form-check-label" for="rememberMe">记住我</label>
+                                <a href="/user/GetPassword.php" class="float-end small text-muted">忘记密码？</a>
+                            </div>
+                            <button type="button" class="btn btn-primary w-100" onclick="bootstrapLogin()">登录</button>
+                            <div class="text-center mt-2">
+                                <span role="button" onclick="toggleLoginForm(false)" class="text-decoration-none">返回微信登录</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 注册面板 -->
+                    <div class="tab-pane fade" id="register-panel" role="tabpanel">
+                        <div id="wechatRegisterArea">
+                                                        <a href="https://open.weixin.qq.com/connect/qrconnect?appid=wx7f9fbf226ed003ce&redirect_uri=https%3A%2F%2Fmu.dvg.cn%2Fapi_wx%2Fwechat_callback.php&response_type=code&scope=snsapi_login&state=login#wechat_redirect" class="btn btn-success w-100 mb-3 fs-6">
+                                <i class="fab fa-weixin"></i> 使用微信快捷登录
+                            </a>
+                                                        <div class="text-center">
+                                <span role="button" onclick="toggleRegisterForm(true)" class="text-decoration-none">使用账号注册</span>
+                            </div>
+                        </div>
+
+                        <div id="accountRegisterArea" style="display:none">
+                            <div class="mb-3">
+                                <label for="regUsername" class="form-label">用户名</label>
+                                <input type="text" class="form-control" id="regUsername" name="reg_username" placeholder="请输入用户名">
+                            </div>
+                            <div class="mb-3">
+                                <label for="regPassword" class="form-label">密码</label>
+                                <input type="password" class="form-control" id="regPassword" name="reg_password" placeholder="请输入密码">
+                            </div>
+                            <div class="mb-3">
+                                <label for="regPassword2" class="form-label">确认密码</label>
+                                <input type="password" class="form-control" id="regPassword2" name="reg_password2" placeholder="再次输入密码">
+                            </div>
+                            <div class="mb-3">
+                                <label for="regEmail" class="form-label">邮箱</label>
+                                <input type="email" class="form-control" id="regEmail" name="reg_email" placeholder="请输入邮箱">
+                            </div>
+                            <div class="mb-3 d-flex align-items-center">
+                                <input type="text" class="form-control me-2" id="regCode" name="reg_code" placeholder="验证码">
+                                <div id="regshowkey" class="text-nowrap">
+                                    <span role="button" onclick="edoshowkey_N('regshowkey','reg','/')" title="点击刷新验证码">点击显示验证码</span>
+                                </div>
+                            </div>
+
+                            <div class="form-check mb-3">
+                                <input class="form-check-input" type="checkbox" id="agreePolicy" checked>
+                                <label class="form-check-label" for="agreePolicy">
+                                    我已阅读并同意 <a href="/arc_info.php?id=1674" target="_blank">《用户协议》</a> 和 <a href="/arc_info.php?id=1675" target="_blank">《隐私政策》</a>
+                                </label>
+                            </div>
+                            <button type="button" class="btn btn-success w-100" onclick="bootstrapRegister()">注册</button>
+                            <div class="text-center mt-2">
+                                <span role="button" onclick="toggleRegisterForm(false)" class="text-decoration-none">返回微信注册</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="scrollbar-container"></div>
+</body>
+</html>

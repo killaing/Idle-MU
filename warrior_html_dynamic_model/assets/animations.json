@@ -1,0 +1,37 @@
+{
+  "idle": {
+    "strip": "assets/warrior_idle.png",
+    "frames": 4,
+    "frameWidth": 240,
+    "frameHeight": 240,
+    "fps": 6
+  },
+  "run": {
+    "strip": "assets/warrior_run.png",
+    "frames": 8,
+    "frameWidth": 240,
+    "frameHeight": 240,
+    "fps": 10
+  },
+  "attack": {
+    "strip": "assets/warrior_attack.png",
+    "frames": 8,
+    "frameWidth": 240,
+    "frameHeight": 240,
+    "fps": 12
+  },
+  "heavy": {
+    "strip": "assets/warrior_heavy.png",
+    "frames": 6,
+    "frameWidth": 240,
+    "frameHeight": 240,
+    "fps": 10
+  },
+  "skill": {
+    "strip": "assets/warrior_skill.png",
+    "frames": 6,
+    "frameWidth": 240,
+    "frameHeight": 240,
+    "fps": 10
+  }
+}

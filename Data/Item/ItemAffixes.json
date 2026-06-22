@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "affixes": [
+    {
+      "id": "luck_crit_5",
+      "family": "luck",
+      "label": "幸运：会心一击率 +5%",
+      "effect": "critChance",
+      "defaultValue": 0.05,
+      "stacking": "add"
+    },
+    {
+      "id": "luck_upgrade_25",
+      "family": "luck",
+      "label": "幸运：灵魂宝石成功率 +25%",
+      "effect": "upgradeChance",
+      "defaultValue": 0.25,
+      "stacking": "add"
+    },
+    {
+      "id": "excellent_rate_10",
+      "family": "excellent",
+      "label": "卓越一击概率 +10%",
+      "effect": "excellentDamageRate",
+      "defaultValue": 0.1,
+      "stacking": "add"
+    },
+    {
+      "id": "excellent_attack_2p",
+      "family": "excellent",
+      "label": "攻击力 +2%",
+      "effect": "attackPercent",
+      "defaultValue": 0.02,
+      "stacking": "add"
+    },
+    {
+      "id": "excellent_speed_7",
+      "family": "excellent",
+      "label": "攻击速度 +7",
+      "effect": "attackSpeed",
+      "defaultValue": 7,
+      "stacking": "add"
+    },
+    {
+      "id": "set_piece_count_2",
+      "family": "set",
+      "label": "套装 2 件激活",
+      "effect": "setPiecesActive",
+      "defaultValue": 2,
+      "stacking": "flag"
+    },
+    {
+      "id": "set_piece_count_3",
+      "family": "set",
+      "label": "套装 3 件激活",
+      "effect": "setPiecesActive",
+      "defaultValue": 3,
+      "stacking": "flag"
+    },
+    {
+      "id": "set_piece_count_4",
+      "family": "set",
+      "label": "套装 4 件激活",
+      "effect": "setPiecesActive",
+      "defaultValue": 4,
+      "stacking": "flag"
+    },
+    {
+      "id": "set_full_active",
+      "family": "set",
+      "label": "套装满件激活",
+      "effect": "setFullActive",
+      "defaultValue": 1,
+      "stacking": "flag"
+    }
+  ]
+}

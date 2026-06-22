@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MU Idle Engine V09</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="styles.css?v=69">
+</head>
+<body>
+  <div class="start-screen" id="startScreen">
+    <div class="start-panel">
+      <div class="start-mark">MU</div>
+      <h1>MU Idle Engine V09</h1>
+      <p>单职业剑士放置版</p>
+      <div class="start-hero-line">
+        <span>Dark Knight</span>
+        <span>勇者大陆</span>
+        <span>Lv.1</span>
+      </div>
+      <div class="start-actions">
+        <button id="createKnightBtn" onclick="window.muIdleEnterGame && window.muIdleEnterGame(true)">创建剑士</button>
+        <button id="continueBtn" onclick="window.muIdleEnterGame && window.muIdleEnterGame(false)">进入游戏</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="app" id="app">
+    <header class="topbar">
+      <section class="hero">
+        <div class="portrait"></div>
+        <div>
+          <div class="name-row"><strong id="roleName">Lv. 1 剑士</strong><span>勇者大陆</span></div>
+          <div class="bar hp"><span id="hpBar"></span><b id="hpText">110 / 110</b></div>
+          <div class="bar mp"><span id="mpBar"></span><b id="mpText">20 / 20</b></div>
+          <div class="bar xp"><span id="expBar"></span><b id="expText">0 / 47 EXP</b></div>
+          <div class="power">战斗力：<b id="powerText">0</b></div>
+        </div>
+      </section>
+      <section class="wallet">
+        <div><i class="coin"></i><span id="goldText">0</span></div>
+        <div><i class="potion-hp"></i><span id="jewelText">0</span></div>
+        <div><i class="potion-mp"></i><span id="premiumText">0</span></div>
+      </section>
+      <nav class="top-actions">
+        <button data-open="character">角色</button>
+        <button data-open="bag">背包</button>
+        <button data-open="shop">商店</button>
+        <button id="openGuideBtn">装备攻略</button>
+        <button id="openDebugBtn" onclick="document.getElementById('debugModal').classList.remove('hidden')">调试参数</button>
+        <button id="openSaveBtn">存档管理</button>
+        <button id="resetBtn">重置</button>
+      </nav>
+    </header>
+
+    <main class="layout">
+      <aside class="panel left">
+        <div class="panel-title">地图选择</div>
+        <div class="map-card">
+          <img src="5e2b21c3-d606-486b-a659-1ef8eaf278fd.png" alt="勇者大陆参考图">
+          <strong id="mapName">勇者大陆</strong>
+        </div>
+        <div class="map-summary" id="mapSummary">勇者大陆 · Lv. 4 - 19</div>
+        <button id="openMapBtn" class="map-open" onclick="document.getElementById('mapModal').classList.remove('hidden')">选择地图</button>
+        <button class="primary" id="toggleRun">开始挂机</button>
+
+        <div class="panel-title secondary">角色属性</div>
+        <div class="stats-grid" id="statsGrid"></div>
+        <div class="points">
+          <span>剩余点数 <b id="pointsText">0</b></span>
+          <button id="autoAddBtn">推荐加点</button>
+          <button id="resetPointsBtn">洗点</button>
+          <label class="auto-points-toggle"><input type="checkbox" id="autoPointsToggle"> 自动加点</label>
+          <div class="auto-plan" id="autoPointPlan">
+            <label>力<input type="number" min="0" max="5" value="3" data-auto-point="strength"></label>
+            <label>敏<input type="number" min="0" max="5" value="1" data-auto-point="agility"></label>
+            <label>体<input type="number" min="0" max="5" value="1" data-auto-point="vitality"></label>
+            <label>智<input type="number" min="0" max="5" value="0" data-auto-point="energy"></label>
+            <small id="autoPointPlanText">每 5 点：3/1/1/0</small>
+          </div>
+        </div>
+      </aside>
+
+      <section class="center">
+        <div class="battle panel">
+          <div class="battle-head">
+            <div>
+              <strong id="zoneTitle">勇者大陆 (4 - 19)</strong>
+              <small id="currentZoneMonsters">幼龙 / 猎犬怪 / 黑巫师 / 巨人 / 骷髅兵</small>
+            </div>
+            <button id="leaveBtn">离开地图</button>
+          </div>
+          <div class="battlefield" id="battlefield">
+            <div class="fighter knight">
+              <div class="hero-bars">
+                <div class="hero-bar hero-hp"><span id="heroHpBar"></span><b id="heroHpText">110 / 110</b></div>
+                <div class="hero-bar hero-mp"><span id="heroMpBar"></span><b id="heroMpText">20 / 20</b></div>
+              </div>
+              <span></span>
+            </div>
+            <div class="slash" id="slash"></div>
+            <div class="monster" id="monsterSprite"><span></span><b id="monsterName">等待怪物</b></div>
+            <div class="monster-hp">
+              <span id="monsterHpBar"></span>
+              <b id="monsterHpText">0 / 0</b>
+            </div>
+            <div class="float-text" id="floatText"></div>
+            <div class="drop-layer" id="dropLayer"></div>
+          </div>
+          <div class="status-strip">
+            <span class="run-pill" id="runState">未挂机</span>
+            <span>挂机时间：<b id="runTime">00:00:00</b></span>
+            <span>效率：<b id="effText">0 经验/小时</b></span>
+          </div>
+        </div>
+
+        <div class="panel log-panel">
+          <div class="tabs"><button class="active" data-log="combat">战斗</button><button data-log="info">收益</button></div>
+          <div class="log" id="logBox"></div>
+        </div>
+
+        <div class="panel rewards">
+          <div class="panel-title">本次在线挂机收益</div>
+          <div class="reward-row">
+            <div><span class="round exp"></span><b id="rewardExp">0</b><small>经验</small></div>
+            <div><span class="round gold"></span><b id="rewardGold">0</b><small>金币</small></div>
+            <div><span class="round equip"></span><b id="rewardEquip">0</b><small>装备</small></div>
+            <div><span class="round jewel"></span><b id="rewardJewels">0</b><small>宝石</small></div>
+          </div>
+          <div class="offline-summary" id="offlineSummary">离线收益：暂无</div>
+          <div class="loot-panel">
+            <div class="loot-title">自动拾取设置</div>
+            <div class="loot-options" id="lootOptions"></div>
+          </div>
+        </div>
+
+        <div class="panel test-tools">
+          <div class="panel-title">游戏测试</div>
+          <div class="test-grid" id="testTools"></div>
+        </div>
+
+        <div class="panel skills">
+          <div class="panel-title">技能</div>
+          <div class="skill-list" id="skillList"></div>
+          <div class="priority" id="priorityText"></div>
+        </div>
+      </section>
+
+      <aside class="panel right">
+        <div class="panel-title">装备</div>
+        <div class="equipment" id="equipment"></div>
+        <button id="bestEquipBtn">一键穿戴</button>
+
+        <div class="right-tabs">
+          <button class="active" data-right-tab="bag">背包</button>
+          <button data-right-tab="shop">商店</button>
+          <button data-right-tab="autosell">自动出售</button>
+        </div>
+
+        <div class="right-view active" data-right-view="bag">
+          <div class="panel-title">背包 <span id="bagCount">(0/64)</span></div>
+          <div class="inventory" id="inventory"></div>
+          <div class="bag-actions">
+            <button id="sortBagBtn">整理</button>
+            <button data-sell-quality="normal">售普通</button>
+            <button data-sell-quality="blue">售精良</button>
+            <button data-sell-quality="excellent">售卓越</button>
+            <button data-sell-quality="set">售套装</button>
+            <button data-sell-quality="epic">售史诗</button>
+            <button data-sell-quality="mythic">售神话</button>
+            <button id="shopBtn">商店</button>
+          </div>
+        </div>
+
+        <div class="right-view" data-right-view="shop">
+          <div class="panel-title">NPC 商店</div>
+          <div class="shop-list" id="shopList"></div>
+        </div>
+
+        <div class="right-view" data-right-view="autosell">
+          <div class="panel-title">挂机自动出售</div>
+          <div class="auto-sell-options" id="autoSellOptions"></div>
+        </div>
+      </aside>
+    </main>
+  </div>
+
+  <div class="map-modal hidden" id="mapModal" onclick="if (event.target === this) this.classList.add('hidden')">
+    <div class="map-dialog">
+      <div class="map-dialog-head">
+        <strong>选择地图</strong>
+        <button id="closeMapBtn" onclick="document.getElementById('mapModal').classList.add('hidden')">关闭</button>
+      </div>
+      <div id="zoneList" class="zone-list map-zone-list"></div>
+    </div>
+  </div>
+
+  <div class="debug-modal hidden" id="debugModal">
+    <div class="debug-dialog">
+      <div class="debug-dialog-head">
+        <strong>调试参数</strong>
+        <button id="closeDebugBtn" onclick="document.getElementById('debugModal').classList.add('hidden')">关闭</button>
+      </div>
+      <div class="debug-grid" id="debugPanel"></div>
+    </div>
+  </div>
+
+  <div class="offline-modal hidden" id="offlineModal">
+    <div class="offline-dialog">
+      <div class="offline-dialog-head">
+        <strong>挂机收益</strong>
+        <button id="closeOfflineBtn">关闭</button>
+      </div>
+      <div class="offline-dialog-body" id="offlineModalBody"></div>
+    </div>
+  </div>
+
+  <div class="save-modal hidden" id="saveModal">
+    <div class="save-dialog">
+      <div class="save-dialog-head">
+        <strong>存档管理</strong>
+        <button id="closeSaveBtn">关闭</button>
+      </div>
+      <div class="save-dialog-body">
+        <div class="save-list" id="saveList"></div>
+        <div class="save-actions">
+          <button id="migrateSaveBtn">迁移最新存档</button>
+          <button id="exportSaveBtn">导出当前存档</button>
+          <button id="cleanupSaveBtn">清理旧存档</button>
+        </div>
+        <textarea id="saveImportText" placeholder="粘贴导出的存档 JSON"></textarea>
+        <button id="importSaveBtn">导入为当前存档</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="guide-modal hidden" id="guideModal">
+    <div class="guide-dialog">
+      <div class="guide-dialog-head">
+        <strong>剑士装备攻略</strong>
+        <button id="closeGuideBtn">关闭</button>
+      </div>
+      <div class="guide-dialog-body" id="guideBody"></div>
+    </div>
+  </div>
+
+  <div id="itemTooltip" class="item-tooltip"></div>
+
+  <script type="module" src="Engine/app.js?v=69"></script>
+</body>
+</html>

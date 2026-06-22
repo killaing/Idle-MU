@@ -1,0 +1,551 @@
+{
+  "source": "挂机掉落爆率完整配置表.xlsx",
+  "version": "2026-06-16",
+  "offline": {
+    "maxHours": 12,
+    "fullRateHours": 6,
+    "afterFullRateEfficiency": 0.8,
+    "dailyFirstLoginOfflineBonus": 0.5,
+    "autoDecomposeWhite": true
+  },
+  "rarityWeights": [
+    {
+      "map": "勇者大陆",
+      "levelRange": "1-25级",
+      "weights": {
+        "normal": 7200,
+        "blue": 2000,
+        "excellent": 700,
+        "set": 80,
+        "epic": 12,
+        "mythic": 1.5,
+        "jewel": 6.5
+      },
+      "note": "新手地图，高阶装备掉率减半"
+    },
+    {
+      "map": "仙踪林",
+      "levelRange": "10-40级",
+      "weights": {
+        "normal": 7200,
+        "blue": 2000,
+        "excellent": 700,
+        "set": 80,
+        "epic": 12,
+        "mythic": 1.5,
+        "jewel": 6.5
+      },
+      "note": "弓箭手主场，基础掉率"
+    },
+    {
+      "map": "冰风谷",
+      "levelRange": "20-75级",
+      "weights": {
+        "normal": 7200,
+        "blue": 2000,
+        "excellent": 700,
+        "set": 80,
+        "epic": 12,
+        "mythic": 1.5,
+        "jewel": 6.5
+      },
+      "note": "中期挂机核心，基准模板"
+    },
+    {
+      "map": "失落之塔1-3层",
+      "levelRange": "40-70级",
+      "weights": {
+        "normal": 7100,
+        "blue": 2000,
+        "excellent": 750,
+        "set": 90,
+        "epic": 15,
+        "mythic": 1.5,
+        "jewel": 43.5
+      },
+      "note": "中期打宝，紫橙装掉率上浮"
+    },
+    {
+      "map": "失落之塔4-7层",
+      "levelRange": "70-100级",
+      "weights": {
+        "normal": 7000,
+        "blue": 2000,
+        "excellent": 800,
+        "set": 100,
+        "epic": 18,
+        "mythic": 1.5,
+        "jewel": 80.5
+      },
+      "note": "中高阶打宝，橙装掉率翻倍"
+    },
+    {
+      "map": "亚特兰蒂斯",
+      "levelRange": "50-110级",
+      "weights": {
+        "normal": 7000,
+        "blue": 2000,
+        "excellent": 800,
+        "set": 100,
+        "epic": 18,
+        "mythic": 1.5,
+        "jewel": 80.5
+      },
+      "note": "水下地图，水属性首饰专属掉落"
+    },
+    {
+      "map": "卡利玛神庙",
+      "levelRange": "110-280级",
+      "weights": {
+        "normal": 6800,
+        "blue": 2000,
+        "excellent": 900,
+        "set": 120,
+        "epic": 25,
+        "mythic": 2,
+        "jewel": 153
+      },
+      "note": "后期地图，暗金装备核心产出"
+    },
+    {
+      "map": "冰霜之城",
+      "levelRange": "280-380级",
+      "weights": {
+        "normal": 6500,
+        "blue": 2000,
+        "excellent": 1000,
+        "set": 150,
+        "epic": 35,
+        "mythic": 3,
+        "jewel": 312
+      },
+      "note": "满级地图，神话装备基础产出"
+    }
+  ],
+  "bossMultipliers": [
+    {
+      "type": "精英怪",
+      "name": "地图定点精英",
+      "map": "全地图",
+      "respawn": "2小时",
+      "rarityMultiplier": 3,
+      "jewelMultiplier": 4,
+      "guarantee": "至少1件紫色卓越装备",
+      "exclusiveDrops": "技能石、翅膀羽毛、变身戒指、合成材料"
+    },
+    {
+      "type": "低阶BOSS",
+      "name": "骷髅王",
+      "map": "勇者大陆",
+      "respawn": "每日2次",
+      "rarityMultiplier": 12,
+      "jewelMultiplier": 10,
+      "guarantee": "必出1件橙色套装碎片",
+      "exclusiveDrops": "低阶橙装、祝福宝石、技能石"
+    },
+    {
+      "type": "低阶BOSS",
+      "name": "冰后",
+      "map": "冰风谷",
+      "respawn": "每日2次",
+      "rarityMultiplier": 12,
+      "jewelMultiplier": 10,
+      "guarantee": "必出1件橙色套装碎片",
+      "exclusiveDrops": "女神套装、天使杖、灵魂宝石"
+    },
+    {
+      "type": "中阶BOSS",
+      "name": "魔王巴洛克",
+      "map": "失落之塔7层",
+      "respawn": "每日2次",
+      "rarityMultiplier": 15,
+      "jewelMultiplier": 12,
+      "guarantee": "必出1件完整橙色套装",
+      "exclusiveDrops": "龙王/女神/传说全套、火龙兽之书、五重箭石"
+    },
+    {
+      "type": "中阶BOSS",
+      "name": "海魔希特拉",
+      "map": "亚特兰蒂斯",
+      "respawn": "每日2次",
+      "rarityMultiplier": 15,
+      "jewelMultiplier": 12,
+      "guarantee": "必出1件完整橙色套装",
+      "exclusiveDrops": "卓越武器、水属性首饰、玛雅石"
+    },
+    {
+      "type": "高阶BOSS",
+      "name": "昆顿",
+      "map": "卡利玛神庙",
+      "respawn": "每周3次",
+      "rarityMultiplier": 20,
+      "jewelMultiplier": 15,
+      "guarantee": "必出暗金380套装碎片",
+      "exclusiveDrops": "380破坏/恐惧/冥王套装、创造宝石"
+    },
+    {
+      "type": "终极BOSS",
+      "name": "冰霜巨蛛",
+      "map": "冰霜之城",
+      "respawn": "每周2次",
+      "rarityMultiplier": 25,
+      "jewelMultiplier": 20,
+      "guarantee": "必出暗金380套装碎片",
+      "exclusiveDrops": "满词条毕业装备、神话红金极品、三代翅膀材料"
+    }
+  ],
+  "materials": [
+    {
+      "name": "祝福宝石",
+      "use": "装备+1~+6强化，100%成功",
+      "smallMonsterChance": 0.022000000000000002,
+      "eliteChance": 0.08800000000000001,
+      "bossChance": 0.22,
+      "maps": "全地图",
+      "feel": "每日收菜稳定10-20颗，前期强化无压力",
+      "note": "新手期核心宝石"
+    },
+    {
+      "name": "灵魂宝石",
+      "use": "装备+7~+13强化，中概率成功",
+      "smallMonsterChance": 0.011000000000000001,
+      "eliteChance": 0.044000000000000004,
+      "bossChance": 0.12,
+      "maps": "仙踪林及以上地图",
+      "feel": "中期每日3-8颗，慢慢攒高强化",
+      "note": "中期核心宝石"
+    },
+    {
+      "name": "玛雅之石",
+      "use": "装备合成、翅膀合成、套装升级必备",
+      "smallMonsterChance": 0.004,
+      "eliteChance": 0.016,
+      "bossChance": 0.06,
+      "maps": "冰风谷及以上地图",
+      "feel": "2-3天攒够合成一次材料",
+      "note": "合成核心材料"
+    },
+    {
+      "name": "生命宝石",
+      "use": "装备追加攻击力/防御力",
+      "smallMonsterChance": 0.003,
+      "eliteChance": 0.012,
+      "bossChance": 0.045,
+      "maps": "失落之塔及以上地图",
+      "feel": "中期慢慢囤积，毕业装备追加使用",
+      "note": "后期养成核心"
+    },
+    {
+      "name": "创造宝石",
+      "use": "三代翅膀、380套装合成必备",
+      "smallMonsterChance": 0.008,
+      "eliteChance": 0.032,
+      "bossChance": 0.09,
+      "maps": "卡利玛神庙及以上地图",
+      "feel": "后期每周5-10颗，长线养成核心",
+      "note": "毕业装备核心材料"
+    },
+    {
+      "name": "再生宝石",
+      "use": "后期装备洗练、镶宝",
+      "smallMonsterChance": 0.002,
+      "eliteChance": 0.008,
+      "bossChance": 0.03,
+      "maps": "冰霜之城",
+      "feel": "养老期慢慢刷，微调毕业装备",
+      "note": "毕业洗练核心"
+    },
+    {
+      "name": "守护宝石",
+      "use": "后期装备洗练、镶宝",
+      "smallMonsterChance": 0.002,
+      "eliteChance": 0.008,
+      "bossChance": 0.03,
+      "maps": "冰霜之城",
+      "feel": "养老期慢慢刷，微调毕业装备",
+      "note": "毕业洗练核心"
+    },
+    {
+      "name": "翅膀羽毛",
+      "use": "翅膀合成、升级必备",
+      "smallMonsterChance": 0.003,
+      "eliteChance": 0.03,
+      "bossChance": 0.12,
+      "maps": "全地图",
+      "feel": "每周稳定产出，翅膀养成核心",
+      "note": "长线养成材料"
+    },
+    {
+      "name": "技能石",
+      "use": "高阶技能学习必备",
+      "smallMonsterChance": 0.001,
+      "eliteChance": 0.025,
+      "bossChance": 1,
+      "maps": "失落之塔及以上地图",
+      "feel": "BOSS必出，技能解锁核心",
+      "note": "职业成长核心"
+    },
+    {
+      "name": "幸运符咒",
+      "use": "合成提升成功率",
+      "smallMonsterChance": 0.0015,
+      "eliteChance": 0.01,
+      "bossChance": 0.05,
+      "maps": "全地图",
+      "feel": "低概率产出，合成关键道具",
+      "note": "稀有辅助材料"
+    },
+    {
+      "name": "变身戒指",
+      "use": "怪物变身、属性加成",
+      "smallMonsterChance": 0.0015,
+      "eliteChance": 0.01,
+      "bossChance": 0.03,
+      "maps": "全地图",
+      "feel": "低概率产出，娱乐+属性加成",
+      "note": "稀有收集道具"
+    }
+  ],
+  "phaseMultipliers": [
+    {
+      "phase": "第一阶段：新手发育期",
+      "period": "第1个月",
+      "levelRange": "1-100级",
+      "adjustment": "1. 高阶装备（暗金、神话）掉率减半；2. 祝福宝石掉率上浮50%；3. 橙套装掉率翻倍；4. 灵魂、玛雅小幅上调",
+      "goal": "快速凑齐新手套装，建立成长正反馈，留存新玩家",
+      "weeklyGuarantee": "2件橙装、大量祝福宝石、10+件紫卓越",
+      "monthlyGoal": "7天内凑齐完整青铜/藤/翡翠套装，1个月内达到100级"
+    },
+    {
+      "phase": "第二阶段：中期成型期",
+      "period": "第2-3个月",
+      "levelRange": "100-280级",
+      "adjustment": "1. 祝福宝石回归基础概率；2. 灵魂、玛雅掉率上浮30%；3. 橙色套装正常概率；4. 暗金毕业套开放基础掉落",
+      "goal": "套装逐步毕业，卓越装备稳定产出，翅膀养成启动",
+      "weeklyGuarantee": "2件橙装、大量玛雅石、1件暗金装备碎片",
+      "monthlyGoal": "3个月内凑齐龙王/女神/传说全套，合成一代、二代翅膀，达到280级"
+    },
+    {
+      "phase": "第三阶段：后期毕业期",
+      "period": "第4-5个月",
+      "levelRange": "280-380级",
+      "adjustment": "1. 创造、生命、再生宝石掉率上浮50%；2. 暗金380套装掉率提升40%；3. 神话红金装备基础概率开放",
+      "goal": "380套装、三代翅膀核心养成，稀有神话装备低概率产出",
+      "weeklyGuarantee": "1件完整暗金装备、大量创造宝石、三代翅膀材料",
+      "monthlyGoal": "5个月内集齐一套380暗金套装、合成三代翅膀，达到380级满级"
+    },
+    {
+      "phase": "第四阶段：终极养老期",
+      "period": "第6个月",
+      "levelRange": "380+满级",
+      "adjustment": "1. 低阶宝石（祝福）产出大幅降低；2. 创造、守护、再生为主；3. 暗金套装掉率小幅提升；4. 神话红金掉率上浮30%",
+      "goal": "刷毕业完美词条、套装、神话首饰，低频高价值极品掉落，长线追求天花板",
+      "weeklyGuarantee": "1件暗金装备、大量洗练宝石、低概率神话装备",
+      "monthlyGoal": "刷齐满完美词条毕业套装，收集全神话首饰，完成终极养成目标"
+    }
+  ],
+  "pity": [
+    {
+      "type": "计数保底",
+      "name": "宝石计数保底",
+      "trigger": "每击杀1200只小怪",
+      "guarantee": "必掉落1颗对应地图最高阶宝石",
+      "scope": "全地图、全周期",
+      "note": "核心防非酋机制，杜绝长期不出宝石"
+    },
+    {
+      "type": "时间保底",
+      "name": "卓越装备保底",
+      "trigger": "累计挂机24小时离线收益",
+      "guarantee": "必产出1件紫色卓越装备",
+      "scope": "全周期",
+      "note": "每日至少有1件核心提升装备"
+    },
+    {
+      "type": "BOSS保底",
+      "name": "BOSS掉落保底",
+      "trigger": "击杀任意精英/BOSS",
+      "guarantee": "精英最低掉落紫色卓越；高阶BOSS必出橙套装碎片",
+      "scope": "全周期",
+      "note": "打BOSS必有回报，不会出现空车"
+    },
+    {
+      "type": "词条保底",
+      "name": "装备词条保底",
+      "trigger": "掉落橙色及以上品质装备",
+      "guarantee": "橙装最低2条词条；暗金最低4条词条；神话6条满完美词条",
+      "scope": "全周期",
+      "note": "高稀有度装备必有价值，不会出现垃圾橙装"
+    },
+    {
+      "type": "概率修正",
+      "name": "橙装非酋修正",
+      "trigger": "连续3天未产出橙色套装",
+      "guarantee": "次日橙色套装掉落概率×2",
+      "scope": "全周期",
+      "note": "极端非酋情况有兜底"
+    },
+    {
+      "type": "概率修正",
+      "name": "暗金非酋修正",
+      "trigger": "连续7天未产出暗金装备",
+      "guarantee": "BOSS暗金装备掉落概率临时上浮50%",
+      "scope": "全周期",
+      "note": "长期不出毕业装备有兜底"
+    },
+    {
+      "type": "新手保护",
+      "name": "新手装备保底",
+      "trigger": "1-100级新手阶段",
+      "guarantee": "7天内必凑齐完整新手套装，15天内必出第一件橙装",
+      "scope": "新手期",
+      "note": "保护新玩家，快速建立成长正反馈"
+    },
+    {
+      "type": "活动保底",
+      "name": "月度双倍掉落日",
+      "trigger": "每月1次固定活动日",
+      "guarantee": "全天所有装备、宝石掉落概率×2",
+      "scope": "全周期",
+      "note": "集中出货爽感拉满，月度留存钩子"
+    },
+    {
+      "type": "累计保底",
+      "name": "每周累计保底",
+      "trigger": "每周累计挂机满30小时",
+      "guarantee": "领取稀有材料宝箱，保底1件橙色套装",
+      "scope": "全周期",
+      "note": "每周稳定成长，留存核心设计"
+    },
+    {
+      "type": "累计保底",
+      "name": "月度累计保底",
+      "trigger": "每月累计击杀BOSS50次",
+      "guarantee": "领取高阶宝石大礼包+暗金装备碎片",
+      "scope": "全周期",
+      "note": "月度长线目标，留存核心设计"
+    }
+  ],
+  "qualityOrder": [
+    "normal",
+    "blue",
+    "excellent",
+    "set",
+    "epic",
+    "mythic"
+  ],
+  "qualityLabels": {
+    "normal": "??",
+    "blue": "??",
+    "excellent": "??",
+    "set": "??",
+    "epic": "??",
+    "mythic": "??"
+  },
+  "coreRules": [
+    {
+      "category": "生命周期",
+      "name": "半年养成曲线",
+      "content": "第1月新手发育期(1-100级)、第2-3月中期成型期(100-280级)、第4-5月后期毕业期(280-380级)、第6月终极养老期(380+满级)",
+      "feel": "稳定成长，无断层，每个阶段都有明确目标",
+      "stage": "全周期",
+      "note": "核心设计框架"
+    },
+    {
+      "category": "离线收菜",
+      "name": "12小时收益封顶",
+      "content": "离线0-6小时100%收益，6-12小时80%收益，12小时以上停止产出，强制每日至少上线1次",
+      "feel": "每日上线必有完整收益，不会出现离线过久收益溢出",
+      "stage": "全周期",
+      "note": "放置核心机制"
+    },
+    {
+      "category": "离线收菜",
+      "name": "登录加成",
+      "content": "当日首次上线，离线掉落整体+50%",
+      "feel": "上线即有额外惊喜，强化每日上线动力",
+      "stage": "全周期",
+      "note": "留存核心设计"
+    },
+    {
+      "category": "离线收菜",
+      "name": "自动分解",
+      "content": "白装自动分解为金币/基础材料，不占背包，上线直接提取高价值道具",
+      "feel": "收菜无负担，无需手动清理垃圾装备",
+      "stage": "全周期",
+      "note": "体验优化"
+    },
+    {
+      "category": "稀有度梯度",
+      "name": "6阶品质体系",
+      "content": "普通(白)、优秀(蓝)、卓越(紫)、套装(橙)、史诗毕业套(暗金)、神话极品(红金)",
+      "feel": "清晰的品质层级，从过渡到毕业有明确的追求路径",
+      "stage": "全周期",
+      "note": "掉落核心框架"
+    },
+    {
+      "category": "保底机制",
+      "name": "宝石计数保底",
+      "content": "每击杀1200只小怪，必掉落1颗对应地图最高阶宝石",
+      "feel": "杜绝长期不出宝石的挫败感，稳定养成",
+      "stage": "全周期",
+      "note": "防非酋核心"
+    },
+    {
+      "category": "保底机制",
+      "name": "卓越保底",
+      "content": "累计挂机24小时离线收益，必产出1件紫色卓越装备",
+      "feel": "每日至少有1件核心提升装备，稳定成长感",
+      "stage": "全周期",
+      "note": "防非酋核心"
+    },
+    {
+      "category": "保底机制",
+      "name": "BOSS保底",
+      "content": "所有精英/BOSS最低掉落紫色卓越，高阶BOSS必出橙套装碎片",
+      "feel": "打BOSS必有回报，不会出现空车",
+      "stage": "全周期",
+      "note": "防非酋核心"
+    },
+    {
+      "category": "保底机制",
+      "name": "词条保底",
+      "content": "橙装最低2条词条，暗金最低4条词条，神话6条满完美词条",
+      "feel": "高稀有度装备必有价值，不会出现垃圾橙装",
+      "stage": "全周期",
+      "note": "体验优化"
+    },
+    {
+      "category": "掉落修正",
+      "name": "非酋概率上浮",
+      "content": "连续3天未产出橙装，次日橙装爆率×2；连续7天无暗金，BOSS暗金概率临时上浮",
+      "feel": "极端非酋情况有兜底，保证长期体验",
+      "stage": "全周期",
+      "note": "留存优化"
+    },
+    {
+      "category": "经济循环",
+      "name": "装备分解回收",
+      "content": "多余蓝紫橙装备可分解为对应宝石碎片，消化溢出装备",
+      "feel": "资源无浪费，稳定经济循环",
+      "stage": "全周期",
+      "note": "经济系统设计"
+    },
+    {
+      "category": "长线追求",
+      "name": "词条随机浮动",
+      "content": "同一件橙装词条数值区间大，完美词条依然有刷取价值",
+      "feel": "6个月生命周期内有持续的追求目标",
+      "stage": "养老期核心",
+      "note": "生命周期延长"
+    },
+    {
+      "category": "套装羁绊",
+      "name": "成套激活",
+      "content": "集齐3/5件套装激活攻击、血量、防御百分比加成，单件提升有限",
+      "feel": "需要持续刷齐整套，不会单件毕业就停滞",
+      "stage": "全周期",
+      "note": "养成深度设计"
+    }
+  ]
+}

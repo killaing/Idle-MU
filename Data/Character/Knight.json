@@ -1,0 +1,50 @@
+{
+  "id": "dark_knight",
+  "name": "剑士",
+  "muName": "Dark Knight",
+  "spawnMap": "mu_103h_world",
+  "spawnZone": "zone_99a3fcaf",
+  "level": 1,
+  "baseStats": {
+    "strength": 28,
+    "agility": 20,
+    "vitality": 25,
+    "energy": 10,
+    "life": 80,
+    "mana": 30
+  },
+  "growth": {
+    "pointsPerLevel": 5,
+    "lifePerLevel": 2,
+    "lifePerVitality": 2,
+    "manaPerLevel": 1.5,
+    "manaPerEnergy": 1.5,
+    "minAttackDivisor": 6,
+    "maxAttackDivisor": 4,
+    "defenseAgilityDivisor": 3,
+    "defenseSuccessAgilityDivisor": 3,
+    "attackSpeedAgilityDivisor": 15,
+    "attackSuccessLevelMultiplier": 5,
+    "attackSuccessAgilityMultiplier": 3,
+    "attackSuccessStrengthDivisor": 4
+  },
+  "startingItems": [
+    {
+      "itemId": "knight_weapon_normal_1002000_b992ab3c3a",
+      "slot": "weapon",
+      "level": 0
+    },
+    {
+      "itemId": "knight_armor_normal_1008000_a7c9779aa8",
+      "slot": "armor",
+      "level": 0
+    }
+  ],
+  "formulaProfile": "dark_knight",
+  "dualWield": {
+    "enabled": true,
+    "offhandSlot": "shield",
+    "offhandDamageRate": 0.55,
+    "oneHandOnly": true
+  }
+}

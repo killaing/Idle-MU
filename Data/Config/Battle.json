@@ -1,0 +1,15 @@
+{
+  "attackIntervalMs": 800,
+  "monsterAttackIntervalMs": 1200,
+  "critChance": 0.05,
+  "critMultiplier": 1.5,
+  "excellentChance": 0.003,
+  "skillOrder": [
+    "skill_db8e7d34",
+    "skill_3666b01c",
+    "skill_cfb19455",
+    "skill_5f54186d",
+    "skill_5fe6e074",
+    "skill_97f30c54"
+  ]
+}

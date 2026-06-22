@@ -1,0 +1,116 @@
+{
+  "version": 1,
+  "roll": {
+    "countWeights": [
+      { "count": 1, "weight": 8000 },
+      { "count": 2, "weight": 1600 },
+      { "count": 3, "weight": 320 },
+      { "count": 4, "weight": 64 },
+      { "count": 5, "weight": 12 },
+      { "count": 6, "weight": 4 }
+    ],
+    "bossCountWeights": [
+      { "count": 1, "weight": 7000 },
+      { "count": 2, "weight": 2200 },
+      { "count": 3, "weight": 650 },
+      { "count": 4, "weight": 130 },
+      { "count": 5, "weight": 18 },
+      { "count": 6, "weight": 2 }
+    ]
+  },
+  "groups": {
+    "weapon": ["excellentDamageRate", "attackPerLevel", "attackPercent", "attackSpeed", "lifeOnKill", "manaOnKill"],
+    "pendant": ["excellentDamageRate", "attackPerLevel", "attackPercent", "attackSpeed", "lifeOnKill", "manaOnKill"],
+    "armor": ["maxLifePercent", "maxManaPercent", "damageDecrease", "damageReflect", "defenseSuccessRate", "zenOnKill"],
+    "shield": ["maxLifePercent", "maxManaPercent", "damageDecrease", "damageReflect", "defenseSuccessRate", "zenOnKill"],
+    "ring": ["maxLifePercent", "maxManaPercent", "damageDecrease", "damageReflect", "defenseSuccessRate", "zenOnKill"]
+  },
+  "options": [
+    {
+      "id": "excellentDamageRate",
+      "text": "卓越攻击几率增加 +10%",
+      "effect": "excellentDamageRate",
+      "value": 0.1,
+      "weight": 1
+    },
+    {
+      "id": "attackPerLevel",
+      "text": "攻击力(魔法攻击力)增加 +等级/20",
+      "effect": "attackFlat",
+      "value": 1,
+      "calc": "levelDivisor",
+      "divisor": 20,
+      "weight": 1
+    },
+    {
+      "id": "attackPercent",
+      "text": "攻击力(魔法攻击力)增加 +2%",
+      "effect": "attackPercent",
+      "value": 0.02,
+      "weight": 1
+    },
+    {
+      "id": "attackSpeed",
+      "text": "攻击(魔法)速度增加 +7",
+      "effect": "attackSpeed",
+      "value": 7,
+      "weight": 1
+    },
+    {
+      "id": "lifeOnKill",
+      "text": "杀死怪物时所获生命值增加 +生命值/8",
+      "effect": "lifeOnKill",
+      "value": 0.125,
+      "weight": 1
+    },
+    {
+      "id": "manaOnKill",
+      "text": "杀死怪物时所获魔法值增加 +魔法值/8",
+      "effect": "manaOnKill",
+      "value": 0.125,
+      "weight": 1
+    },
+    {
+      "id": "maxLifePercent",
+      "text": "生命增加 +4%",
+      "effect": "maxLifePercent",
+      "value": 0.04,
+      "weight": 1
+    },
+    {
+      "id": "maxManaPercent",
+      "text": "魔法增加 +4%",
+      "effect": "maxManaPercent",
+      "value": 0.04,
+      "weight": 1
+    },
+    {
+      "id": "damageDecrease",
+      "text": "伤害减少 +4%",
+      "effect": "damageDecrease",
+      "value": 0.04,
+      "weight": 1
+    },
+    {
+      "id": "damageReflect",
+      "text": "伤害反射 +5%",
+      "effect": "damageReflect",
+      "value": 0.05,
+      "weight": 1
+    },
+    {
+      "id": "defenseSuccessRate",
+      "text": "防御成功率增加 +10%",
+      "effect": "defenseSuccessRate",
+      "value": 0.1,
+      "weight": 1
+    },
+    {
+      "id": "zenOnKill",
+      "text": "杀怪掉出的金钱增加 +40%",
+      "effect": "zenOnKill",
+      "value": 0.4,
+      "weight": 1
+    }
+  ]
+}

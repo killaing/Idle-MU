@@ -1,0 +1,5 @@
+{
+  "formula": "level * level * 12 + level * 35",
+  "maxLevel": 400,
+  "note": "V0.1 seed table. Replace with official 1.03H level experience export when available."
+}

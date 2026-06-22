@@ -1,0 +1,9 @@
+{
+  "gold": true,
+  "equipment": true,
+  "excellent": true,
+  "set": true,
+  "jewel": true,
+  "material": true,
+  "autoSellNormal": true
+}
